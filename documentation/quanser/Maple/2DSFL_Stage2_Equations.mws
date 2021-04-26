@@ -1,0 +1,842 @@
+{VERSION 5 0 "Windows XP" "5.0" }
+{USTYLETAB {PSTYLE "Ordered List 1" -1 200 1 {CSTYLE "" -1 -1 "Times"
+ 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Ordered List 2" -1 201 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 36 2 0 2 2 -1 1 }{PSTYLE "Ordered
+ List 3" -1 202 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+0 0 1 }1 1 0 0 3 3 2 72 2 0 2 2 -1 1 }{PSTYLE "Ordered List 4" -1 203 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3
+ 3 2 108 2 0 2 2 -1 1 }{PSTYLE "Ordered List 5" -1 204 1 {CSTYLE "" -1
+ -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 144 2 0 2 
+2 -1 1 }{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1
+ 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 8 8 2 0 2 0 2 2 -1 1 }{PSTYLE "Annotatio
+n Title" -1 205 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 
+0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }{PSTYLE "Warning" -1 7 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0
+ 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Fixed Width" -1 17 1 {CSTYLE "" -1 -1 
+"Courier" 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1
+ 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1
+ 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Line Prin
+ted Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2
+ 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal256" -1 206 1
+ {CSTYLE "" -1 -1 "Times" 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 
+0 2 0 2 0 2 2 -1 1 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Cou
+rier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1
+ }{PSTYLE "Diagnostic" -1 9 1 {CSTYLE "" -1 -1 "Courier" 1 10 64 128 
+64 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Help"
+ -1 10 1 {CSTYLE "" -1 -1 "Courier" 1 9 0 0 255 1 2 2 2 2 2 1 1 0 0 1 
+}1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal258" -1 207 1 {CSTYLE ""
+ -1 -1 "Times" 1 12 0 255 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0
+ 2 2 -1 1 }{PSTYLE "Normal259" -1 208 1 {CSTYLE "" -1 -1 "Times" 1 12 
+0 255 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "
+Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0
+ 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Author257" -1 209 1 {CSTYLE
+ "" -1 -1 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 1 0 0 1 }3 1 0 0 8 8 2 0 2 
+0 2 2 -1 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE 
+"Dash Item" -1 16 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 
+1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Maple Output12" -1 210
+ 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 
+0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Times"
+ 1 18 0 0 0 1 2 1 1 2 2 2 1 0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2
+ 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 1" -1
+ 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 
+0 8 4 2 0 2 0 2 2 -1 1 }{PSTYLE "Bullet Item" -1 15 1 {CSTYLE "" -1 -1
+ "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 
+1 }{PSTYLE "Heading 4" -1 20 1 {CSTYLE "" -1 -1 "Times" 1 10 0 0 0 1 1
+ 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 3" 
+-1 5 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 1 1 2 2 2 2 1 0 0 1 }1 1 
+0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 
+"Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 8 2 2 0 2 0 2 2 -1 1
+ }{PSTYLE "Left Justified Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Time
+s" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "List Item" -1 14 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{CSTYLE "Help Maple Nam
+e" -1 35 "Times" 1 12 104 64 92 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help M
+enus" -1 36 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help It
+alic" -1 42 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help It
+alic Bold" -1 40 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "De
+fault" -1 38 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Maple \+
+Input" -1 0 "Courier" 1 12 255 0 0 1 2 1 2 2 1 2 0 0 0 1 }{CSTYLE "2D \+
+Output" -1 20 "Times" 1 12 0 0 255 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D \+
+Math Small" -1 7 "Times" 1 1 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Out
+put Labels" -1 29 "Times" 1 8 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Ma
+ple Input Placeholder" -1 200 "Courier" 1 12 200 0 200 1 2 1 2 2 1 2 0
+ 0 0 1 }{CSTYLE "Code" -1 201 "Courier" 1 12 255 0 0 1 2 2 2 2 2 2 0 0
+ 0 1 }{CSTYLE "2D Math Italic Small" -1 202 "Times" 1 1 0 0 0 1 1 2 2 
+2 2 2 0 0 0 1 }{CSTYLE "Copyright" -1 34 "Times" 1 10 0 0 0 1 2 2 2 2 
+2 2 0 0 0 1 }{CSTYLE "Help Underlined" -1 44 "Times" 1 12 0 0 0 1 2 2 
+1 2 2 2 0 0 0 1 }{CSTYLE "2D Input" -1 19 "Times" 1 12 255 0 0 1 2 2 2
+ 2 1 2 0 0 0 1 }{CSTYLE "Help Notes" -1 37 "Times" 1 12 0 0 0 1 2 1 2 
+2 2 2 0 0 0 1 }{CSTYLE "Equation Label" -1 203 "Times" 1 12 0 0 0 1 2 
+1 2 2 2 2 0 0 0 1 }{CSTYLE "LaTeX" -1 32 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 0 0 0 1 }{CSTYLE "Dictionary Hyperlink" -1 45 "Times" 1 12 147 0 
+15 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Popup" -1 31 "Times" 1 12 0 128 128
+ 1 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "Help Fixed" -1 23 "Courier" 1 10 0 0 
+0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Annotation Text" -1 204 "Times" 1 12
+ 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Bold" -1 5 "Times" 1 12
+ 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic" -1 3 "Times" 1 
+12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Plot Text" -1 28 "Times" 1 8 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Normal" -1 30 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Nonterminal" -1 24 "Courier
+" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Heading" -1 26 "Time
+s" 1 14 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Variable" -1 25 "Co
+urier" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined Ital
+ic" -1 43 "Times" 1 12 0 0 0 1 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "2D Math B
+old Small" -1 10 "Times" 1 1 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Pag
+e Number" -1 33 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Plo
+t Title" -1 27 "Times" 1 10 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help
+ Emphasized" -1 22 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "
+2D Math Symbol 2" -1 16 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "Maple Comment" -1 21 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0
+ 1 }{CSTYLE "2D Inert Output" -1 205 "Times" 1 12 144 144 144 1 2 2 2 
+2 1 2 0 0 0 1 }{CSTYLE "2D Comment" -1 18 "Times" 1 12 0 0 0 1 2 2 2 2
+ 2 2 0 0 0 1 }{CSTYLE "Help Underlined Bold" -1 41 "Times" 1 12 0 0 0 
+1 1 1 2 2 2 2 0 0 0 1 }{CSTYLE "Hyperlink" -1 17 "Times" 1 12 0 128 
+128 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Prompt" -1 1 "Courier" 1 12 0 0 0 
+1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 1 12 0 0 0 1 2 2
+ 2 2 2 2 0 0 0 1 }{CSTYLE "Text" -1 206 "Times" 1 12 0 0 0 1 2 2 2 2 2
+ 2 0 0 0 1 }{CSTYLE "Help Bold" -1 39 "Times" 1 12 0 0 0 1 2 1 2 2 2 2
+ 0 0 0 1 }{PSTYLE "" -1 211 1 {CSTYLE "" -1 -1 "Times" 1 20 0 0 0 1 2 
+1 1 2 2 2 1 0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }{PSTYLE "" -1 212 1
+ {CSTYLE "" -1 -1 "Times" 1 20 0 0 0 1 2 1 1 2 2 2 1 0 0 1 }3 1 0 0 12
+ 12 2 0 2 0 2 2 -1 1 }{CSTYLE "" -1 207 "Times" 1 14 0 0 0 1 1 1 2 2 2
+ 2 0 0 0 1 }{CSTYLE "" -1 208 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1
+ }{CSTYLE "" -1 209 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE 
+"" -1 210 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 211 
+"Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 212 "Times" 1 
+12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 213 "Times" 1 12 0 0 0 1
+ 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 214 "Times" 1 12 0 0 0 1 2 1 2 2 2
+ 2 0 0 0 1 }{CSTYLE "" -1 215 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1
+ }{CSTYLE "" -1 216 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE 
+"" -1 217 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 218 
+"Times" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 219 "Times" 1 
+12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 220 "Times" 1 12 0 0 0 1
+ 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 221 "Times" 1 12 0 0 0 1 1 2 2 2 2
+ 2 0 0 0 1 }{CSTYLE "" -1 222 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1
+ }{CSTYLE "" -1 223 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE 
+"" -1 224 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 225 
+"Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 226 "Times" 1 
+12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "" -1 227 "Times" 1 12 0 0 0 1
+ 1 2 2 2 2 2 0 0 0 1 }}
+{SECT 0 {EXCHG {PARA 211 "" 0 "" {TEXT 206 26 "Dynamic Equations For \+
+The " }}{PARA 212 "" 0 "" {TEXT 206 60 "Second Stage Of The 2-DOF Seri
+al Flexible Link (2DSFL) Robot" }}{PARA 209 "" 0 "" {TEXT 206 1 "\251"
+ }{TEXT 228 29 " 2008 Quanser Consulting Inc." }}{PARA 19 "" 0 "" 
+{TEXT 206 5 "URL: " }{HYPERLNK 17 "http://www.quanser.com" 4 "http://w
+ww.quanser.com" "" }{TEXT 229 0 "" }}}{PARA 207 "" 0 "Description" 
+{TEXT 230 0 "" }}{SECT 0 {PARA 3 "" 0 "" {TEXT 231 11 "Description" }}
+{PARA 15 "" 0 "" {TEXT 232 167 "This worksheet presents the general dy
+namic equations modelling the Second Stage Of Quanser's 2-DOF Serial F
+lexible Link (2DSFL) Robot, assuming a decoupled modelling." }}{PARA 
+15 "" 0 "" {TEXT 232 83 "This worksheet derives the state-space matric
+es used in the control implementation." }}{PARA 15 "" 0 "" {TEXT 232 
+72 "The Lagrange's method is used to obtain the dynamic model of the s
+ystem." }}{SECT 0 {PARA 4 "" 0 "" {TEXT 233 4 "The " }{TEXT 207 13 "Qu
+anser_Tools" }{TEXT 233 8 " Package" }}{PARA 15 "" 0 "" {TEXT 232 4 "T
+he " }{TEXT 208 13 "Quanser_Tools" }{TEXT 232 228 " module defines gen
+eric procedures and data in relation to determining the state-space re
+presentation of all the Quanser experiments. Specifically, this means \+
+deriving and solving the Lagrange's equations of the Quanser systems."
+ }}{PARA 15 "" 0 "" {TEXT 232 4 "The " }{TEXT 209 7 "quanser" }{TEXT 
+232 27 " repository containing the " }{TEXT 210 13 "Quanser_Tools" }
+{TEXT 232 50 " package is implemented in the 2 following files: " }
+{TEXT 211 11 "quanser.ind" }{TEXT 232 5 " and " }{TEXT 212 12 "quanser
+.lib." }{TEXT 232 110 " If these two files are not readily available, \+
+they can be generated by executing the Maple worksheet titled: " }
+{TEXT 213 17 "quanser_tools.mws" }{TEXT 232 1 "." }}{PARA 15 "" 0 "" 
+{TEXT 214 10 "To install" }{TEXT 232 5 " the " }{TEXT 215 13 "Quanser_
+Tools" }{TEXT 232 29 " package, copy the two files " }{TEXT 216 11 "qu
+anser.ind" }{TEXT 232 5 " and " }{TEXT 217 11 "quanser.lib" }{TEXT 
+232 98 "  into a directory of your choice, like for example: \"C:\\Pro
+gram Files\\Quanser\\Maple Repository\". " }}{PARA 15 "" 0 "" {TEXT 
+218 6 "To use" }{TEXT 232 5 " the " }{TEXT 219 13 "Quanser_Tools" }
+{TEXT 232 94 " package in a Maple worksheet, add the path to its disk \+
+location to the Maple global variable " }{TEXT 220 7 "libname" }{TEXT 
+232 69 ". For example, this can be achieved by the following Maple com
+mand: \n" }{TEXT 232 11 "libname := " }{TEXT 221 54 " \"C:/Program Fil
+es/Quanser/Maple Repository\", libname:" }}}}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT 231 24 "Worksheet Initialization" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "restart: interface( imaginaryunit = j ): " }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "with( LinearAlgebra ):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 69 "libname := \"C:/Program Files/Quans
+er/Maple Repository\", \".\", libname:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "with( Quanser_Tools );" }}{PARA 210 "" 1 "" {XPPMATH 
+20 "6#7,%$HTMG%(deriveAG%(deriveBG%(deriveFG%/kinetic_energyG%3lagrang
+e_equationsG%2moment_of_inertiaG%'n_normG%1potential_energyG%4write_AB
+CD_to_MfileG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 234 66 "environment vari
+able representing the order of series calculations" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 11 "Order := 2:" }}}}{SECT 0 {PARA 3 "" 0 "Notations" 
+{TEXT 231 9 "Notations" }}{SECT 0 {PARA 4 "" 0 "" {TEXT 233 25 "Genera
+lized Coordinates: " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-ms
+ub(Typesetting:-mi(\"q\", italic = \"true\", mathvariant = \"italic\")
+, Typesetting:-mrow(Typesetting:-mi(\"i\", italic = \"true\", mathvari
+ant = \"italic\")), subscriptshift = \"0\"));" "-I%mrowG6#/I+modulenam
+eG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"qF'/%'italic
+GQ%trueF'/%,mathvariantGQ'italicF'-F#6#-F/6%Q\"iF'F2F5/%/subscriptshif
+tGQ\"0F'" }{TEXT 233 2 "'s" }}{PARA 0 "" 0 "" {TEXT 234 67 "The genera
+lized coordinates are also called Lagrangian coordinates." }}{PARA 0 "
+" 0 "" {XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(\"\", italic =
+ \"true\", executable = \"true\", font_style_name = \"2D Input\", math
+variant = \"italic\"), Typesetting:-mrow(Typesetting:-msub(Typesetting
+:-mi(\"\1670\", italic = \"false\", mathvariant = \"normal\"), Typeset
+ting:-mrow(Typesetting:-mn(\"21\", mathvariant = \"normal\")), subscri
+ptshift = \"0\"), Typesetting:-mo(\"&ApplyFunction;\", mathvariant = \+
+\"normal\", fence = \"false\", separator = \"false\", stretchy = \"fal
+se\", symmetric = \"false\", largeop = \"false\", movablelimits = \"fa
+lse\", accent = \"false\", lspace = \"0.0em\", rspace = \"0.0em\"), Ty
+pesetting:-mfenced(Typesetting:-mrow(Typesetting:-mi(\"t\", italic = \+
+\"true\", mathvariant = \"italic\")), mathvariant = \"normal\")), Type
+setting:-mi(\"\", italic = \"true\", executable = \"true\", font_style
+_name = \"2D Input\", mathvariant = \"italic\"));" "-I%mrowG6#/I+modul
+enameG6\"I,TypesettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/
+%+executableGF1/%0font_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF
+'-F#6%-I%msubGF$6%-F,6%Q(&theta;F'/F0Q&falseF'/F8Q'normalF'-F#6#-I#mnG
+F$6$Q#21F'FD/%/subscriptshiftGQ\"0F'-I#moGF$6-Q0&ApplyFunction;F'FD/%&
+fenceGFC/%*separatorGFC/%)stretchyGFC/%*symmetricGFC/%(largeopGFC/%.mo
+vablelimitsGFC/%'accentGFC/%'lspaceGQ&0.0emF'/%'rspaceGF]o-I(mfencedGF
+$6$-F#6#-F,6%Q\"tF'F/F7FDF+" }{TEXT 234 110 " =  driving shaft (of har
+monic drive #2) angular position: the zero angle is defined as the sta
+rting position." }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "Typesetting:-mrow(Ty
+pesetting:-mi(\"\", italic = \"true\", executable = \"true\", font_sty
+le_name = \"2D Input\", mathvariant = \"italic\"), Typesetting:-mrow(T
+ypesetting:-msub(Typesetting:-mi(\"\1670\", italic = \"false\", mathva
+riant = \"normal\"), Typesetting:-mrow(Typesetting:-mn(\"22\", mathvar
+iant = \"normal\")), subscriptshift = \"0\"), Typesetting:-mo(\"&Apply
+Function;\", mathvariant = \"normal\", fence = \"false\", separator = \+
+\"false\", stretchy = \"false\", symmetric = \"false\", largeop = \"fa
+lse\", movablelimits = \"false\", accent = \"false\", lspace = \"0.0em
+\", rspace = \"0.0em\"), Typesetting:-mfenced(Typesetting:-mrow(Typese
+tting:-mi(\"t\", italic = \"true\", mathvariant = \"italic\")), mathva
+riant = \"normal\")), Typesetting:-mi(\"\", italic = \"true\", executa
+ble = \"true\", font_style_name = \"2D Input\", mathvariant = \"italic
+\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6%-I#miGF
+$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/%0font_style_nameGQ)2D~Input
+F'/%,mathvariantGQ'italicF'-F#6%-I%msubGF$6%-F,6%Q(&theta;F'/F0Q&false
+F'/F8Q'normalF'-F#6#-I#mnGF$6$Q#22F'FD/%/subscriptshiftGQ\"0F'-I#moGF$
+6-Q0&ApplyFunction;F'FD/%&fenceGFC/%*separatorGFC/%)stretchyGFC/%*symm
+etricGFC/%(largeopGFC/%.movablelimitsGFC/%'accentGFC/%'lspaceGQ&0.0emF
+'/%'rspaceGF]o-I(mfencedGF$6$-F#6#-F,6%Q\"tF'F/F7FDF+" }{TEXT 234 139 
+" = second link end-effector angular position (relative to the first l
+ink end-effector): the zero angle is defined as the starting position.
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "q := [ theta[21](t), the
+ta[22](t) ];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"qG7$-&%&thetaG6#\"
+#@6#%\"tG-&%&thetaG6#\"#A6#%\"tG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 234 
+63 "Nq = number of Lagrangian coordinates (e.g. here, it is Nq = 2)" }
+}{PARA 0 "" 0 "" {TEXT 234 41 "Nq is also the number of position state
+s." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "Nq := nops( q ):" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 234 101 "qd = first-order time derivative of the
+ generalized coordinates, e.g. position and angular velocities" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "qd := map( diff, q, t );" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#qdG7$-%%diffG6$-&%&thetaG6#\"#@6#%\"tG%\"
+tG-%%diffG6$-&%&thetaG6#\"#A6#%\"tG%\"tG" }}}}{PARA 0 "" 0 "" {TEXT 
+234 0 "" }}{SECT 0 {PARA 4 "" 0 "" {TEXT 233 21 "State-Space Variables
+" }}{PARA 15 "" 0 "" {TEXT 232 103 "The chosen states should at least \+
+include the generalized coordinates and their first-time derivatives."
+ }}{PARA 15 "" 0 "" {TEXT 232 22 "X is the state vector." }}{PARA 15 "
+" 0 "" {TEXT 232 141 "In the state vector X: Lagrangian coordinates ar
+e first, followed by their first-time derivatives, and finally any oth
+er states, as required." }}{EXCHG {PARA 0 "" 0 "" {TEXT 234 78 "Substi
+tution sets for the states (to obtain time-independent state equations
+)." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "subs_Xq := \{ seq( q[i] = X[i
+], i=1..Nq ) \};\n" }{MPLTEXT 1 0 48 "subs_Xqd := \{ seq( qd[i] = X[i+
+Nq], i=1..Nq ) \};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(subs_XqG<$/-&
+%&thetaG6#\"#@6#%\"tG&%\"XG6#\"\"\"/-&%&thetaG6#\"#A6#%\"tG&%\"XG6#\"
+\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)subs_XqdG<$/-%%diffG6$-&%&th
+etaG6#\"#@6#%\"tG%\"tG&%\"XG6#\"\"$/-%%diffG6$-&%&thetaG6#\"#A6#%\"tG%
+\"tG&%\"XG6#\"\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 234 34 "Substitutio
+n set for the input(s)." }}{PARA 0 "" 0 "" {TEXT 234 41 "set the input
+ to be the motor #2 current:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "sub
+s_U := \{ I[m2] = U[1] \}:" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 234 109 "s
+et the input to be the actuator driving force/torque (if not expressed
+ as a function of the motor voltage): " }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 27 "#subs_U := \{ T[2] = U[1] \}:" }}}{EXCHG {PARA 0 "" 0 "" {TEXT
+ 234 66 "Nu = number of inputs; U = input (row) vector (e.g. U = [ V[m
+] ] )" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "Nu := nops( subs_U ):" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT 234 65 "substitution set for the position
+ states' second time derivatives" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 63 
+"subs_Xqdd := \{ seq( diff( q[i], t$2 ) =  Xd[i+Nq], i=1..Nq ) \};" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%*subs_XqddG<$/-%%diffG6$-&%&thetaG6#
+\"#@6#%\"tG-%\"$G6$%\"tG\"\"#&%#XdG6#\"\"$/-%%diffG6$-&%&thetaG6#\"#A6
+#%\"tG-%\"$G6$%\"tG\"\"#&%#XdG6#\"\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT
+ 234 87 "second time derivatives of the position states (written as ti
+me-independent variables)." }}{PARA 0 "" 0 "" {TEXT 234 91 "The set of
+ unknowns is obtained from this list to solve the Lagrange's equations
+ of motion." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "Xqdd := [ seq( Xd[i+
+Nq], i=1..Nq ) ];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%XqddG7$&%#XdG6
+#\"\"$&%#XdG6#\"\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 234 70 "substitut
+ion set to linearize the state-space matrices (i.e. A and B) " }}
+{PARA 0 "" 0 "" {TEXT 234 65 "about the quiescent null state vector (s
+mall-displacement theory)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 72 "subs_X
+Uzero := \{ seq( X[i] = 0, i=1..2*Nq ), seq( U[i] = 0, i=1..Nu ) \}:" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT 234 83 "Nx = dim( X ) = total number o
+f states (should be greater than or equal to: 2 * Nq)" }}{PARA 0 "" 0 
+"" {TEXT 234 29 "Ny = chosen number of outputs" }}}{EXCHG {PARA 0 "> "
+ 0 "" {MPLTEXT 1 0 18 "Nx := 2 * Nq + 0:\n" }{MPLTEXT 1 0 9 "Ny := Nq:
+" }}}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 231 50 "Total Potential and Kinet
+ic Energies of the System" }}{PARA 0 "" 0 "" {TEXT 234 94 "The total p
+otential and kinetic energies are needed to calculate the Lagrangian o
+f the system." }}{SECT 0 {PARA 4 "" 0 "" {TEXT 233 24 "Total Potential
+ Energy: " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-msub(Typeset
+ting:-mi(\"V\", italic = \"true\", mathvariant = \"italic\"), Typesett
+ing:-mrow(Typesetting:-mi(\"T\", italic = \"true\", mathvariant = \"it
+alic\")), subscriptshift = \"0\"));" "-I%mrowG6#/I+modulenameG6\"I,Typ
+esettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"VF'/%'italicGQ%trueF'/
+%,mathvariantGQ'italicF'-F#6#-F/6%Q\"TF'F2F5/%/subscriptshiftGQ\"0F'" 
+}{TEXT 233 1 " " }}{PARA 0 "" 0 "" {TEXT 234 90 "The total potential e
+nergy can be expressed in terms of the generalized coordinates alone."
+ }}{EXCHG {PARA 0 "" 0 "" {TEXT 234 58 "Vg[T] = Total Gravitational Po
+tential Energy of the system" }}{PARA 0 "" 0 "" {TEXT 234 74 "Vg[T] = \+
+0 : Because the load vertical displacement from normality is null." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "Vg[T] := 0: " }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT 234 53 "Ve[T] = Total Elastic Potential Energy of the syste
+m\n" }{TEXT 234 48 "K[s2] = second flexible link torsional stiffness" 
+}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "Ve[T] := potential_energy( 'sprin
+g', K[s2], q[2] );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#VeG6#%\"TG,$
+*&#\"\"\"\"\"#\"\"\"*&&%\"KG6#%#s2G\"\"\")-&%&thetaG6#\"#A6#%\"tG\"\"#
+\"\"\"\"\"\"\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 234 43 "V[T] = Tot
+al Potential Energy of the system" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+34 "V[T] := simplify( Ve[T] + Vg[T] );" }}{PARA 11 "" 1 "" {XPPMATH 20
+ "6#>&%\"VG6#%\"TG,$*&#\"\"\"\"\"#\"\"\"*&&%\"KG6#%#s2G\"\"\")-&%&thet
+aG6#\"#A6#%\"tG\"\"#\"\"\"\"\"\"\"\"\"" }}}{PARA 0 "" 0 "" {TEXT 234 
+0 "" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT 233 22 "Total Kinetic Energy: " 
+}{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"
+T\", italic = \"true\", mathvariant = \"italic\"), Typesetting:-mrow(T
+ypesetting:-mi(\"T\", italic = \"true\", mathvariant = \"italic\")), s
+ubscriptshift = \"0\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(
+_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"TF'/%'italicGQ%trueF'/%,mathvaria
+ntGQ'italicF'-F#6#F./%/subscriptshiftGQ\"0F'" }}{PARA 0 "" 0 "" {TEXT 
+234 115 "The total kinetic energy can be expressed in terms of the gen
+eralized coordinates and their first-time derivatives." }}{EXCHG 
+{PARA 0 "" 0 "" {XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-msub(Typ
+esetting:-mi(\"Tr\", italic = \"true\", mathvariant = \"italic\"), Typ
+esetting:-mrow(Typesetting:-mn(\"21\", mathvariant = \"normal\")), sub
+scriptshift = \"0\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_s
+yslibGF'6#-I%msubGF$6%-I#miGF$6%Q#TrF'/%'italicGQ%trueF'/%,mathvariant
+GQ'italicF'-F#6#-I#mnGF$6$Q#21F'/F6Q'normalF'/%/subscriptshiftGQ\"0F'"
+ }{TEXT 234 92 " = rotational kinetic energy of the second motorized r
+igid joint (holding the flexible link)" }}{PARA 0 "" 0 "" {XPPEDIT 18 
+0 "Typesetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"J\", italic =
+ \"true\", mathvariant = \"italic\"), Typesetting:-mrow(Typesetting:-m
+n(\"21\", mathvariant = \"normal\")), subscriptshift = \"0\"));" "-I%m
+rowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF
+$6%Q\"JF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-F#6#-I#mnGF$6$Q#2
+1F'/F6Q'normalF'/%/subscriptshiftGQ\"0F'" }{TEXT 234 51 " = harmonic d
+rive #2 equivalent output load inertia" }}{PARA 0 "" 0 "" {TEXT 234 
+39 "qd[1] = drive #2 load angular velocity " }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 56 "Tr[21] := kinetic_energy( 'translation', J[21], qd[1]
+ );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#TrG6#\"#@,$*&#\"\"\"\"\"#\"
+\"\"*&&%\"JG6#\"#@\"\"\")-%%diffG6$-&%&thetaG6#\"#@6#%\"tG%\"tG\"\"#\"
+\"\"\"\"\"\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {XPPEDIT 18 0 "Typesetting
+:-mrow(Typesetting:-msub(Typesetting:-mi(\"Tr\", italic = \"true\", ma
+thvariant = \"italic\"), Typesetting:-mrow(Typesetting:-mn(\"22\", mat
+hvariant = \"normal\")), subscriptshift = \"0\"));" "-I%mrowG6#/I+modu
+lenameG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q#TrF'/%'i
+talicGQ%trueF'/%,mathvariantGQ'italicF'-F#6#-I#mnGF$6$Q#22F'/F6Q'norma
+lF'/%/subscriptshiftGQ\"0F'" }{TEXT 234 69 " = rotational kinetic ener
+gy of the second flexible link end-effector" }}{PARA 0 "" 0 "" 
+{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"J
+\", italic = \"true\", mathvariant = \"italic\"), Typesetting:-mrow(Ty
+pesetting:-mn(\"22\", mathvariant = \"normal\")), subscriptshift = \"0
+\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-I%msub
+GF$6%-I#miGF$6%Q\"JF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-F#6#-
+I#mnGF$6$Q#22F'/F6Q'normalF'/%/subscriptshiftGQ\"0F'" }{TEXT 234 44 " \+
+= second flexible link end-effector inertia" }}{PARA 0 "" 0 "" {TEXT 
+234 50 "qd[2] = second link end-effector angular velocity " }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 66 "Tr[22] := kinetic_energy( 'translation', J[
+22], (qd[1] + qd[2]) );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#TrG6#\"
+#A,$*&#\"\"\"\"\"#\"\"\"*&&%\"JG6#\"#A\"\"\"),&-%%diffG6$-&%&thetaG6#
+\"#@6#%\"tG%\"tG\"\"\"-%%diffG6$-&%&thetaG6#\"#A6#%\"tG%\"tG\"\"\"\"\"
+#\"\"\"\"\"\"\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {XPPEDIT 18 0 "Typesett
+ing:-mrow(Typesetting:-msub(Typesetting:-mi(\"T\", italic = \"true\", \+
+mathvariant = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"T\", it
+alic = \"true\", mathvariant = \"italic\")), subscriptshift = \"0\"));
+" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%
+-I#miGF$6%Q\"TF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-F#6#F./%/s
+ubscriptshiftGQ\"0F'" }{TEXT 234 37 " = Total Kinetic Energy of the sy
+stem" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "T[T] := Tr[21] + Tr[22]:" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "T[T] := collect( T[T], dif
+f );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"TG6#%\"TG,(*&,&*&#\"\"\"
+\"\"#\"\"\"&%\"JG6#\"#@\"\"\"\"\"\"*&#\"\"\"\"\"#\"\"\"&%\"JG6#\"#A\"
+\"\"\"\"\"\"\"\")-%%diffG6$-&%&thetaG6#\"#@6#%\"tG%\"tG\"\"#\"\"\"\"\"
+\"*(&%\"JG6#\"#A\"\"\"-%%diffG6$-&%&thetaG6#\"#A6#%\"tG%\"tG\"\"\"-%%d
+iffG6$-&%&thetaG6#\"#@6#%\"tG%\"tG\"\"\"\"\"\"*&#\"\"\"\"\"#\"\"\"*&&%
+\"JG6#\"#A\"\"\")-%%diffG6$-&%&thetaG6#\"#A6#%\"tG%\"tG\"\"#\"\"\"\"\"
+\"\"\"\"" }}}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 231 20 "Generalized Force
+s: " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-msub(Typesetting:-
+mi(\"Q\", italic = \"true\", mathvariant = \"italic\"), Typesetting:-m
+row(Typesetting:-mi(\"i\", italic = \"true\", mathvariant = \"italic\"
+)), subscriptshift = \"0\"));" "-I%mrowG6#/I+modulenameG6\"I,Typesetti
+ngGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"QF'/%'italicGQ%trueF'/%,math
+variantGQ'italicF'-F#6#-F/6%Q\"iF'F2F5/%/subscriptshiftGQ\"0F'" }{TEXT
+ 231 2 "'s" }}{PARA 0 "" 0 "" {TEXT 234 78 "The non-conservative force
+s corresponding to the generalized coordinates are: " }{XPPEDIT 18 0 "
+Typesetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"T\", italic = \"
+true\", mathvariant = \"italic\"), Typesetting:-mrow(Typesetting:-mn(
+\"2\", mathvariant = \"normal\")), subscriptshift = \"0\"));" "-I%mrow
+G6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%
+Q\"TF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-F#6#-I#mnGF$6$Q\"2F'
+/F6Q'normalF'/%/subscriptshiftGQ\"0F'" }{TEXT 234 38 " and the viscous
+ damping forces, where" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "Typesetting:-
+mrow(Typesetting:-msub(Typesetting:-mi(\"T\", italic = \"true\", mathv
+ariant = \"italic\"), Typesetting:-mrow(Typesetting:-mn(\"2\", mathvar
+iant = \"normal\")), subscriptshift = \"0\"));" "-I%mrowG6#/I+modulena
+meG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"TF'/%'itali
+cGQ%trueF'/%,mathvariantGQ'italicF'-F#6#-I#mnGF$6$Q\"2F'/F6Q'normalF'/
+%/subscriptshiftGQ\"0F'" }{TEXT 234 35 " = torque generated by the mot
+or #2" }}{PARA 0 "" 0 "" {TEXT 234 61 "B21 = second actuated rigid joi
+nt viscous damping coefficient" }}{PARA 0 "" 0 "" {TEXT 234 58 "B22 = \+
+second link end-effector viscous damping coefficient" }}{EXCHG {PARA 0
+ "" 0 "" {XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-msub(Typesettin
+g:-mi(\"B\", italic = \"true\", mathvariant = \"italic\"), Typesetting
+:-mrow(Typesetting:-mn(\"21\", mathvariant = \"normal\")), subscriptsh
+ift = \"0\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'
+6#-I%msubGF$6%-I#miGF$6%Q\"BF'/%'italicGQ%trueF'/%,mathvariantGQ'itali
+cF'-F#6#-I#mnGF$6$Q#21F'/F6Q'normalF'/%/subscriptshiftGQ\"0F'" }{TEXT 
+234 9 " = 0 and " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-msub(
+Typesetting:-mi(\"B\", italic = \"true\", mathvariant = \"italic\"), T
+ypesetting:-mrow(Typesetting:-mn(\"22\", mathvariant = \"normal\")), s
+ubscriptshift = \"0\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(
+_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"BF'/%'italicGQ%trueF'/%,mathvaria
+ntGQ'italicF'-F#6#-I#mnGF$6$Q#22F'/F6Q'normalF'/%/subscriptshiftGQ\"0F
+'" }{TEXT 234 43 " = 0 if both viscous dampings are neglected" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "#B[21] := 0: B[22] := 0:" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT 234 63 "Q[i] = generalized force applied \+
+on generalized coordinate q[i]" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "Q
+[1] := T[2] - B[21] * qd[1];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"Q
+G6#\"\"\",&&%\"TG6#\"\"#\"\"\"*&&%\"BG6#\"#@\"\"\"-%%diffG6$-&%&thetaG
+6#\"#@6#%\"tG%\"tG\"\"\"!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 24 "Q[2] := - B[22] * qd[2];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%
+\"QG6#\"\"#,$*&&%\"BG6#\"#A\"\"\"-%%diffG6$-&%&thetaG6#\"#A6#%\"tG%\"t
+G\"\"\"!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {XPPEDIT 18 0 "Typesetting:-mr
+ow(Typesetting:-msub(Typesetting:-mi(\"T\", italic = \"true\", mathvar
+iant = \"italic\"), Typesetting:-mrow(Typesetting:-mn(\"2\", mathvaria
+nt = \"normal\")), subscriptshift = \"0\"));" "-I%mrowG6#/I+modulename
+G6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"TF'/%'italicG
+Q%trueF'/%,mathvariantGQ'italicF'-F#6#-I#mnGF$6$Q\"2F'/F6Q'normalF'/%/
+subscriptshiftGQ\"0F'" }{TEXT 234 63 " = torque produced by drive #2 a
+t the load: load driving torque" }}{PARA 0 "" 0 "" {TEXT 234 72 "rm: c
+omment the following line out if U = T[1], uncomment it if U = I[m]" }
+}{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "T[2] := K[t2] * I[m2];" }}{PARA 11
+ "" 1 "" {XPPMATH 20 "6#>&%\"TG6#\"\"#*&&%\"KG6#%#t2G\"\"\"&%\"IG6#%#m
+2G\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "Q := [ seq( Q[i
+], i=1..Nq ) ];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"QG7$,&*&&%\"KG6
+#%#t2G\"\"\"&%\"IG6#%#m2G\"\"\"\"\"\"*&&%\"BG6#\"#@\"\"\"-%%diffG6$-&%
+&thetaG6#\"#@6#%\"tG%\"tG\"\"\"!\"\",$*&&%\"BG6#\"#A\"\"\"-%%diffG6$-&
+%&thetaG6#\"#A6#%\"tG%\"tG\"\"\"!\"\"" }}}}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT 231 26 "Euler-Lagrange's Equations" }}{PARA 0 "" 0 "" {TEXT 234 
+6 "For a " }{TEXT 222 1 "N" }{TEXT 234 53 "-DOF system, the Lagrange's
+ equations can be written:" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "Typesetti
+ng:-mrow(Typesetting:-mi(\"\", italic = \"true\", executable = \"true
+\", font_style_name = \"2D Input\", mathvariant = \"italic\"), Typeset
+ting:-mrow(Typesetting:-mi(\"\", italic = \"true\", executable = \"tru
+e\", font_style_name = \"2D Input\", mathvariant = \"italic\"), Typese
+tting:-mrow(Typesetting:-mi(\"\", italic = \"true\", executable = \"tr
+ue\", font_style_name = \"2D Input\", mathvariant = \"italic\"), Types
+etting:-mrow(Typesetting:-mfrac(Typesetting:-mrow(Typesetting:-mo(\"&P
+artialD;\", foreground = \"[144,144,144]\", mathvariant = \"normal\", \+
+Typesetting:-msemantics = \"inert\", fence = \"false\", separator = \"
+false\", stretchy = \"false\", symmetric = \"false\", largeop = \"fals
+e\", movablelimits = \"false\", accent = \"false\", lspace = \"0.0em\"
+, rspace = \"0.0em\")), Typesetting:-mrow(Typesetting:-mi(\"\", italic
+ = \"true\", executable = \"true\", font_style_name = \"2D Input\", ma
+thvariant = \"italic\"), Typesetting:-mrow(Typesetting:-mo(\"&PartialD
+;\", foreground = \"[144,144,144]\", mathvariant = \"normal\", Typeset
+ting:-msemantics = \"inert\", fence = \"false\", separator = \"false\"
+, stretchy = \"false\", symmetric = \"false\", largeop = \"false\", mo
+vablelimits = \"false\", accent = \"false\", lspace = \"0.0em\", rspac
+e = \"0.0em\"), Typesetting:-mi(\"t\", italic = \"true\", mathvariant \+
+= \"italic\")), Typesetting:-mi(\"\", italic = \"true\", executable = \+
+\"true\", font_style_name = \"2D Input\", mathvariant = \"italic\")), \+
+linethickness = \"1\", denomalign = \"center\", numalign = \"center\",
+ bevelled = \"false\"), Typesetting:-mo(\"&InvisibleTimes;\", mathvari
+ant = \"normal\", fence = \"false\", separator = \"false\", stretchy =
+ \"false\", symmetric = \"false\", largeop = \"false\", movablelimits \+
+= \"false\", accent = \"false\", lspace = \"0.0em\", rspace = \"0.0em
+\"), Typesetting:-mfenced(Typesetting:-mrow(Typesetting:-mfrac(Typeset
+ting:-mrow(Typesetting:-mo(\"&PartialD;\", foreground = \"[144,144,144
+]\", mathvariant = \"normal\", Typesetting:-msemantics = \"inert\", fe
+nce = \"false\", separator = \"false\", stretchy = \"false\", symmetri
+c = \"false\", largeop = \"false\", movablelimits = \"false\", accent \+
+= \"false\", lspace = \"0.0em\", rspace = \"0.0em\")), Typesetting:-mr
+ow(Typesetting:-mi(\"\", italic = \"true\", executable = \"true\", fon
+t_style_name = \"2D Input\", mathvariant = \"italic\"), Typesetting:-m
+row(Typesetting:-mo(\"&PartialD;\", foreground = \"[144,144,144]\", ma
+thvariant = \"normal\", Typesetting:-msemantics = \"inert\", fence = \+
+\"false\", separator = \"false\", stretchy = \"false\", symmetric = \"
+false\", largeop = \"false\", movablelimits = \"false\", accent = \"fa
+lse\", lspace = \"0.0em\", rspace = \"0.0em\"), Typesetting:-msub(Type
+setting:-mi(\"qdot\", italic = \"true\", mathvariant = \"italic\"), Ty
+pesetting:-mrow(Typesetting:-mi(\"i\", italic = \"true\", mathvariant \+
+= \"italic\")), subscriptshift = \"0\")), Typesetting:-mi(\"\", italic
+ = \"true\", executable = \"true\", font_style_name = \"2D Input\", ma
+thvariant = \"italic\")), linethickness = \"1\", denomalign = \"center
+\", numalign = \"center\", bevelled = \"false\"), Typesetting:-mo(\"&I
+nvisibleTimes;\", mathvariant = \"normal\", fence = \"false\", separat
+or = \"false\", stretchy = \"false\", symmetric = \"false\", largeop =
+ \"false\", movablelimits = \"false\", accent = \"false\", lspace = \"
+0.0em\", rspace = \"0.0em\"), Typesetting:-mi(\"L\", italic = \"true\"
+, mathvariant = \"italic\")), mathvariant = \"normal\")), Typesetting:
+-mo(\"&minus;\", mathvariant = \"normal\", fence = \"false\", separato
+r = \"false\", stretchy = \"false\", symmetric = \"false\", largeop = \+
+\"false\", movablelimits = \"false\", accent = \"false\", lspace = \"0
+.2222221940755844em\", rspace = \"0.2222221940755844em\"), Typesetting
+:-mfenced(Typesetting:-mrow(Typesetting:-mfrac(Typesetting:-mrow(Types
+etting:-mo(\"&PartialD;\", foreground = \"[144,144,144]\", mathvariant
+ = \"normal\", Typesetting:-msemantics = \"inert\", fence = \"false\",
+ separator = \"false\", stretchy = \"false\", symmetric = \"false\", l
+argeop = \"false\", movablelimits = \"false\", accent = \"false\", lsp
+ace = \"0.0em\", rspace = \"0.0em\")), Typesetting:-mrow(Typesetting:-
+mi(\"\", italic = \"true\", executable = \"true\", font_style_name = \+
+\"2D Input\", mathvariant = \"italic\"), Typesetting:-mrow(Typesetting
+:-mo(\"&PartialD;\", foreground = \"[144,144,144]\", mathvariant = \"n
+ormal\", Typesetting:-msemantics = \"inert\", fence = \"false\", separ
+ator = \"false\", stretchy = \"false\", symmetric = \"false\", largeop
+ = \"false\", movablelimits = \"false\", accent = \"false\", lspace = \+
+\"0.0em\", rspace = \"0.0em\"), Typesetting:-msub(Typesetting:-mi(\"q
+\", italic = \"true\", mathvariant = \"italic\"), Typesetting:-mrow(Ty
+pesetting:-mi(\"i\", italic = \"true\", mathvariant = \"italic\")), su
+bscriptshift = \"0\")), Typesetting:-mi(\"\", italic = \"true\", execu
+table = \"true\", font_style_name = \"2D Input\", mathvariant = \"ital
+ic\")), linethickness = \"1\", denomalign = \"center\", numalign = \"c
+enter\", bevelled = \"false\"), Typesetting:-mo(\"&InvisibleTimes;\", \+
+mathvariant = \"normal\", fence = \"false\", separator = \"false\", st
+retchy = \"false\", symmetric = \"false\", largeop = \"false\", movabl
+elimits = \"false\", accent = \"false\", lspace = \"0.0em\", rspace = \+
+\"0.0em\"), Typesetting:-mi(\"L\", italic = \"true\", mathvariant = \"
+italic\")), mathvariant = \"normal\")), Typesetting:-mo(\"=\", mathvar
+iant = \"normal\", fence = \"false\", separator = \"false\", stretchy \+
+= \"false\", symmetric = \"false\", largeop = \"false\", movablelimits
+ = \"false\", accent = \"false\", lspace = \"0.2777777910232544em\", r
+space = \"0.2777777910232544em\"), Typesetting:-msub(Typesetting:-mi(
+\"Q\", italic = \"true\", mathvariant = \"italic\"), Typesetting:-mrow
+(Typesetting:-mi(\"i\", italic = \"true\", mathvariant = \"italic\")),
+ subscriptshift = \"0\")), Typesetting:-mi(\"\", italic = \"true\", ex
+ecutable = \"true\", font_style_name = \"2D Input\", mathvariant = \"i
+talic\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6%-I
+#miGF$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/%0font_style_nameGQ)2D~
+InputF'/%,mathvariantGQ'italicF'-F#6&F+-F#6&F+-F#6%-I&mfracGF$6(-F#6#-
+I#moGF$6/Q+&PartialD;F'/%+foregroundGQ.[144,144,144]F'/F8Q'normalF'/I+
+msemanticsGF$Q&inertF'/%&fenceGQ&falseF'/%*separatorGFS/%)stretchyGFS/
+%*symmetricGFS/%(largeopGFS/%.movablelimitsGFS/%'accentGFS/%'lspaceGQ&
+0.0emF'/%'rspaceGF\\o-F#6%F+-F#6$FE-F,6%Q\"tF'F/F7F+/%.linethicknessGQ
+\"1F'/%+denomalignGQ'centerF'/%)numalignGF[p/%)bevelledGFS-FF6-Q1&Invi
+sibleTimes;F'FLFQFTFVFXFZFfnFhnFjnF]o-I(mfencedGF$6$-F#6%-FA6(FC-F#6%F
++-F#6$FE-I%msubGF$6%-F,6%Q%qdotF'F/F7-F#6#-F,6%Q\"iF'F/F7/%/subscripts
+hiftGQ\"0F'F+FfoFioF\\pF^pF`p-F,6%Q\"LF'F/F7FL-FF6-Q(&minus;F'FLFQFTFV
+FXFZFfnFhn/F[oQ50.2222221940755844emF'/F^oFcr-Fdp6$-F#6%-FA6(FC-F#6%F+
+-F#6$FE-F_q6%-F,6%Q\"qF'F/F7FdqFiqF+FfoFioF\\pF^pF`pF\\rFL-FF6-Q\"=F'F
+LFQFTFVFXFZFfnFhn/F[oQ50.2777777910232544emF'/F^oFhs-F_q6%-F,6%Q\"QF'F
+/F7FdqFiqF+" }{TEXT 234 6 "  for " }{XPPEDIT 18 0 "Typesetting:-mrow(T
+ypesetting:-mi(\"\", italic = \"true\", executable = \"true\", font_st
+yle_name = \"2D Input\", mathvariant = \"italic\"), Typesetting:-mrow(
+Typesetting:-mi(\"i\", italic = \"true\", mathvariant = \"italic\"), T
+ypesetting:-mo(\"=\", mathvariant = \"normal\", fence = \"false\", sep
+arator = \"false\", stretchy = \"false\", symmetric = \"false\", large
+op = \"false\", movablelimits = \"false\", accent = \"false\", lspace \+
+= \"0.2777777910232544em\", rspace = \"0.2777777910232544em\"), Typese
+tting:-mn(\"1\", mathvariant = \"normal\")), Typesetting:-mi(\"\", ita
+lic = \"true\", executable = \"true\", font_style_name = \"2D Input\",
+ mathvariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6\"I,Typesettin
+gGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/%0fon
+t_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6%-F,6%Q\"iF'F/F7
+-I#moGF$6-Q\"=F'/F8Q'normalF'/%&fenceGQ&falseF'/%*separatorGFG/%)stret
+chyGFG/%*symmetricGFG/%(largeopGFG/%.movablelimitsGFG/%'accentGFG/%'ls
+paceGQ50.2777777910232544emF'/%'rspaceGFV-I#mnGF$6$Q\"1F'FCF+" }{TEXT 
+234 9 " through " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(\"
+N\", italic = \"true\", mathvariant = \"italic\"));" "-I%mrowG6#/I+mod
+ulenameG6\"I,TypesettingGI(_syslibGF'6#-I#miGF$6%Q\"NF'/%'italicGQ%tru
+eF'/%,mathvariantGQ'italicF'" }}{PARA 0 "" 0 "" {TEXT 234 6 "where:" }
+}{PARA 0 "" 0 "" {TEXT 234 1 " " }{XPPEDIT 18 0 "Typesetting:-mrow(Typ
+esetting:-msub(Typesetting:-mi(\"Q\", italic = \"true\", mathvariant =
+ \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"i\", italic = \"true
+\", mathvariant = \"italic\")), subscriptshift = \"0\"));" "-I%mrowG6#
+/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"
+QF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-F#6#-F/6%Q\"iF'F2F5/%/s
+ubscriptshiftGQ\"0F'" }{TEXT 234 62 "'s are special combinations of ex
+ternal forces and called the " }{TEXT 223 19 "generalized forces," }}
+{PARA 0 "" 0 "" {TEXT 224 1 " " }{XPPEDIT 18 0 "Typesetting:-mrow(Type
+setting:-msub(Typesetting:-mi(\"q\", italic = \"true\", mathvariant = \+
+\"italic\"), Typesetting:-mrow(Typesetting:-mn(\"1\", mathvariant = \"
+normal\")), subscriptshift = \"0\"));" "-I%mrowG6#/I+modulenameG6\"I,T
+ypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"qF'/%'italicGQ%trueF
+'/%,mathvariantGQ'italicF'-F#6#-I#mnGF$6$Q\"1F'/F6Q'normalF'/%/subscri
+ptshiftGQ\"0F'" }{TEXT 234 7 ", ..., " }{XPPEDIT 18 0 "Typesetting:-mr
+ow(Typesetting:-msub(Typesetting:-mi(\"q\", italic = \"true\", mathvar
+iant = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"N\", italic = \+
+\"true\", mathvariant = \"italic\")), subscriptshift = \"0\"));" "-I%m
+rowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF
+$6%Q\"qF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-F#6#-F/6%Q\"NF'F2
+F5/%/subscriptshiftGQ\"0F'" }{TEXT 234 6 ", are " }{TEXT 225 2 "N " }
+{TEXT 234 69 "independent coordinates chosen to describe the system an
+d called the " }{TEXT 226 23 "generalized coordinates" }{TEXT 234 1 ",
+" }}{PARA 0 "" 0 "" {TEXT 234 5 " and " }{XPPEDIT 18 0 "Typesetting:-m
+row(Typesetting:-mi(\"L\", italic = \"true\", mathvariant = \"italic\"
+));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-I#miGF$6
+%Q\"LF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'" }{TEXT 234 8 " is \+
+the " }{TEXT 227 10 "Lagrangian" }{TEXT 234 15 " of the system." }}
+{PARA 0 "" 0 "" {XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(\"L\"
+, italic = \"true\", mathvariant = \"italic\"));" "-I%mrowG6#/I+module
+nameG6\"I,TypesettingGI(_syslibGF'6#-I#miGF$6%Q\"LF'/%'italicGQ%trueF'
+/%,mathvariantGQ'italicF'" }{TEXT 234 15 " is defined by:" }}{PARA 0 "
+" 0 "" {XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(\"\", italic =
+ \"true\", executable = \"true\", font_style_name = \"2D Input\", math
+variant = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"L\", italic
+ = \"true\", mathvariant = \"italic\"), Typesetting:-mo(\"=\", mathvar
+iant = \"normal\", fence = \"false\", separator = \"false\", stretchy \+
+= \"false\", symmetric = \"false\", largeop = \"false\", movablelimits
+ = \"false\", accent = \"false\", lspace = \"0.2777777910232544em\", r
+space = \"0.2777777910232544em\"), Typesetting:-mrow(Typesetting:-mi(
+\"T\", italic = \"true\", mathvariant = \"italic\"), Typesetting:-mo(
+\"&minus;\", mathvariant = \"normal\", fence = \"false\", separator = \+
+\"false\", stretchy = \"false\", symmetric = \"false\", largeop = \"fa
+lse\", movablelimits = \"false\", accent = \"false\", lspace = \"0.222
+2221940755844em\", rspace = \"0.2222221940755844em\"), Typesetting:-mi
+(\"U\", italic = \"true\", mathvariant = \"italic\")), Typesetting:-mi
+(\"\", italic = \"true\", executable = \"true\", font_style_name = \"2
+D Input\", mathvariant = \"italic\")), Typesetting:-mi(\"\", italic = \+
+\"true\", executable = \"true\", font_style_name = \"2D Input\", mathv
+ariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_s
+yslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/%0font_styl
+e_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6&-F,6%Q\"LF'F/F7-I#moG
+F$6-Q\"=F'/F8Q'normalF'/%&fenceGQ&falseF'/%*separatorGFG/%)stretchyGFG
+/%*symmetricGFG/%(largeopGFG/%.movablelimitsGFG/%'accentGFG/%'lspaceGQ
+50.2777777910232544emF'/%'rspaceGFV-F#6%-F,6%Q\"TF'F/F7-F@6-Q(&minus;F
+'FCFEFHFJFLFNFPFR/FUQ50.2222221940755844emF'/FXF\\o-F,6%Q\"UF'F/F7F+F+
+" }}{PARA 0 "" 0 "" {TEXT 234 6 "where " }{XPPEDIT 18 0 "Typesetting:-
+mrow(Typesetting:-mi(\"T\", italic = \"true\", mathvariant = \"italic
+\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-I#miGF
+$6%Q\"TF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'" }{TEXT 234 47 " \+
+is the total kinetic energy of the system and " }{XPPEDIT 18 0 "Typese
+tting:-mrow(Typesetting:-mi(\"U\", italic = \"true\", mathvariant = \"
+italic\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-
+I#miGF$6%Q\"UF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'" }{TEXT 
+234 42 " the total potential energy of the system." }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 51 "EOM_orig := lagrange_equations( T[T], V[T], \+
+q, Q ):" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 234 28 "this is to display th
+e EOM's" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 126 "EOM_orig := collect( EO
+M_orig, \{ seq( diff( q[i], t$2 ), i=1..Nq ), seq( diff( q[i], t ), i=
+1..Nq ), seq( q[i], i=1..Nq ) \} );" }}{PARA 210 "" 1 "" {XPPMATH 20 "
+6#>%)EOM_origG7$/,&*&,&&%\"JG6#\"#@\"\"\"&%\"JG6#\"#A\"\"\"\"\"\"-%%di
+ffG6$-&%&thetaG6#\"#@6#%\"tG-%\"$G6$%\"tG\"\"#\"\"\"\"\"\"*&&%\"JG6#\"
+#A\"\"\"-%%diffG6$-&%&thetaG6#\"#A6#%\"tG-%\"$G6$%\"tG\"\"#\"\"\"\"\"
+\",&*&&%\"KG6#%#t2G\"\"\"&%\"IG6#%#m2G\"\"\"\"\"\"*&&%\"BG6#\"#@\"\"\"
+-%%diffG6$-&%&thetaG6#\"#@6#%\"tG%\"tG\"\"\"!\"\"/,(*&-%%diffG6$-&%&th
+etaG6#\"#@6#%\"tG-%\"$G6$%\"tG\"\"#\"\"\"&%\"JG6#\"#A\"\"\"\"\"\"*&&%
+\"JG6#\"#A\"\"\"-%%diffG6$-&%&thetaG6#\"#A6#%\"tG-%\"$G6$%\"tG\"\"#\"
+\"\"\"\"\"*&&%\"KG6#%#s2G\"\"\"-&%&thetaG6#\"#A6#%\"tG\"\"\"\"\"\",$*&
+&%\"BG6#\"#A\"\"\"-%%diffG6$-&%&thetaG6#\"#A6#%\"tG%\"tG\"\"\"!\"\"" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT 234 74 "Express the Euler-Lagrange equa
+tions of motion as functions of the states:" }}{PARA 0 "" 0 "" {TEXT 
+234 57 "1) substitute (i.e. name) the acceleration states first! " }}
+{PARA 0 "" 0 "" {TEXT 234 39 "2) then substitute the velocity states!"
+ }}{PARA 0 "" 0 "" {TEXT 234 55 "3) and only after, the position state
+s, and the inputs!" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "EOM_states :=
+ subs( subs_Xqd, subs( subs_Xqdd, EOM_orig ) ):" }}}{EXCHG {PARA 0 "> 
+" 0 "" {MPLTEXT 1 0 50 "EOM_states := subs( subs_Xq, subs_U, EOM_state
+s );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+EOM_statesG7$/,&*&,&&%\"JG6
+#\"#@\"\"\"&%\"JG6#\"#A\"\"\"\"\"\"&%#XdG6#\"\"$\"\"\"\"\"\"*&&%\"JG6#
+\"#A\"\"\"&%#XdG6#\"\"%\"\"\"\"\"\",&*&&%\"KG6#%#t2G\"\"\"&%\"UG6#\"\"
+\"\"\"\"\"\"\"*&&%\"BG6#\"#@\"\"\"&%\"XG6#\"\"$\"\"\"!\"\"/,(*&&%#XdG6
+#\"\"$\"\"\"&%\"JG6#\"#A\"\"\"\"\"\"*&&%\"JG6#\"#A\"\"\"&%#XdG6#\"\"%
+\"\"\"\"\"\"*&&%\"KG6#%#s2G\"\"\"&%\"XG6#\"\"#\"\"\"\"\"\",$*&&%\"BG6#
+\"#A\"\"\"&%\"XG6#\"\"%\"\"\"!\"\"" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT 
+233 48 "Additional Insight: Inertia (or mass) Matrix: Fi" }}{PARA 0 ""
+ 0 "" {TEXT 234 118 "The nonlinear system of equations resulting from \+
+the Lagrangian mechanics can be written in the following matrix form:"
+ }}{PARA 0 "" 0 "" {TEXT 234 59 "F( q ) . qdd + G( q, qd ) . qd + H( q
+ ) . q = L( q, qd, u )" }}{PARA 0 "" 0 "" {TEXT 234 80 "F, G, and H ar
+e called, respectively, the mass, damping, and stiffness matrices." }}
+{PARA 0 "" 0 "" {TEXT 234 27 "They are symmetric in form." }}{PARA 0 "
+" 0 "" {TEXT 234 101 "The inertia (a.k.a. mass) matrix, F, gives indic
+ations regarding the coupling existing in the system." }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 23 "Fi := Matrix( Nq, Nq ):" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 22 "for i from 1 to Nq do\n" }{MPLTEXT 1 0 
+24 "  for k from 1 to Nq do\n" }{MPLTEXT 1 0 72 "    Fi[ i, k ] := sim
+plify( diff( op( 1, EOM_states[i] ), Xd[k+Nq] ) );\n" }{MPLTEXT 1 0 
+63 "    Fi[ i, k ] := collect( combine( Fi[ i, k ], trig ), cos );\n" 
+}{MPLTEXT 1 0 10 "  end do;\n" }{MPLTEXT 1 0 7 "end do:" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 234 30 "Here, Fi shows a linear system" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "'F[i]' = Fi;" }{TEXT 234 0 "" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_sysli
+bGF'6#-F#6%-I%msubGF$6%-I#miGF$6%Q\"FF'/%'italicGQ%trueF'/%,mathvarian
+tGQ'italicF'-F#6#-F16%Q\"iF'F4F7/%/subscriptshiftGQ\"0F'-I#moGF$6-Q\"=
+F'/F8Q'normalF'/%&fenceGQ&falseF'/%*separatorGFJ/%)stretchyGFJ/%*symme
+tricGFJ/%(largeopGFJ/%.movablelimitsGFJ/%'accentGFJ/%'lspaceGQ50.27777
+77910232544emF'/%'rspaceGFY-I(mactionGF$6%-I(mfencedGF$6(-F#6#-I'mtabl
+eGF$66-I$mtrGF$6'-I$mtdGF$6(-F#6%-F.6%-F16%Q\"JF'F4F7-F#6#-I#mnGF$6$Q#
+21F'FFF?-FC6-Q\"+F'FFFHFKFMFOFQFSFU/FXQ50.2222221940755844emF'/FenFhp-
+F.6%F[p-F#6#-Fap6$Q#22F'FFF?/%)rowalignGQ!F'/%,columnalignGFcq/%+group
+alignGFcq/%(rowspanGQ\"1F'/%+columnspanGFjq-Feo6(FjpFaqFdqFfqFhqF[rFaq
+FdqFfq-Fbo6'F]rF]rFaqFdqFfq/%&alignGQ%axisF'/FbqQ)baselineF'/FeqQ'cent
+erF'/FgqQ'|frleft|hrF'/%/alignmentscopeGF6/%,columnwidthGQ%autoF'/%&wi
+dthGF^s/%+rowspacingGQ&1.0exF'/%.columnspacingGQ&0.8emF'/%)rowlinesGQ%
+noneF'/%,columnlinesGFis/%&frameGFis/%-framespacingGQ,0.4em~0.5exF'/%*
+equalrowsGFJ/%-equalcolumnsGFJ/%-displaystyleGFJ/%%sideGQ&rightF'/%0mi
+nlabelspacingGFfsFF/I+msemanticsGF$Q'MatrixF'/%%openGQ\"[F'/%&closeGQ
+\"]F'F\\u/%+actiontypeGQ.rtableaddressF'/%)rtableidGQ)19301728F'" }}}}
+}{SECT 0 {PARA 3 "" 0 "" {TEXT 231 38 "Solving the Euler-Lagrange's Eq
+uations" }}{SECT 0 {PARA 4 "" 0 "" {TEXT 233 65 "Reverse State Substit
+ution for Pretty Display of the Solved EOM's" }}{EXCHG {PARA 0 "" 0 ""
+ {TEXT 234 21 "only for pretty print" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 48 "subs_Xq_rev := \{ seq( X[i] = q[i], i=1..Nq ) \}:\n" }{MPLTEXT 
+1 0 52 "subs_Xqd_rev := \{ seq( X[i+Nq] = qd[i], i=1..Nq ) \}:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "subs_U_rev := \{ U[1] = I[m2
+] \}: \n" }{MPLTEXT 1 0 31 "#subs_U_rev := \{ U[1] = T[2] \}:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 85 "eom_collect_list := \{ seq( \+
+diff( q[i], t ), i=1..Nq ), seq( q[i], i=1..Nq ), K[s2] \};" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%1eom_collect_listG<'-&%&thetaG6#\"#@6#%\"t
+G-&%&thetaG6#\"#A6#%\"tG-%%diffG6$-&%&thetaG6#\"#@6#%\"tG%\"tG-%%diffG
+6$-&%&thetaG6#\"#A6#%\"tG%\"tG&%\"KG6#%#s2G" }}}}{SECT 0 {PARA 4 "" 0 
+"" {TEXT 233 30 "Solution to the (Linear) EOM's" }}{PARA 0 "" 0 "" 
+{TEXT 234 78 "Solve the (linear) equations of motion for the states' s
+econd time derivatives" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 77 "Xq
+dd_solset_ser := solve( convert( EOM_states, set ), convert( Xqdd, set
+ ) );" }}{PARA 210 "" 1 "" {XPPMATH 20 "6#>%0Xqdd_solset_serG<$/&%#XdG
+6#\"\"%,$*(,.*(&%\"JG6#\"#A\"\"\"&%\"KG6#%#t2G\"\"\"&%\"UG6#\"\"\"\"\"
+\"\"\"\"*(&%\"JG6#\"#A\"\"\"&%\"BG6#\"#@\"\"\"&%\"XG6#\"\"$\"\"\"!\"\"
+*(&%\"JG6#\"#A\"\"\"&%\"BG6#\"#A\"\"\"&%\"XG6#\"\"%\"\"\"\"\"\"*(&%\"J
+G6#\"#@\"\"\"&%\"KG6#%#s2G\"\"\"&%\"XG6#\"\"#\"\"\"\"\"\"*(&%\"JG6#\"#
+@\"\"\"&%\"BG6#\"#A\"\"\"&%\"XG6#\"\"%\"\"\"\"\"\"*(&%\"JG6#\"#A\"\"\"
+&%\"KG6#%#s2G\"\"\"&%\"XG6#\"\"#\"\"\"\"\"\"\"\"\"&%\"JG6#\"#@!\"\"&%
+\"JG6#\"#A!\"\"!\"\"/&%#XdG6#\"\"$*&,**&&%\"KG6#%#t2G\"\"\"&%\"UG6#\"
+\"\"\"\"\"\"\"\"*&&%\"BG6#\"#@\"\"\"&%\"XG6#\"\"$\"\"\"!\"\"*&&%\"BG6#
+\"#A\"\"\"&%\"XG6#\"\"%\"\"\"\"\"\"*&&%\"KG6#%#s2G\"\"\"&%\"XG6#\"\"#
+\"\"\"\"\"\"\"\"\"&%\"JG6#\"#@!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "assign( Xqdd_solset_ser );" }}}{EXCHG {PARA 0 "" 0 ""
+ {TEXT 234 45 "pretty display w.r.t. the named system states" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 101 "diff( qd[1], t ) = collect( subs( subs_U
+_rev, subs_Xq_rev, subs_Xqd_rev, Xd[3] ), eom_collect_list );" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%%diffG6$-&%&thetaG6#\"#@6#%\"tG-%\"
+$G6$%\"tG\"\"#,**(&%\"KG6#%#s2G\"\"\"&%\"JG6#\"#@!\"\"-&%&thetaG6#\"#A
+6#%\"tG\"\"\"\"\"\"*(&%\"BG6#\"#@\"\"\"&%\"JG6#\"#@!\"\"-%%diffG6$-&%&
+thetaG6#\"#@6#%\"tG%\"tG\"\"\"!\"\"*(&%\"BG6#\"#A\"\"\"&%\"JG6#\"#@!\"
+\"-%%diffG6$-&%&thetaG6#\"#A6#%\"tG%\"tG\"\"\"\"\"\"*(&%\"KG6#%#t2G\"
+\"\"&%\"IG6#%#m2G\"\"\"&%\"JG6#\"#@!\"\"\"\"\"" }}}{EXCHG {PARA 0 "> "
+ 0 "" {MPLTEXT 1 0 101 "diff( qd[2], t ) = collect( subs( subs_U_rev, \+
+subs_Xq_rev, subs_Xqd_rev, Xd[4] ), eom_collect_list );" }}{PARA 11 ""
+ 1 "" {XPPMATH 20 "6#/-%%diffG6$-&%&thetaG6#\"#A6#%\"tG-%\"$G6$%\"tG\"
+\"#,**,,&&%\"JG6#\"#@\"\"\"&%\"JG6#\"#A\"\"\"\"\"\"&%\"JG6#\"#@!\"\"&%
+\"JG6#\"#A!\"\"&%\"KG6#%#s2G\"\"\"-&%&thetaG6#\"#A6#%\"tG\"\"\"!\"\"*(
+&%\"BG6#\"#@\"\"\"&%\"JG6#\"#@!\"\"-%%diffG6$-&%&thetaG6#\"#@6#%\"tG%
+\"tG\"\"\"\"\"\"**,&*&&%\"JG6#\"#A\"\"\"&%\"BG6#\"#A\"\"\"\"\"\"*&&%\"
+JG6#\"#@\"\"\"&%\"BG6#\"#A\"\"\"\"\"\"\"\"\"&%\"JG6#\"#@!\"\"&%\"JG6#
+\"#A!\"\"-%%diffG6$-&%&thetaG6#\"#A6#%\"tG%\"tG\"\"\"!\"\"*(&%\"KG6#%#
+t2G\"\"\"&%\"IG6#%#m2G\"\"\"&%\"JG6#\"#@!\"\"!\"\"" }}}{PARA 0 "" 0 ""
+ {TEXT 234 0 "" }}}}{SECT 0 {PARA 3 "" 0 "" {TEXT 231 57 "Determine th
+e System State-Space Matrices: A, B, C, and D" }}{EXCHG {PARA 0 "> " 0
+ "" {MPLTEXT 1 0 25 "A_ss := Matrix( Nx, Nx ):" }}}{EXCHG {PARA 0 "> "
+ 0 "" {MPLTEXT 1 0 60 "A_ss := deriveA( Xqdd, A_ss, Nq, subs_XUzero ):
+ 'A2' = A_ss;" }}{PARA 11 "" 1 "" {XPPMATH 20 "-I%mrowG6#/I+modulename
+G6\"I,TypesettingGI(_syslibGF'6#-F#6%-I#miGF$6%Q#A2F'/%'italicGQ%trueF
+'/%,mathvariantGQ'italicF'-I#moGF$6-Q\"=F'/F5Q'normalF'/%&fenceGQ&fals
+eF'/%*separatorGF?/%)stretchyGF?/%*symmetricGF?/%(largeopGF?/%.movable
+limitsGF?/%'accentGF?/%'lspaceGQ50.2777777910232544emF'/%'rspaceGFN-I(
+mactionGF$6%-I(mfencedGF$6(-F#6#-I'mtableGF$68-I$mtrGF$6)-I$mtdGF$6(-I
+#mnGF$6$Q\"0F'F;/%)rowalignGQ!F'/%,columnalignGFbo/%+groupalignGFbo/%(
+rowspanGQ\"1F'/%+columnspanGFioFin-Fjn6(-F]o6$Q\"1F'F;F`oFcoFeoFgoFjoF
+inF`oFcoFeo-Fgn6)FinFinFinF\\pF`oFcoFeo-Fgn6)Fin-Fjn6(-I&mfracGF$6(-F#
+6#-I%msubGF$6%-F.6%Q\"KF'F1F4-F#6#-F.6%Q#s2F'F1F4/%/subscriptshiftGQ\"
+0F'-F#6#-F]q6%-F.6%Q\"JF'F1F4-F#6#-F]o6$Q#21F'F;Fgq/%.linethicknessGFi
+o/%+denomalignGQ'centerF'/%)numalignGFjr/%)bevelledGF?F`oFcoFeoFgoFjo-
+Fjn6(-F#6$-F86-Q*&uminus0;F'F;F=F@FBFDFFFHFJ/FMQ50.2222221940755844emF
+'/FPFgs-Fhp6(-F#6#-F]q6%-F.6%Q\"BF'F1F4FarFgqFjqFfrFhrF[sF]sF`oFcoFeoF
+goFjo-Fjn6(-Fhp6(-F#6#-F]q6%F_t-F#6#-F]o6$Q#22F'F;FgqFjqFfrFhrF[sF]sF`
+oFcoFeoFgoFjoF`oFcoFeo-Fgn6)Fin-Fjn6(-F#6$Fcs-Fhp6(-F#6%-FU6$-F#6%F\\r
+-F86-Q\"+F'F;F=F@FBFDFFFHFJFfsFhs-F]q6%F^rFjtFgqF;-F86-Q1&InvisibleTim
+es;F'F;F=F@FBFDFFFHFJ/FMQ&0.0emF'/FPFfvF\\q-F#6%F\\rFbvF`vFfrFhrF[sF]s
+F`oFcoFeoFgoFjo-Fjn6(FisF`oFcoFeoFgoFjo-Fjn6(-F#6$Fcs-Fhp6(-F#6%FhtFbv
+FiuFhvFfrFhrF[sF]sF`oFcoFeoFgoFjoF`oFcoFeo/%&alignGQ%axisF'/FaoQ)basel
+ineF'/FdoFjr/FfoQ'|frleft|hrF'/%/alignmentscopeGF3/%,columnwidthGQ%aut
+oF'/%&widthGF`x/%+rowspacingGQ&1.0exF'/%.columnspacingGQ&0.8emF'/%)row
+linesGQ%noneF'/%,columnlinesGF[y/%&frameGF[y/%-framespacingGQ,0.4em~0.
+5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-displaystyleGF?/%%sideGQ&righ
+tF'/%0minlabelspacingGFhxF;/I+msemanticsGF$Q'MatrixF'/%%openGQ\"[F'/%&
+closeGQ\"]F'F^z/%+actiontypeGQ.rtableaddressF'/%)rtableidGQ)19696332F'
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "#lprint( A_ss );" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "B_ss := Matrix( Nx, Nu ):" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "B_ss := deriveB( Xqdd, B_s
+s, Nq, subs_XUzero ): 'B2' = B_ss;" }}{PARA 11 "" 1 "" {XPPMATH 20 "-I
+%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-F#6%-I#miGF$6%Q#
+B2F'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-I#moGF$6-Q\"=F'/F5Q'no
+rmalF'/%&fenceGQ&falseF'/%*separatorGF?/%)stretchyGF?/%*symmetricGF?/%
+(largeopGF?/%.movablelimitsGF?/%'accentGF?/%'lspaceGQ50.27777779102325
+44emF'/%'rspaceGFN-I(mactionGF$6%-I(mfencedGF$6(-F#6#-I'mtableGF$68-I$
+mtrGF$6&-I$mtdGF$6(-I#mnGF$6$Q\"0F'F;/%)rowalignGQ!F'/%,columnalignGFb
+o/%+groupalignGFbo/%(rowspanGQ\"1F'/%+columnspanGFioF`oFcoFeoFfn-Fgn6&
+-Fjn6(-I&mfracGF$6(-F#6#-I%msubGF$6%-F.6%Q\"KF'F1F4-F#6#-F.6%Q#t2F'F1F
+4/%/subscriptshiftGQ\"0F'-F#6#-Ffp6%-F.6%Q\"JF'F1F4-F#6#-F]o6$Q#21F'F;
+F`q/%.linethicknessGFio/%+denomalignGQ'centerF'/%)numalignGFcr/%)bevel
+ledGF?F`oFcoFeoFgoFjoF`oFcoFeo-Fgn6&-Fjn6(-F#6$-F86-Q*&uminus0;F'F;F=F
+@FBFDFFFHFJ/FMQ50.2222221940755844emF'/FPFbsF`pF`oFcoFeoFgoFjoF`oFcoFe
+o/%&alignGQ%axisF'/FaoQ)baselineF'/FdoFcr/FfoQ'|frleft|hrF'/%/alignmen
+tscopeGF3/%,columnwidthGQ%autoF'/%&widthGF`t/%+rowspacingGQ&1.0exF'/%.
+columnspacingGQ&0.8emF'/%)rowlinesGQ%noneF'/%,columnlinesGF[u/%&frameG
+F[u/%-framespacingGQ,0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-
+displaystyleGF?/%%sideGQ&rightF'/%0minlabelspacingGFhtF;/I+msemanticsG
+F$Q'MatrixF'/%%openGQ\"[F'/%&closeGQ\"]F'F^v/%+actiontypeGQ.rtableaddr
+essF'/%)rtableidGQ)19736236F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "#lprint( B_ss );" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "#
+C_ss := IdentityMatrix( Ny, Nx ):\n" }{MPLTEXT 1 0 34 "C_ss := Identit
+yMatrix( Nx, Nx ):\n" }{MPLTEXT 1 0 12 "'C2' = C_ss;" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6
+#-F#6%-I#miGF$6%Q#C2F'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-I#mo
+GF$6-Q\"=F'/F5Q'normalF'/%&fenceGQ&falseF'/%*separatorGF?/%)stretchyGF
+?/%*symmetricGF?/%(largeopGF?/%.movablelimitsGF?/%'accentGF?/%'lspaceG
+Q50.2777777910232544emF'/%'rspaceGFN-I(mactionGF$6%-I(mfencedGF$6(-F#6
+#-I'mtableGF$68-I$mtrGF$6)-I$mtdGF$6(-I#mnGF$6$Q\"1F'F;/%)rowalignGQ!F
+'/%,columnalignGFbo/%+groupalignGFbo/%(rowspanGQ\"1F'/%+columnspanGFio
+-Fjn6(-F]o6$Q\"0F'F;F`oFcoFeoFgoFjoF\\pF\\pF`oFcoFeo-Fgn6)F\\pFinF\\pF
+\\pF`oFcoFeo-Fgn6)F\\pF\\pFinF\\pF`oFcoFeo-Fgn6)F\\pF\\pF\\pFinF`oFcoF
+eo/%&alignGQ%axisF'/FaoQ)baselineF'/FdoQ&rightF'/FfoQ'|frleft|hrF'/%/a
+lignmentscopeGF3/%,columnwidthGQ%autoF'/%&widthGFdq/%+rowspacingGQ&1.0
+exF'/%.columnspacingGQ&0.8emF'/%)rowlinesGQ%noneF'/%,columnlinesGF_r/%
+&frameGF_r/%-framespacingGQ,0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumn
+sGF?/%-displaystyleGF?/%%sideGF]q/%0minlabelspacingGF\\rF;/I+msemantic
+sGF$Q'MatrixF'/%%openGQ\"[F'/%&closeGQ\"]F'Fas/%+actiontypeGQ.rtablead
+dressF'/%)rtableidGQ)19789220F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 16 "#lprint( C_ss );" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 
+"D_ss := Matrix( Nx, Nu, 0 ):\n" }{MPLTEXT 1 0 12 "'D2' = D_ss;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "-I%mrowG6#/I+modulenameG6\"I,Typesetting
+GI(_syslibGF'6#-F#6%-I#miGF$6%Q#D2F'/%'italicGQ%trueF'/%,mathvariantGQ
+'italicF'-I#moGF$6-Q\"=F'/F5Q'normalF'/%&fenceGQ&falseF'/%*separatorGF
+?/%)stretchyGF?/%*symmetricGF?/%(largeopGF?/%.movablelimitsGF?/%'accen
+tGF?/%'lspaceGQ50.2777777910232544emF'/%'rspaceGFN-I(mactionGF$6%-I(mf
+encedGF$6(-F#6#-I'mtableGF$68-I$mtrGF$6&-I$mtdGF$6(-I#mnGF$6$Q\"0F'F;/
+%)rowalignGQ!F'/%,columnalignGFbo/%+groupalignGFbo/%(rowspanGQ\"1F'/%+
+columnspanGFioF`oFcoFeoFfnFfnFfn/%&alignGQ%axisF'/FaoQ)baselineF'/FdoQ
+&rightF'/FfoQ'|frleft|hrF'/%/alignmentscopeGF3/%,columnwidthGQ%autoF'/
+%&widthGFip/%+rowspacingGQ&1.0exF'/%.columnspacingGQ&0.8emF'/%)rowline
+sGQ%noneF'/%,columnlinesGFdq/%&frameGFdq/%-framespacingGQ,0.4em~0.5exF
+'/%*equalrowsGF?/%-equalcolumnsGF?/%-displaystyleGF?/%%sideGFbp/%0minl
+abelspacingGFaqF;/I+msemanticsGF$Q'MatrixF'/%%openGQ\"[F'/%&closeGQ\"]
+F'Ffr/%+actiontypeGQ.rtableaddressF'/%)rtableidGQ)19800488F'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "#lprint( D_ss );" }}}}{SECT 
+0 {PARA 3 "" 0 "" {TEXT 231 37 "Write A, B, C, and D to a Matlab file"
+ }}{PARA 0 "" 0 "" {TEXT 234 61 "Save the state-space matrices A, B, C
+ and D to a MATLAB file." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "
+Matlab_File_Name := \"eqn_2DSFL_Stage2.m\":" }}}{EXCHG {PARA 0 "" 0 ""
+ {TEXT 234 96 "unassign variables, when necessary, for those present i
+n the \"Matlab_Notations\" substitution set" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "if assigned( B[21] ) then\n" }{MPLTEXT 1 0 23 "  unas
+sign( 'B[21]' );\n" }{MPLTEXT 1 0 7 "end if;" }}}{EXCHG {PARA 0 "> " 0
+ "" {MPLTEXT 1 0 26 "if assigned( B[22] ) then\n" }{MPLTEXT 1 0 23 "  \+
+unassign( 'B[22]' );\n" }{MPLTEXT 1 0 7 "end if;" }}}{EXCHG {PARA 0 ""
+ 0 "" {TEXT 234 95 "substitution set containing a notation consistent \+
+with that used in the MATLAB design script(s)" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 102 "Matlab_Notations := \{ J[21] = J21, J[22] = J22, K[s
+2] = Ks2, B[21] = B21, B[22] = B22, K[t2] = Ktg2 \}:" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 69 "Experiment_Name := \"2-DOF Serial Flexibl
+e Link Robot (Second Stage)\":" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 99 "write_ABCD_to_Mfile( Matlab_File_Name, Experiment_Name, Matlab
+_Notations, A_ss, B_ss, C_ss, D_ss );" }}}}{SECT 0 {PARA 3 "" 0 "" 
+{TEXT 231 18 "Procedure Printing" }}{EXCHG {PARA 0 "" 0 "" {TEXT 234 
+8 "default:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "#interface( verbosep
+roc = 1 );" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "eval( lagrang
+e_equations ):" }}}{EXCHG }{EXCHG }{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}}{EXCHG {PARA 0 "" 0 "" {TEXT 234 0 "" }{HYPERLNK 17 "Clic
+k here to go back to top: Description Section" 1 "" "Description" }
+{TEXT 234 1 "." }}}}
+{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2
+ 33 1 1 }

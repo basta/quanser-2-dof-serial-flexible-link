@@ -1,0 +1,2520 @@
+{VERSION 5 0 "Windows XP" "5.0" }
+{USTYLETAB {PSTYLE "Ordered List 1" -1 200 1 {CSTYLE "" -1 -1 "Times"
+ 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Ordered List 2" -1 201 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 36 2 0 2 2 -1 1 }{PSTYLE "Ordered
+ List 3" -1 202 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+0 0 1 }1 1 0 0 3 3 2 72 2 0 2 2 -1 1 }{PSTYLE "Ordered List 4" -1 203 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3
+ 3 2 108 2 0 2 2 -1 1 }{PSTYLE "Ordered List 5" -1 204 1 {CSTYLE "" -1
+ -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 144 2 0 2 
+2 -1 1 }{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1
+ 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 8 8 2 0 2 0 2 2 -1 1 }{PSTYLE "Annotatio
+n Title" -1 205 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 
+0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }{PSTYLE "Warning" -1 7 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0
+ 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Fixed Width" -1 17 1 {CSTYLE "" -1 -1 
+"Courier" 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1
+ 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1
+ 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Line Prin
+ted Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2
+ 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal256" -1 206 1
+ {CSTYLE "" -1 -1 "Times" 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 
+0 2 0 2 0 2 2 -1 1 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Cou
+rier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1
+ }{PSTYLE "Diagnostic" -1 9 1 {CSTYLE "" -1 -1 "Courier" 1 10 64 128 
+64 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Help"
+ -1 10 1 {CSTYLE "" -1 -1 "Courier" 1 9 0 0 255 1 2 2 2 2 2 1 1 0 0 1 
+}1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Maple Output259" -1 207 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0
+ 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal258" -1 208 1 {CSTYLE "" -1 -1 "Time
+s" 1 12 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Author257" -1 209 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 1 0 0 1 }3 1 0 0 8
+ 8 2 0 2 0 2 2 -1 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 
+}{PSTYLE "Dash Item" -1 16 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2
+ 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Title" -1 18 
+1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 0 0 1 }3 1 0 0 
+12 12 2 0 2 0 2 2 -1 1 }{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Couri
+er" 1 10 255 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1
+ }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1
+ 2 2 2 2 1 0 0 1 }1 1 0 0 8 4 2 0 2 0 2 2 -1 1 }{PSTYLE "Bullet Item" 
+-1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1
+ 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 4" -1 20 1 {CSTYLE "" -1 
+-1 "Times" 1 10 0 0 0 1 1 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 
+-1 1 }{PSTYLE "Heading 3" -1 5 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1
+ 1 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 2
+" -1 4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 
+1 0 0 8 2 2 0 2 0 2 2 -1 1 }{PSTYLE "Left Justified Maple Output" -1 
+12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 
+0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "List Item" -1 14 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 
+}{CSTYLE "Annotation Text" -1 200 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0
+ 0 1 }{CSTYLE "Help Maple Name" -1 35 "Times" 1 12 104 64 92 1 2 1 2 2
+ 2 2 0 0 0 1 }{CSTYLE "2D Math Bold" -1 5 "Times" 1 12 0 0 0 1 2 1 2 2
+ 2 2 0 0 0 1 }{CSTYLE "Help Menus" -1 36 "Times" 1 12 0 0 0 1 2 1 2 2 
+2 2 0 0 0 1 }{CSTYLE "2D Math Italic" -1 3 "Times" 1 12 0 0 0 1 1 2 2 
+2 2 2 0 0 0 1 }{CSTYLE "Help Normal" -1 30 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 0 0 0 1 }{CSTYLE "Plot Text" -1 28 "Times" 1 8 0 0 0 1 2 2 2 2 2
+ 2 0 0 0 1 }{CSTYLE "Help Nonterminal" -1 24 "Courier" 1 12 0 0 0 1 2 
+1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Heading" -1 26 "Times" 1 14 0 0 0 1 2
+ 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Italic" -1 42 "Times" 1 12 0 0 0 1 1
+ 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Variable" -1 25 "Courier" 1 12 0 0 0
+ 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Italic Bold" -1 40 "Times" 1 12 
+0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Default" -1 38 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined Italic" -1 43 "Times
+" 1 12 0 0 0 1 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "Maple Input" -1 0 "Courie
+r" 1 12 255 0 0 1 2 1 2 2 1 2 0 0 0 1 }{CSTYLE "2D Output" -1 20 "Time
+s" 1 12 0 0 255 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Bold Small" -1
+ 10 "Times" 1 1 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Small" 
+-1 7 "Times" 1 1 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Page Number" -1
+ 33 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Output Labels" 
+-1 29 "Times" 1 8 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Plot Title" -1
+ 27 "Times" 1 10 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Emphasized
+" -1 22 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Sym
+bol 2" -1 16 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Maple \+
+Comment" -1 21 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Ma
+ple Input Placeholder" -1 201 "Courier" 1 12 200 0 200 1 2 1 2 2 1 2 0
+ 0 0 1 }{CSTYLE "Code" -1 202 "Courier" 1 12 255 0 0 1 2 2 2 2 2 2 0 0
+ 0 1 }{CSTYLE "2D Inert Output" -1 203 "Times" 1 12 144 144 144 1 2 2 
+2 2 1 2 0 0 0 1 }{CSTYLE "2D Math Italic Small" -1 204 "Times" 1 1 0 0
+ 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Comment" -1 18 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined Bold" -1 41 "Times" 
+1 12 0 0 0 1 1 1 2 2 2 2 0 0 0 1 }{CSTYLE "Copyright" -1 34 "Times" 1 
+10 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Hyperlink" -1 17 "Times" 1 12
+ 0 128 128 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined" -1 44 "Tim
+es" 1 12 0 0 0 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Prompt" -1 1 "Courier" 
+1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Input" -1 19 "Times" 1 12 255
+ 0 0 1 2 2 2 2 1 2 0 0 0 1 }{CSTYLE "Text" -1 205 "Times" 1 12 0 0 0 1
+ 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Notes" -1 37 "Times" 1 12 0 0 0 1 
+2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Bold" -1 39 "Times" 1 12 0 0 0 1 2 
+1 2 2 2 2 0 0 0 1 }{CSTYLE "Equation Label" -1 206 "Times" 1 12 0 0 0 
+1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "LaTeX" -1 32 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 0 0 0 1 }{CSTYLE "Popup" -1 31 "Times" 1 12 0 128 128 1 1 2 1 
+2 2 2 0 0 0 1 }{CSTYLE "Dictionary Hyperlink" -1 45 "Times" 1 12 147 0
+ 15 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Help Fixed" -1 23 "Courier" 1 10 0
+ 0 0 1 2 2 2 2 2 2 0 0 0 1 }{PSTYLE "" -1 210 1 {CSTYLE "" -1 -1 "Time
+s" 1 20 0 0 0 1 2 1 1 2 2 2 1 0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }
+{PSTYLE "" -1 211 1 {CSTYLE "" -1 -1 "Times" 1 20 0 0 0 1 2 1 1 2 2 2 
+1 0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }{PSTYLE "" -1 212 1 {CSTYLE "
+" -1 -1 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 
+0 2 2 -1 1 }}
+{SECT 0 {EXCHG {PARA 210 "" 0 "" {TEXT 205 34 "Modelling Equations Fo
+r A DC Motor" }}{PARA 211 "" 0 "" {TEXT 205 26 "And PV Position Contro
+ller" }}{PARA 209 "" 0 "" {TEXT 205 1 "\251" }{TEXT 207 29 " 2008 Quan
+ser Consulting Inc." }}{PARA 19 "" 0 "" {TEXT 205 5 "URL: " }{HYPERLNK
+ 17 "http://www.quanser.com" 4 "http://www.quanser.com" "" }{TEXT 208 
+0 "" }}}{SECT 0 {PARA 3 "" 0 "Description" {TEXT 209 11 "Description" 
+}}{EXCHG {PARA 15 "" 0 "" {TEXT 210 84 "This worksheet presents the eq
+uations related to the position control of a DC motor." }}}}{SECT 0 
+{PARA 3 "" 0 "" {TEXT 209 24 "Worksheet Initialization" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "restart: interface( imaginaryunit=j
+ ):" }{TEXT 211 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "with
+(inttrans):" }}}{EXCHG {PARA 0 "" 0 "" {XPPEDIT 18 0 "Typesetting:-mro
+w(Typesetting:-msub(Typesetting:-mi(\"\1670\", italic = \"false\", mat
+hvariant = \"normal\"), Typesetting:-mrow(Typesetting:-mi(\"l\", itali
+c = \"true\", mathvariant = \"italic\")), subscriptshift = \"0\"));" "
+-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#
+miGF$6%Q(&theta;F'/%'italicGQ&falseF'/%,mathvariantGQ'normalF'-F#6#-F/
+6%Q\"lF'/F3Q%trueF'/F6Q'italicF'/%/subscriptshiftGQ\"0F'" }{TEXT 211 
+36 " = first load angular position [rad]" }}{PARA 0 "> " 0 "" {MPLTEXT
+ 1 0 49 "alias( Theta[1] = laplace( theta[1](t), t, s ) ):" }}}{EXCHG 
+{PARA 0 "" 0 "" {XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-msub(Typ
+esetting:-mi(\"T\", italic = \"true\", mathvariant = \"italic\"), Type
+setting:-mrow(Typesetting:-mi(\"l\", italic = \"true\", mathvariant = \+
+\"italic\")), subscriptshift = \"0\"));" "-I%mrowG6#/I+modulenameG6\"I
+,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"TF'/%'italicGQ%tru
+eF'/%,mathvariantGQ'italicF'-F#6#-F/6%Q\"lF'F2F5/%/subscriptshiftGQ\"0
+F'" }{TEXT 211 48 " = Torque produced by the motor at the load gear" }
+}{PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "alias( T[1] = laplace( tq[1](t), t
+, s ) ):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 0 
+{PARA 3 "" 0 "" {TEXT 209 57 "DC Motor System Definition - Laplace Rep
+resentation: G(s)" }}{PARA 0 "" 0 "" {TEXT 211 54 "This section models
+ the motor system to be controlled." }}{EXCHG {PARA 0 "" 0 "" {TEXT 
+211 47 "motor transfer function (in the Laplace domain)" }}{PARA 0 "> 
+" 0 "" {MPLTEXT 1 0 27 "G[j1] := 'Theta[1] / I[1]';" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>&%\"GG6#%#j1G*&&%&ThetaG6#\"\"\"\"\"\"&%\"IG6#\"\"\"
+!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 211 75 "Newton's second law of \+
+motion (i.e. equation of motion in the time domain):" }}{PARA 0 "> " 0
+ "" {MPLTEXT 1 0 97 "NEWTON_EQ_DT := J[eq1] * diff( theta[1](t), t$2 )
+ = tq[1]( t ) - B[eq1] * diff( theta[1](t), t );" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%-NEWTON_EQ_DTG/*&&%\"JG6#%$eq1G\"\"\"-%%diffG6$-&%&th
+etaG6#\"\"\"6#%\"tG-%\"$G6$%\"tG\"\"#\"\"\",&-&%#tqG6#\"\"\"6#%\"tG\"
+\"\"*&&%\"BG6#%$eq1G\"\"\"-%%diffG6$-&%&thetaG6#\"\"\"6#%\"tG%\"tG\"\"
+\"!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "NEWTON_EQ_S := l
+aplace( NEWTON_EQ_DT, t, s );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%,NE
+WTON_EQ_SG/*&&%\"JG6#%$eq1G\"\"\",&*&%\"sG\"\"\",&*&%\"sG\"\"\"&%&Thet
+aG6#\"\"\"\"\"\"\"\"\"-&%&thetaG6#\"\"\"6#\"\"!!\"\"\"\"\"\"\"\"--%\"D
+G6#&%&thetaG6#\"\"\"6#\"\"!!\"\"\"\"\",&&%\"TG6#\"\"\"\"\"\"*&&%\"BG6#
+%$eq1G\"\"\",&*&%\"sG\"\"\"&%&ThetaG6#\"\"\"\"\"\"\"\"\"-&%&thetaG6#\"
+\"\"6#\"\"!!\"\"\"\"\"!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 211 31 "t
+he initial conditions are null" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "I
+C := \{ theta[1](0) = 0, D(theta[1])(0) = 0 \}:" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT 211 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "NEWTON_EQ_S :
+= subs( IC, NEWTON_EQ_S );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%,NEWTO
+N_EQ_SG/*(&%\"JG6#%$eq1G\"\"\")%\"sG\"\"#\"\"\"&%&ThetaG6#\"\"\"\"\"\"
+,&&%\"TG6#\"\"\"\"\"\"*(&%\"BG6#%$eq1G\"\"\"%\"sG\"\"\"&%&ThetaG6#\"\"
+\"\"\"\"!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 211 32 "Torque generate
+d by the DC motor" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "T[1] := K[t] *
+ I[1];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"TG6#\"\"\"*&&%\"KG6#%\"
+tG\"\"\"&%\"IG6#\"\"\"\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 211 33 "
+Back-ElectroMotive-Force Voltage:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+28 "E[emf] := 'K[m] * Omega[m]';" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&
+%\"EG6#%$emfG*&&%\"KG6#%\"mG\"\"\"&%&OmegaG6#%\"mG\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "Omega[l] := Theta[1] * s;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%&OmegaG6#%\"lG*&%\"sG\"\"\"&%&ThetaG6#\"
+\"\"\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "NEWTON_EQ_S :
+= collect( NEWTON_EQ_S, \{ s, Theta[1] \} );" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%,NEWTON_EQ_SG/*(&%\"JG6#%$eq1G\"\"\")%\"sG\"\"#\"\"\"
+&%&ThetaG6#\"\"\"\"\"\",&*&&%\"KG6#%\"tG\"\"\"&%\"IG6#\"\"\"\"\"\"\"\"
+\"*(&%\"BG6#%$eq1G\"\"\"%\"sG\"\"\"&%&ThetaG6#\"\"\"\"\"\"!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "Theta[1] := solve( NEWTON_EQ
+_S, Theta[1] );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%&ThetaG6#\"\"\"*
+*&%\"KG6#%\"tG\"\"\"&%\"IG6#\"\"\"\"\"\"%\"sG!\"\",&*&&%\"JG6#%$eq1G\"
+\"\"%\"sG\"\"\"\"\"\"&%\"BG6#%$eq1G\"\"\"!\"\"" }}}{EXCHG {PARA 0 "> "
+ 0 "" {MPLTEXT 1 0 26 "G[j1] := sort( G[j1], s );" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"GG6#%#j1G*(&%\"KG6#%\"tG\"\"\",&*&&%\"JG6#%$eq1G\"
+\"\"%\"sG\"\"\"\"\"\"&%\"BG6#%$eq1G\"\"\"!\"\"%\"sG!\"\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 211 4 "and " }{XPPEDIT 18 0 "Typesetting:-mrow(T
+ypesetting:-mi(\"\", italic = \"true\", executable = \"true\", font_st
+yle_name = \"2D Input\", mathvariant = \"italic\"), Typesetting:-mrow(
+Typesetting:-msub(Typesetting:-mi(\"J\", italic = \"true\", mathvarian
+t = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"eq\", italic = \"
+true\", mathvariant = \"italic\")), subscriptshift = \"0\"), Typesetti
+ng:-mo(\":=\", mathvariant = \"normal\", fence = \"false\", separator \+
+= \"false\", stretchy = \"false\", symmetric = \"false\", largeop = \"
+false\", movablelimits = \"false\", accent = \"false\", lspace = \"0.2
+777777910232544em\", rspace = \"0.2777777910232544em\"), Typesetting:-
+mrow(Typesetting:-msub(Typesetting:-mi(\"J\", italic = \"true\", mathv
+ariant = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"l\", italic \+
+= \"true\", mathvariant = \"italic\")), subscriptshift = \"0\"), Types
+etting:-mo(\"+\", mathvariant = \"normal\", fence = \"false\", separat
+or = \"false\", stretchy = \"false\", symmetric = \"false\", largeop =
+ \"false\", movablelimits = \"false\", accent = \"false\", lspace = \"
+0.2222221940755844em\", rspace = \"0.2222221940755844em\"), Typesettin
+g:-mrow(Typesetting:-msub(Typesetting:-mi(\"\1667\", italic = \"false
+\", mathvariant = \"normal\"), Typesetting:-mrow(Typesetting:-mi(\"g\"
+, italic = \"true\", mathvariant = \"italic\")), subscriptshift = \"0
+\"), Typesetting:-mo(\"&InvisibleTimes;\", mathvariant = \"normal\", f
+ence = \"false\", separator = \"false\", stretchy = \"false\", symmetr
+ic = \"false\", largeop = \"false\", movablelimits = \"false\", accent
+ = \"false\", lspace = \"0.0em\", rspace = \"0.0em\"), Typesetting:-mr
+ow(Typesetting:-msubsup(Typesetting:-mi(\"K\", italic = \"true\", math
+variant = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"g\", italic
+ = \"true\", mathvariant = \"italic\")), Typesetting:-mn(\"2\", mathva
+riant = \"normal\"), superscriptshift = \"0\", subscriptshift = \"0\")
+), Typesetting:-mo(\"&InvisibleTimes;\", mathvariant = \"normal\", fen
+ce = \"false\", separator = \"false\", stretchy = \"false\", symmetric
+ = \"false\", largeop = \"false\", movablelimits = \"false\", accent =
+ \"false\", lspace = \"0.0em\", rspace = \"0.0em\"), Typesetting:-msub
+(Typesetting:-mi(\"J\", italic = \"true\", mathvariant = \"italic\"), \+
+Typesetting:-mrow(Typesetting:-mi(\"m\", italic = \"true\", mathvarian
+t = \"italic\")), subscriptshift = \"0\")), Typesetting:-mi(\"\", ital
+ic = \"true\", executable = \"true\", font_style_name = \"2D Input\", \+
+mathvariant = \"italic\")), Typesetting:-mi(\"\", italic = \"true\", e
+xecutable = \"true\", font_style_name = \"2D Input\", mathvariant = \"
+italic\")), Typesetting:-mi(\"\", italic = \"true\", executable = \"tr
+ue\", font_style_name = \"2D Input\", mathvariant = \"italic\"));" "-I
+%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'
+italicGQ%trueF'/%+executableGF1/%0font_style_nameGQ)2D~InputF'/%,mathv
+ariantGQ'italicF'-F#6&-I%msubGF$6%-F,6%Q\"JF'F/F7-F#6#-F,6%Q#eqF'F/F7/
+%/subscriptshiftGQ\"0F'-I#moGF$6-Q#:=F'/F8Q'normalF'/%&fenceGQ&falseF'
+/%*separatorGFR/%)stretchyGFR/%*symmetricGFR/%(largeopGFR/%.movablelim
+itsGFR/%'accentGFR/%'lspaceGQ50.2777777910232544emF'/%'rspaceGF[o-F#6&
+-F=6%F?-F#6#-F,6%Q\"lF'F/F7FG-FK6-Q\"+F'FNFPFSFUFWFYFenFgn/FjnQ50.2222
+221940755844emF'/F]oF[p-F#6'-F=6%-F,6%Q&&eta;F'/F0FRFN-F#6#-F,6%Q\"gF'
+F/F7FG-FK6-Q1&InvisibleTimes;F'FNFPFSFUFWFYFenFgn/FjnQ&0.0emF'/F]oF^q-
+F#6#-I(msubsupGF$6'-F,6%Q\"KF'F/F7Fep-I#mnGF$6$Q\"2F'FN/%1superscripts
+hiftGFIFGFjp-F=6%F?-F#6#-F,6%Q\"mF'F/F7FGF+F+F+" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT 211 40 "Open Loop (i.e. SRV02) Transfer Function" }}{PARA 0
+ "> " 0 "" {MPLTEXT 1 0 16 "'G[j1]' = G[j1];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/&%\"GG6#%#j1G*(&%\"KG6#%\"tG\"\"\",&*&&%\"JG6#%$eq1G\"
+\"\"%\"sG\"\"\"\"\"\"&%\"BG6#%$eq1G\"\"\"!\"\"%\"sG!\"\"" }}}{PARA 0 "
+" 0 "" {TEXT 211 0 "" }}}{EXCHG }{SECT 0 {PARA 3 "" 0 "" {TEXT 209 36 
+"Position Controller Characterisation" }}{SECT 0 {PARA 4 "" 0 "" {TEXT
+ 212 19 "PD Position Control" }}{PARA 0 "" 0 "" {TEXT 211 13 "Control \+
+Law: " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(\"\", italic \+
+= \"true\", executable = \"true\", font_style_name = \"2D Input\", mat
+hvariant = \"italic\"), Typesetting:-mrow(Typesetting:-msub(Typesettin
+g:-mi(\"I\", italic = \"true\", mathvariant = \"italic\"), Typesetting
+:-mrow(Typesetting:-mi(\"m\", italic = \"true\", mathvariant = \"itali
+c\")), subscriptshift = \"0\"), Typesetting:-mo(\"=\", mathvariant = \+
+\"normal\", fence = \"false\", separator = \"false\", stretchy = \"fal
+se\", symmetric = \"false\", largeop = \"false\", movablelimits = \"fa
+lse\", accent = \"false\", lspace = \"0.2777777910232544em\", rspace =
+ \"0.2777777910232544em\"), Typesetting:-mrow(Typesetting:-mi(\"\", it
+alic = \"true\", executable = \"true\", font_style_name = \"2D Input\"
+, mathvariant = \"italic\"), Typesetting:-mrow(Typesetting:-msub(Types
+etting:-mi(\"K\", italic = \"true\", mathvariant = \"italic\"), Typese
+tting:-mrow(Typesetting:-mi(\"p\", italic = \"true\", mathvariant = \"
+italic\")), subscriptshift = \"0\"), Typesetting:-mo(\"&InvisibleTimes
+;\", mathvariant = \"normal\", fence = \"false\", separator = \"false
+\", stretchy = \"false\", symmetric = \"false\", largeop = \"false\", \+
+movablelimits = \"false\", accent = \"false\", lspace = \"0.0em\", rsp
+ace = \"0.0em\"), Typesetting:-mfenced(Typesetting:-mrow(Typesetting:-
+msub(Typesetting:-mi(\"\1670\", italic = \"false\", mathvariant = \"no
+rmal\"), Typesetting:-mrow(Typesetting:-mi(\"l_d\", italic = \"true\",
+ mathvariant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(
+\"&minus;\", mathvariant = \"normal\", fence = \"false\", separator = \+
+\"false\", stretchy = \"false\", symmetric = \"false\", largeop = \"fa
+lse\", movablelimits = \"false\", accent = \"false\", lspace = \"0.222
+2221940755844em\", rspace = \"0.2222221940755844em\"), Typesetting:-ms
+ub(Typesetting:-mi(\"\1670\", italic = \"false\", mathvariant = \"norm
+al\"), Typesetting:-mrow(Typesetting:-mi(\"l\", italic = \"true\", mat
+hvariant = \"italic\")), subscriptshift = \"0\")), mathvariant = \"nor
+mal\")), Typesetting:-mo(\"&minus;\", mathvariant = \"normal\", fence \+
+= \"false\", separator = \"false\", stretchy = \"false\", symmetric = \+
+\"false\", largeop = \"false\", movablelimits = \"false\", accent = \"
+false\", lspace = \"0.2222221940755844em\", rspace = \"0.2222221940755
+844em\"), Typesetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"K\", i
+talic = \"true\", mathvariant = \"italic\"), Typesetting:-mrow(Typeset
+ting:-mi(\"d\", italic = \"true\", mathvariant = \"italic\")), subscri
+ptshift = \"0\"), Typesetting:-mo(\"&InvisibleTimes;\", mathvariant = \+
+\"normal\", fence = \"false\", separator = \"false\", stretchy = \"fal
+se\", symmetric = \"false\", largeop = \"false\", movablelimits = \"fa
+lse\", accent = \"false\", lspace = \"0.0em\", rspace = \"0.0em\"), Ty
+pesetting:-mfenced(Typesetting:-mrow(Typesetting:-msub(Typesetting:-mi
+(\"\1711\", italic = \"false\", mathvariant = \"normal\"), Typesetting
+:-mrow(Typesetting:-mi(\"l_d\", italic = \"true\", mathvariant = \"ita
+lic\")), subscriptshift = \"0\"), Typesetting:-mo(\"&minus;\", mathvar
+iant = \"normal\", fence = \"false\", separator = \"false\", stretchy \+
+= \"false\", symmetric = \"false\", largeop = \"false\", movablelimits
+ = \"false\", accent = \"false\", lspace = \"0.2222221940755844em\", r
+space = \"0.2222221940755844em\"), Typesetting:-msub(Typesetting:-mi(
+\"\1711\", italic = \"false\", mathvariant = \"normal\"), Typesetting:
+-mrow(Typesetting:-mi(\"l\", italic = \"true\", mathvariant = \"italic
+\")), subscriptshift = \"0\")), mathvariant = \"normal\")), Typesettin
+g:-mi(\"\", italic = \"true\", executable = \"true\", font_style_name \+
+= \"2D Input\", mathvariant = \"italic\")), Typesetting:-mi(\"\", ital
+ic = \"true\", executable = \"true\", font_style_name = \"2D Input\", \+
+mathvariant = \"italic\")), Typesetting:-mi(\"\", italic = \"true\", e
+xecutable = \"true\", font_style_name = \"2D Input\", mathvariant = \"
+italic\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6%-
+I#miGF$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/%0font_style_nameGQ)2D
+~InputF'/%,mathvariantGQ'italicF'-F#6&-I%msubGF$6%-F,6%Q\"IF'F/F7-F#6#
+-F,6%Q\"mF'F/F7/%/subscriptshiftGQ\"0F'-I#moGF$6-Q\"=F'/F8Q'normalF'/%
+&fenceGQ&falseF'/%*separatorGFR/%)stretchyGFR/%*symmetricGFR/%(largeop
+GFR/%.movablelimitsGFR/%'accentGFR/%'lspaceGQ50.2777777910232544emF'/%
+'rspaceGF[o-F#6'F+-F#6%-F=6%-F,6%Q\"KF'F/F7-F#6#-F,6%Q\"pF'F/F7FG-FK6-
+Q1&InvisibleTimes;F'FNFPFSFUFWFYFenFgn/FjnQ&0.0emF'/F]oF`p-I(mfencedGF
+$6$-F#6%-F=6%-F,6%Q(&theta;F'/F0FRFN-F#6#-F,6%Q$l_dF'F/F7FG-FK6-Q(&min
+us;F'FNFPFSFUFWFYFenFgn/FjnQ50.2222221940755844emF'/F]oFfq-F=6%Fip-F#6
+#-F,6%Q\"lF'F/F7FGFNFbq-F#6%-F=6%Fdo-F#6#-F,6%Q\"dF'F/F7FGF\\p-Fcp6$-F
+#6%-F=6%-F,6%Q(&omega;F'F\\qFNF]qFGFbq-F=6%F^sFjqFGFNF+F+F+" }}{PARA 0
+ "" 0 "" {TEXT 211 6 "where " }{XPPEDIT 18 0 "Typesetting:-mrow(Typese
+tting:-mi(\"\", italic = \"true\", executable = \"true\", font_style_n
+ame = \"2D Input\", mathvariant = \"italic\"), Typesetting:-mrow(Types
+etting:-msub(Typesetting:-mi(\"\1711\", italic = \"false\", mathvarian
+t = \"normal\"), Typesetting:-mrow(Typesetting:-mi(\"l\", italic = \"t
+rue\", mathvariant = \"italic\")), subscriptshift = \"0\"), Typesettin
+g:-mo(\"=\", mathvariant = \"normal\", fence = \"false\", separator = \+
+\"false\", stretchy = \"false\", symmetric = \"false\", largeop = \"fa
+lse\", movablelimits = \"false\", accent = \"false\", lspace = \"0.277
+7777910232544em\", rspace = \"0.2777777910232544em\"), Typesetting:-mr
+ow(Typesetting:-mfrac(Typesetting:-mrow(Typesetting:-mo(\"&PartialD;\"
+, foreground = \"[144,144,144]\", mathvariant = \"normal\", Typesettin
+g:-msemantics = \"inert\", fence = \"false\", separator = \"false\", s
+tretchy = \"false\", symmetric = \"false\", largeop = \"false\", movab
+lelimits = \"false\", accent = \"false\", lspace = \"0.0em\", rspace =
+ \"0.0em\")), Typesetting:-mrow(Typesetting:-mi(\"\", italic = \"true
+\", executable = \"true\", font_style_name = \"2D Input\", mathvariant
+ = \"italic\"), Typesetting:-mrow(Typesetting:-mo(\"&PartialD;\", fore
+ground = \"[144,144,144]\", mathvariant = \"normal\", Typesetting:-mse
+mantics = \"inert\", fence = \"false\", separator = \"false\", stretch
+y = \"false\", symmetric = \"false\", largeop = \"false\", movablelimi
+ts = \"false\", accent = \"false\", lspace = \"0.0em\", rspace = \"0.0
+em\"), Typesetting:-mi(\"t\", italic = \"true\", mathvariant = \"itali
+c\")), Typesetting:-mi(\"\", italic = \"true\", executable = \"true\",
+ font_style_name = \"2D Input\", mathvariant = \"italic\")), linethick
+ness = \"1\", denomalign = \"center\", numalign = \"center\", bevelled
+ = \"false\"), Typesetting:-mo(\"&InvisibleTimes;\", mathvariant = \"n
+ormal\", fence = \"false\", separator = \"false\", stretchy = \"false
+\", symmetric = \"false\", largeop = \"false\", movablelimits = \"fals
+e\", accent = \"false\", lspace = \"0.0em\", rspace = \"0.0em\"), Type
+setting:-msub(Typesetting:-mi(\"\1670\", italic = \"false\", mathvaria
+nt = \"normal\"), Typesetting:-mrow(Typesetting:-mi(\"l\", italic = \"
+true\", mathvariant = \"italic\")), subscriptshift = \"0\")), Typesett
+ing:-mi(\"\", italic = \"true\", executable = \"true\", font_style_nam
+e = \"2D Input\", mathvariant = \"italic\")), Typesetting:-mi(\"\", it
+alic = \"true\", executable = \"true\", font_style_name = \"2D Input\"
+, mathvariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6\"I,Typesetti
+ngGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/%0fo
+nt_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6&-I%msubGF$6%-F
+,6%Q(&omega;F'/F0Q&falseF'/F8Q'normalF'-F#6#-F,6%Q\"lF'F/F7/%/subscrip
+tshiftGQ\"0F'-I#moGF$6-Q\"=F'FD/%&fenceGFC/%*separatorGFC/%)stretchyGF
+C/%*symmetricGFC/%(largeopGFC/%.movablelimitsGFC/%'accentGFC/%'lspaceG
+Q50.2777777910232544emF'/%'rspaceGF\\o-F#6%-I&mfracGF$6(-F#6#-FO6/Q+&P
+artialD;F'/%+foregroundGQ.[144,144,144]F'FD/I+msemanticsGF$Q&inertF'FR
+FTFVFXFZFfnFhn/F[oQ&0.0emF'/F^oF`p-F#6%F+-F#6$Ffo-F,6%Q\"tF'F/F7F+/%.l
+inethicknessGQ\"1F'/%+denomalignGQ'centerF'/%)numalignGF^q/%)bevelledG
+FC-FO6-Q1&InvisibleTimes;F'FDFRFTFVFXFZFfnFhnF_pFap-F=6%-F,6%Q(&theta;
+F'FBFDFFFKF+F+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "G[c] := 'K
+[p] + K[d] * s';" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"GG6#%\"cG,&&%
+\"KG6#%\"pG\"\"\"*&&%\"KG6#%\"dG\"\"\"%\"sG\"\"\"\"\"\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 211 14 "unity feedback" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "H := '1';" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"HG\"
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "T[pd] := G[c] * G[j
+1] / ( 1 + G[c] * G[j1] * H );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%
+\"TG6#%#pdG*,,&&%\"KG6#%\"pG\"\"\"*&&%\"KG6#%\"dG\"\"\"%\"sG\"\"\"\"\"
+\"\"\"\"&%\"KG6#%\"tG\"\"\",&*&&%\"JG6#%$eq1G\"\"\"%\"sG\"\"\"\"\"\"&%
+\"BG6#%$eq1G\"\"\"!\"\"%\"sG!\"\",&\"\"\"\"\"\"**,&&%\"KG6#%\"pG\"\"\"
+*&&%\"KG6#%\"dG\"\"\"%\"sG\"\"\"\"\"\"\"\"\"&%\"KG6#%\"tG\"\"\",&*&&%
+\"JG6#%$eq1G\"\"\"%\"sG\"\"\"\"\"\"&%\"BG6#%$eq1G\"\"\"!\"\"%\"sG!\"\"
+\"\"\"!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "T[pd] := sim
+plify( T[pd] );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"TG6#%#pdG*(,&&
+%\"KG6#%\"pG\"\"\"*&&%\"KG6#%\"dG\"\"\"%\"sG\"\"\"\"\"\"\"\"\"&%\"KG6#
+%\"tG\"\"\",**&&%\"JG6#%$eq1G\"\"\")%\"sG\"\"#\"\"\"\"\"\"*&&%\"BG6#%$
+eq1G\"\"\"%\"sG\"\"\"\"\"\"*&&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"pG\"\"\"\"
+\"\"*(&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"dG\"\"\"%\"sG\"\"\"\"\"\"!\"\"" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "char_eqn[pd] := collect( de
+nom( T[pd] ), s );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%)char_eqnG6#%
+#pdG,(*&&%\"JG6#%$eq1G\"\"\")%\"sG\"\"#\"\"\"\"\"\"*&,&&%\"BG6#%$eq1G
+\"\"\"*&&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"dG\"\"\"\"\"\"\"\"\"%\"sG\"\"\"
+\"\"\"*&&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"pG\"\"\"\"\"\"" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT 211 99 "Same characteristic equation as with a PV cont
+roller (as seen below: char_eqn[pd] == char_eqn[pv])." }}{PARA 0 "" 0 
+"" {TEXT 211 105 "However, a PD controller introduces an unaccounted z
+ero in the closed-loop transfer function (see T[pd])." }}}}{SECT 0 
+{PARA 4 "" 0 "" {TEXT 212 19 "PV Position Control" }}{PARA 15 "" 0 "" 
+{TEXT 210 13 "Control Law: " }{XPPEDIT 18 0 "Typesetting:-mrow(Typeset
+ting:-mi(\"\", italic = \"true\", executable = \"true\", font_style_na
+me = \"2D Input\", mathvariant = \"italic\"), Typesetting:-mrow(Typese
+tting:-msub(Typesetting:-mi(\"I\", italic = \"true\", mathvariant = \"
+italic\"), Typesetting:-mrow(Typesetting:-mi(\"m\", italic = \"true\",
+ mathvariant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(
+\"=\", mathvariant = \"normal\", fence = \"false\", separator = \"fals
+e\", stretchy = \"false\", symmetric = \"false\", largeop = \"false\",
+ movablelimits = \"false\", accent = \"false\", lspace = \"0.277777791
+0232544em\", rspace = \"0.2777777910232544em\"), Typesetting:-mrow(Typ
+esetting:-mi(\"\", italic = \"true\", executable = \"true\", font_styl
+e_name = \"2D Input\", mathvariant = \"italic\"), Typesetting:-mrow(Ty
+pesetting:-msub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant \+
+= \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"p\", italic = \"tru
+e\", mathvariant = \"italic\")), subscriptshift = \"0\"), Typesetting:
+-mo(\"&InvisibleTimes;\", mathvariant = \"normal\", fence = \"false\",
+ separator = \"false\", stretchy = \"false\", symmetric = \"false\", l
+argeop = \"false\", movablelimits = \"false\", accent = \"false\", lsp
+ace = \"0.0em\", rspace = \"0.0em\"), Typesetting:-mfenced(Typesetting
+:-mrow(Typesetting:-msub(Typesetting:-mi(\"\1670\", italic = \"false\"
+, mathvariant = \"normal\"), Typesetting:-mrow(Typesetting:-mi(\"l_d\"
+, italic = \"true\", mathvariant = \"italic\")), subscriptshift = \"0
+\"), Typesetting:-mo(\"&minus;\", mathvariant = \"normal\", fence = \"
+false\", separator = \"false\", stretchy = \"false\", symmetric = \"fa
+lse\", largeop = \"false\", movablelimits = \"false\", accent = \"fals
+e\", lspace = \"0.2222221940755844em\", rspace = \"0.2222221940755844e
+m\"), Typesetting:-msub(Typesetting:-mi(\"\1670\", italic = \"false\",
+ mathvariant = \"normal\"), Typesetting:-mrow(Typesetting:-mi(\"l\", i
+talic = \"true\", mathvariant = \"italic\")), subscriptshift = \"0\"))
+, mathvariant = \"normal\")), Typesetting:-mo(\"&minus;\", mathvariant
+ = \"normal\", fence = \"false\", separator = \"false\", stretchy = \"
+false\", symmetric = \"false\", largeop = \"false\", movablelimits = \+
+\"false\", accent = \"false\", lspace = \"0.2222221940755844em\", rspa
+ce = \"0.2222221940755844em\"), Typesetting:-mrow(Typesetting:-msub(Ty
+pesetting:-mi(\"K\", italic = \"true\", mathvariant = \"italic\"), Typ
+esetting:-mrow(Typesetting:-mi(\"v\", italic = \"true\", mathvariant =
+ \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(\"&InvisibleTi
+mes;\", mathvariant = \"normal\", fence = \"false\", separator = \"fal
+se\", stretchy = \"false\", symmetric = \"false\", largeop = \"false\"
+, movablelimits = \"false\", accent = \"false\", lspace = \"0.0em\", r
+space = \"0.0em\"), Typesetting:-mfenced(Typesetting:-mrow(Typesetting
+:-mfrac(Typesetting:-mrow(Typesetting:-mo(\"&PartialD;\", foreground =
+ \"[144,144,144]\", mathvariant = \"normal\", Typesetting:-msemantics \+
+= \"inert\", fence = \"false\", separator = \"false\", stretchy = \"fa
+lse\", symmetric = \"false\", largeop = \"false\", movablelimits = \"f
+alse\", accent = \"false\", lspace = \"0.0em\", rspace = \"0.0em\")), \+
+Typesetting:-mrow(Typesetting:-mi(\"\", italic = \"true\", executable \+
+= \"true\", font_style_name = \"2D Input\", mathvariant = \"italic\"),
+ Typesetting:-mrow(Typesetting:-mo(\"&PartialD;\", foreground = \"[144
+,144,144]\", mathvariant = \"normal\", Typesetting:-msemantics = \"ine
+rt\", fence = \"false\", separator = \"false\", stretchy = \"false\", \+
+symmetric = \"false\", largeop = \"false\", movablelimits = \"false\",
+ accent = \"false\", lspace = \"0.0em\", rspace = \"0.0em\"), Typesett
+ing:-mi(\"t\", italic = \"true\", mathvariant = \"italic\")), Typesett
+ing:-mi(\"\", italic = \"true\", executable = \"true\", font_style_nam
+e = \"2D Input\", mathvariant = \"italic\")), linethickness = \"1\", d
+enomalign = \"center\", numalign = \"center\", bevelled = \"false\"), \+
+Typesetting:-mo(\"&InvisibleTimes;\", mathvariant = \"normal\", fence \+
+= \"false\", separator = \"false\", stretchy = \"false\", symmetric = \+
+\"false\", largeop = \"false\", movablelimits = \"false\", accent = \"
+false\", lspace = \"0.0em\", rspace = \"0.0em\"), Typesetting:-msub(Ty
+pesetting:-mi(\"\1670\", italic = \"false\", mathvariant = \"normal\")
+, Typesetting:-mrow(Typesetting:-mi(\"l\", italic = \"true\", mathvari
+ant = \"italic\")), subscriptshift = \"0\")), mathvariant = \"normal\"
+)), Typesetting:-mi(\"\", italic = \"true\", executable = \"true\", fo
+nt_style_name = \"2D Input\", mathvariant = \"italic\")), Typesetting:
+-mi(\"\", italic = \"true\", executable = \"true\", font_style_name = \+
+\"2D Input\", mathvariant = \"italic\")), Typesetting:-mi(\"\", italic
+ = \"true\", executable = \"true\", font_style_name = \"2D Input\", ma
+thvariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI
+(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/%0font_s
+tyle_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6&-I%msubGF$6%-F,6%Q
+\"IF'F/F7-F#6#-F,6%Q\"mF'F/F7/%/subscriptshiftGQ\"0F'-I#moGF$6-Q\"=F'/
+F8Q'normalF'/%&fenceGQ&falseF'/%*separatorGFR/%)stretchyGFR/%*symmetri
+cGFR/%(largeopGFR/%.movablelimitsGFR/%'accentGFR/%'lspaceGQ50.27777779
+10232544emF'/%'rspaceGF[o-F#6'F+-F#6%-F=6%-F,6%Q\"KF'F/F7-F#6#-F,6%Q\"
+pF'F/F7FG-FK6-Q1&InvisibleTimes;F'FNFPFSFUFWFYFenFgn/FjnQ&0.0emF'/F]oF
+`p-I(mfencedGF$6$-F#6%-F=6%-F,6%Q(&theta;F'/F0FRFN-F#6#-F,6%Q$l_dF'F/F
+7FG-FK6-Q(&minus;F'FNFPFSFUFWFYFenFgn/FjnQ50.2222221940755844emF'/F]oF
+fq-F=6%Fip-F#6#-F,6%Q\"lF'F/F7FGFNFbq-F#6%-F=6%Fdo-F#6#-F,6%Q\"vF'F/F7
+FGF\\p-Fcp6$-F#6%-I&mfracGF$6(-F#6#-FK6/Q+&PartialD;F'/%+foregroundGQ.
+[144,144,144]F'FN/I+msemanticsGF$Q&inertF'FPFSFUFWFYFenFgnF_pFap-F#6%F
++-F#6$Fas-F,6%Q\"tF'F/F7F+/%.linethicknessGQ\"1F'/%+denomalignGQ'cente
+rF'/%)numalignGFft/%)bevelledGFRF\\pFhqFNF+F+F+" }}{PARA 15 "" 0 "" 
+{TEXT 210 15 " Block Diagram:" }}{PARA 0 "" 0 "" {TEXT 211 1 " " }
+{BITMAP 679 224 224 1 "?TMgSxG:;JUJNjME:;a:F:k:;Zsq:>:::yyyyyy::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::B
+:Zy=::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::
+:::::::::::::::::::::::::::Z:J::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::yay=::::::::::
+::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::
+:::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::
+::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::
+:::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::
+::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::
+:::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::;Z:::jysy::>:<::yay=<:;Zymy;B:
+>:xIyAZ:J::yay=:<:;:vYJ:ryvY<:;:vYJ:ryvY:<:;:vYxI::;Z::jysy:::::::::::
+::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::
+:::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::::
+:::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::>:<:::ryvY:<:;::ZymyC:>:xIyAZ:J:ryvY:<:;:vYxI:;Z:
+::jysy>:<::yA>:xIyAZ:J::yay=:<:;::Zymy;:::::::::::::::::::::::::::::::
+:::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::
+:::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+;Z:jysyZ:J::yayM:B:vYxI::B:>:xIyAZ:J:ryvY:<:;:vYxI:;Z:jysy>:<:yayM:B:v
+YxIB:>:xIyAZ:J::yay=J:B:vYxI::::::::::::::::::::::::::::::::::::::::::
+:::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::
+:::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;Z:jysy:
+>:<:yayM:B:::ZymyC:>:xIyAZ:J:ryvYJ:B:vYJ:ryvY:<:;Zy=<:yayM:B:vYxIB:>:x
+IyA>:<:yA>:xIyA>:<:::ryvY:::::::::::::::::::::::::::::::::::::::::::<:
+ry::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::
+::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::J:B:vYxI:;Z:jy
+sy>:<:::ryvY<:;Zymy;B:>:xIyA>:<:yA>:xIyA:>:<::yayM:B:vYxIB:>:xIyA>:<:y
+A>:xIyA>:<:::ryvY:::::::::::::::::::::::::::::::::::::::::::<:ry::::::
+::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::
+::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::J:B:vYxI:;Z:jysy>:<:ya
+y=<:;ZymyC:>:jysyZ:J:ryvY<:;Zymy;;Z:jysy::>:<:yayM:B:vYxIB:>:xIya:J:ry
+vYJ:B:vYxI;Z:jysyZ:J:ryvY:::::::::::::::::::::::::::::::::::::::::::<:
+ry::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::
+::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::J:B:vYxI:;Z:jy
+syZ:J:::yay=<:;::vYJ:ryvY<:;Zymy;;Z:jysy>:<:::yA>::jy;;ZymyC:>:xIyA>:<
+:yay=<:;::vYxI:::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::
+::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::
+:::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::;Z:jysyZ:J::yay=J:B:Zymy
+;B:>:xIB:vYJ:ryvY<:;Zymy;;Z:jysyZ:J::ryvY<:;::vYJ:ryvY<:;Zymy;;Z:jysy:
+>:<:ryvY::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::
+::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::
+::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::J:B:::Zymy;::::::::::::::::::;
+Z:jysy::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::
+:::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::
+:::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::>:<:::yay=::::::::<:;
+Zymy;::::::::B:Zy=<:;Zymy;::::::::::::::::::::::::::::::::::::::::::::
+:::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::
+:::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::
+:::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::B:>:xIyA::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::
+:::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::>:<:ry:vY:::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:
+::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::<:;:vYxI:;:vY:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::
+Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<:;Zymy;::;
+:vY::::::::::::::::::J:B:::::::::::::::::::::::vYxI:::::::::::::::::::
+:::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::
+::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::Z
+::xI::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;
+Z::xIyA:::>:jy;::::::::::::::::::;:vY:::::::::::::::::::::<:ry::::::::
+::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::
+:::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::
+:::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::Z:J::yay=::::J::yA::::::::::::::::::>:jy;::::::::::::::::::::B
+:Zy=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::
+::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::
+::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::J:B:Zymy;::::::;:vY::::::::::::::::::J::yA::::::::::
+::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::
+::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::
+:::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::B:>:jysy::::::::>:jy;::::::::::::::::::;:v
+Y:::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::
+::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::
+:::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::>:<:ryvY:::::::::J::yA::::::::::
+::::::::>:jy;::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::
+::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z:
+:xI:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::<:;:vYxI:::::::::::;:v
+Y::::::::::::::::::J::yA::::::::::::::::::::Z::xI:::::::::::::::::::::
+:::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::
+::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::Z::
+xI::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::B:>:xIyA::::
+::::::::>:jy;::::::::::::::::::;:vY:::::::::::::::::::::<:ry::::::::::
+::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::
+:::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::
+:::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::>:
+<:ryvY:::::::::::::J::yA::::::::::::::::::>:jy;::::::::::::::::::::B:Z
+y=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::
+::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::
+::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::<:;:vYxI:::::::::::::::;:vY::::::::::::::::::J::yA::::::::::::
+::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::
+::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::
+:::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::;Z::xIyA::::::::::::::::>:jy;::::::::::::::::::;:vY:
+::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::
+::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::
+:::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::Z:J::yay=:::::::::::::::::J::yA::::::::::::
+::::::>:jy;::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::
+::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::x
+I:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::J:B:Zymy;:::::::::::::::::::;:vY:
+:::::::::::::::::J::yA::::::::::::::::::::Z::xI:::::::::::::::::::::::
+:::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::
+::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::B:>:jysy:::::::::::::::
+::::::>:jy;::::::::::::::::::;:vY:::::::::::::::::::::<:ry::::::::::::
+::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::
+:::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::
+:::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z:J:ryvY:::::
+::::J:B:vYxI:;Z:jysy:>:<:ryvY::::J::yA::>:<:yay=:::::::::::::J::yA:Z:J
+:ryZ:jysyZ:J::yA>:xI:yA:Z:J:ryZ:jysyZ:J::yay=:<:ry::Z:J:ryvY::::::::::
+::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::
+::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::
+::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::J:B:Zymy;::::::::
+::;Z:jysy:>:<:yay=J:B:Zymy;::::;:vY:J:B::vYxI::::::::::::::;:vY:J:B:::
+vYxI;Z::::xI:yA:>:<:::yayM:B::vYxI:B:Zy=:<:;:Zymy;::::::::::::::::::::
+:::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::
+::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::B:>:jysy::::::::::::>:<:yay=<
+:;Zymy;:;Z::xIyA::::>:jy;;Z:::jysy::::::::::::::>:jy;B:>:jy;;:vYxI;Z:j
+ysy>:<:ryvY<:ryZ:J::yA>:jysy>:<:yay=::<:ryZ:J:::ryvY::::::::::::::::::
+::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::
+::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy
+=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::J:B:Zymy;:::::::::::::;Z:jys
+yZ:J:ryvY:<:;Zy=<:yay=:::J::B::::vYxI::::::::::::::;:vY:<:;Zymy;;Z:jys
+y>:<:yay=<:;ZymyC:Zy=<:;Zymy;;Z:jysy>:<:yay=::<::;:::Zymy;::::::::::::
+:::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::
+::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::::::
+:Z::xI::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::B:>:::::::::::::::::::::::jysy:::::::::::::::>
+:<:ryZ:jysy:Z:J:ryZ:jysy::::>:<::::::::::::::::::::ryvY:<:;Zymy;;Z:jys
+y>:<:yay=<:;ZymyC:Zy=<:;Zymy;;Z:jysy>:<:yay=::<:;::::::::::::::::::::v
+YxI::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::
+::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::::::
+:Z::xI::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::B:Zy=:::::::::::::::::::::J:B:Zymy;:::::::::::
+::;Z:::jysy:>:<:yay=<:;Zymy;:::;:Z::::jysy::::::::::::::>:jy;B:>:jy;;:
+vYxI;Z:jysyZ:J:ryvYJ::ya:J::yA>:jysy>:<:yay=::<::;:::Zymy;::::::::::::
+:B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::
+::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::
+::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::<:ry:::::::::::::::::::::::Z:J::yay=:::::::
+::::J:B:vYJ:ryvY:J:B:vYxIB:>:xIyA:::>:jy;;Z:::jysy::::::::::::::>:jy;:
+;Z:::jysy>:<:yay=<:;Zymy;;:vYJ:B:::vYJ:::yay=:<:ryZ:J:::ryvY::::::::::
+::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::
+:::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::
+:::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::;Z:jysy::::
+:::::::>:<:yayM:B:vYxI:;Z:jysyZ:J:ryvY:::J::yA:>:<::yay=:::::::::::::J
+::yA:Z:J:ryZ:jysy>:<:yay=<:;Zymy;;:vY:<:;Zy=<:yA>::jysy:Z::xI:B:>::xIy
+A:::::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::::::::::::::
+::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::
+:::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::
+J:B:Zymy;:::::::::;Z:jysyZ:J:ryvY::::::::J::yA::>:<:yay=:::::::::::::J
+::yA:::>:<:yay=:::::<:ry::>:<:yayM:B:vYxI::B:Zy=::<:;Zymy;::::::::::::
+:B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::
+::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::
+::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::Z:J::yay=:::
+::::J:B:vYxI:;Z:jysy::::::::>:jy;::::::::::::::::::;:vY:::J:B:vYxI::::
+:B:Zy=:J:B:vYxIB:Zy=::<:ry::::::::::::::::::Z::xI:::::::::::::::::::::
+:::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::
+:::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+B:Zy=::::::::::::::::::::::::::::J:B:Zymy;:::::::::::::::::::;:vY:::::
+:::::::::::::J::yA::::::::::::::::::::Z::xI::::::::::::::::::B:Zy=::::
+::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::
+::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::<:ry::::::::::::::::::::::::::::::Z:J::yay=::::::::::
+:::::::J::yA::::::::::::::::::>:jy;::::::::::::::::::::B:Zy=::::::::::
+::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::
+:::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::
+:::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::
+;Z::xIyA::::::::::::::::>:jy;::::::::::::::::::;:vY:::::::::::::::::::
+::<:ry::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::::
+::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::
+:::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::
+::::::::::::::::::<:;:vYxI:::::::::::::::;:vY::::::::::::::::::J::yA::
+::::::::::::::::::Z::xI::::::::::::::::::B:Zy=::::::::::::::::::::::::
+::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::
+::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<:r
+y:::::::::::::::::::::::::::::::::::>:<:yay=:::::::::::::J::yA::::::::
+::::::::::>:jy;::::::::::::::::::::B:Zy=::::::::::::::::::<:ry::::::::
+::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::
+:::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::Z::xI::::::::::::::::::::::::::::::::::::;Z::xIyA::::::::
+::::>:jy;::::::::::::::::::;:vY:::::::::::::::::::::<:ry::::::::::::::
+::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::
+::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::
+:::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::
+::<:;:vYxI:::::::::::;:vY::::::::::::::::::J::yA::::::::::::::::::::Z:
+:xI::::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::
+::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::
+::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::
+::::::::::::::::::::>:<:ryvY:::::::::J::yA::::::::::::::::::>:jy;:::::
+:::::::::::::::B:Zy=::::::::::::::::::<:ry::::::::::::::::::::::::::::
+Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::
+:::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::
+::::::::::::::::::::::::::::::::::::::B:>:jysy::::::::>:jy;:::::::::::
+:::::::;:vY:::::::::::::::::::::<:ry::::::::::::::::::Z::xI:::::::::::
+:::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::
+<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::J:B:Zymy;:::::
+:;:vY::::::::::::::::::J::yA::::::::::::::::::::Z::xI:::::::::::::::::
+:B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::
+::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::
+::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::
+::::Z:J::yay=::::J::yA::::::::::::::::::>:jy;::::::::::::::::::::B:Zy=
+::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::
+:::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::
+:::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::
+:::::::::::::::::::::::;Z:jysy::::>:jy;::::::::::::::::::;:vY:::::::::
+::::::::::::<:ry::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Z
+y=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::
+:::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::
+::::::::::::::::::::::::::::::::::::::::J:B:Zymy;::;:vY:::::::::::::::
+:::J:B:::::::::::::::::::::::vYxI::::::::::::::::::B:Zy=::::::::::::::
+::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::x
+I:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::Z:J::yay=J::
+yA::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::
+:::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::
+::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::
+:J:B:Zy=jy;:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::
+::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::
+::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::
+:::::::::::Z:J:ryvY:::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::
+:::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::
+:::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::::::::
+::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::
+::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::::::::::::
+::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::
+:::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::
+:::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::
+:::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry::::::::::
+::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::
+::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::
+::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::
+:::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::
+:::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::
+:::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry
+::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::
+::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::B
+:Zy=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::
+:::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::
+::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::
+:::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::
+::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::
+::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<
+:ry:::::::::::::::::::::::::::::::::::::::::::::Z:J:ryvY::<:;ZymyC:>::
+jy;;ZymyC:>:xIya:J:ryvY:<:;ZymyC:ZyM:B:vYxI;Z::jysyZ:J:ryZ:jysy>:<::ya
+yM:B:vYxI::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::
+::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::
+::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<
+:ry:::::::::::::::::::::::::::::::::::::::::::::Z:J:ryvY::<:;Zy=<:yayM
+:B:vYJ:ryvY<:;Zy=<:yay=:<:;Zy=<:ryZ:jy;;ZymyC:>:xIB:vYJ::yA>:xIya:J:ry
+Z:jysy::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::
+:::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::
+:::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy
+=:::::::::::::::::::::::::::::::::::::::::::::<:;Zymy;:B:>:xIB:vYxI;Z:
+jy;;ZymyC:>:xIB:vYxI:B:>:xIB:Zy=<:yA>:xIya:J:ryZ:jysy>:<:yA>:xIyA:>:<:
+yay=::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::
+Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::
+:::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::
+:::::::::::::::::::::::::::::::::::::::::::B:>:::xIya:J:ryvY<:;Zy=<:yA
+>:xIya:J:ryZ:jysy:Z:J:ry::Z:jy;;ZymyC:>:xIB:vYxI;Z:jy;;::Zy=<:yay=::::
+::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::
+:::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::
+:::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::
+:::::::::::::::::::::::::::::::::::B:>:xIyA>:<:yA>:xIyA>:<::yA>:xIya:J
+:ryZ:jysy:Z:J:ry::Z:jy;;ZymyC:>:xIB:vYxI;Z:jy;;ZymyC:>:xIB:vYxI:::::::
+:::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry::::::
+::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::
+::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::
+::::::::::::::::::::::::::::::::Z:J:ryvYJ:B:vYJ:ry:vYJ:B:vYJ::yA>:xIB:
+vYxI:B:>::xIB::vYJ:ryvY<:;Zy=<:yA>:jy;;ZymyC:>:xIB:vYxI:::::::::::::::
+:::::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::
+::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::
+::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::
+::::::::::::::::::::::::Z:J:ryvYJ:B:vYJ:ryvY<:;:ZymyC:>:xIB:vYJ::ryvY:
+<:;:Zy=<::yayM:B::vYxIB:>:xIB:vYxI;Z::jysy>:<:yay=::::::::::::::::::::
+::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::::::
+:::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::
+:::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::
+:::::::::::::::::::B:>:xIyA>:<:yA>:xIyA::::::>:<:yay=:<:;:vYxIB:>:jysy
+:::::>:<:yay=::J:B:vYxI::::::::::::::::::::::::::::::::::B:Zy=::::::::
+::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::
+::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::Z:J:::ry
+vY<:;Zymy;::::::B:Zy=:<:;:vYxIB:>:jysy:::::>:<:yay=::J:B:vYxI:::::::::
+:::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry::::::::
+::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::
+::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::
+::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::
+:::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:
+:::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::
+:::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:
+ry::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::
+::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::
+:B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::
+:::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::
+::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::
+:::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::
+xI::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::
+::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::
+::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::>:<::ryvY<:;
+Zymy;B:>:xIya:J::yay=J:B::vYxI;Z:::jysy:::::::::::::::::::::::::::::::
+::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::
+::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::
+:::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::
+:::::::::::::::::::::::<:;Zymy;;Z:jy;;Zymy;;Z:jysyZ:J::yay=<:;ZymyC:>:
+xIB:vYxI:::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::
+::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::x
+I:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::>:<:
+yA>:xIyA>:<:yayM:B:vYJ:ryvY<:;ZymyC:>:xIya:J:ryvY:::::::::::::::::::::
+::::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::
+:::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::
+:::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::
+::::::::::::::::::::::::::::::::::::;Z::jy;;ZymyC:>:xIyA>:<:yA>:xIya:J
+:ryvY<:;Zymy;;Z:jysy::::::::::::::::::::::::::::::::::::::::::Z::xI:::
+:::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::
+::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::
+:::::J:B::ZymyC:>:::xIyA>:<:yA>:xIya:J:ryvY<:;Zymy;B:>:xIyA:::::::::::
+::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::
+::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::
+:::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::
+:::::::::::::::::::::::::::::::::::::::::::<:;:Zymy;B:>:xIyA>:<:yA>:xI
+yA>:<:yA>:xIya:J:ryvY:J:B:vYxI::::::::::::::::::::::::::::::::::::::::
+:B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::
+::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::
+::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::
+:::::::::::::Z:J:ryvY::<:;Zymy;;Z:jy;;Zymy;;Z:jy;;ZymyC:>:xIyA:>:<:yay
+=:::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::
+::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::
+:::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::
+xI::::::::::::::::::::::::::::::::::::::::::::::::::::B:>:xIyA>:<:yA>:
+xIyA>:<:yA>:xIyA>:<:yA>:xIya:J:ryZ:jysy>:<:yay=:::::::::::::::::::::::
+::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::
+:::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::
+:::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::
+:::::::::::::::::::::::::::::::;Z:::xIya:J:::ryZ:jysy:Z:J:ryZ::jysyZ:J
+::ryvY::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::
+::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::
+:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::
+::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::x
+I:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::
+:::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::
+<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::
+::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::
+:::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::
+::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::
+::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::>:<::::::::::
+:::::::::::::::::::::::::::::::::::::::::::yay=:::::::::::::::::::::::
+<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::
+:::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::::::
+:::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::;:vY
+:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::
+::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::
+::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::
+:::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::
+::::J::yA::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::
+:::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::::
+::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::
+::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::
+:::::::::::::>:jy;::::::::::::::::::::::::::::::::::::::::::::::::::B:
+Zy=:::::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::
+:::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::
+:::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::
+::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::::
+:::::::<:ry:::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Z
+y=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::
+:::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::
+::::::::::::::::::::::::::::::J::yA:::::::::::::::::::::::::::::::::::
+:::::::::::::::Z::xI:::::::::::::::::::::::B:Zy=::::::::::::::::::::::
+::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::
+::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<
+:ry::::::::::::::::::::::::::::::::::::>:jy;::::::::::::::::::::::::::
+::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::<:ry::::::::::::::
+::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Z
+y=::::::::::::J:B:vYxI::::::::::::::::::::::::::::::::::::::B:Zy=:::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::<:ry::::::::::::::::::::::::::::::::::::>:jy;::::::::::::
+::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::<:ry
+::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::
+:::::::::::B:Zy=::::::::::::J:B:vYxI::::::::::::::::::::::::::::::::::
+::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::>:j
+y;::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::
+::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::
+:::::::::::::::::::::::::B:Zy=::::::::::::J:B:vYxI::::::::::::::::::::
+::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::
+:::::::::::>:jy;::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy
+=:::::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::
+:::::::::::::::::::::::::::::::::::::::B:Zy=:J:B::Zymy;:;Z::jysy:>:<:r
+yZ:jy;;Zymy;:B:>:jysy:>:<:yayM:B:vYxIB:>:xIyA>:<:ryvY:::::::::::::::::
+:::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::;:
+vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::
+::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::
+::::::::::::::::::::::::::<:ry:Z:J::::yay=<:;::ZymyC:>::xIB:::vYxI:;Z:
+::xIyA>:<:yayM:B:vYxIB:>:xIya:J::ryvY::::::::::::::::::::::<:ry:::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::Z::xI::::::::::::::::::::::::::::::::::::;:vY::::::::::::::
+:::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::Z::xI:
+:::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::
+::::::::::<:ry:Z:J:ryvYJ:B:vYxI;Z:jysy::Z:J:ryvYJ:B:Zy=<:ryvY<:;:vYJ::
+yayM:B:vYxI;Z:jysyZ:J:ryvY<:;Zymy;::::::::::::::::::::::B:Zy=:::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::<:ry::::::::::::::::::::::::::::::::::::>:jy;::::::::::::::::
+::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::<:ry::::
+::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::
+:::::::B:Zy=:::J:B:vYxI;Z::::xIya:J:ryvYJ:B:vYxIB:>:xIya:J:ryvYJ:B:vYx
+I;Z:jysy>:<:yay=<:;ZymyC:>:xIyA::::::::::::::::::::::Z::xI::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::B:Zy=:::::::::::::::::::::::::::::::::::J::yA:::::::::::::::::::
+:::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::B:Zy=::::::
+::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::
+::::Z::xI::;Z:::jysy>:<:::ryvY<:;Zymy;;Z:jysyZ:J:ryvY<:;Zymy;;Z:jysy>:
+<:yayM:B:vYxIB:>:xIya:J:ryvY:::::::::::::::::::::::<:ry:::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::Z::xI::::::::::::::::::::::::::::::::::::;:vY::::::::::::::::::::::
+:::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::Z::xI:::::::::
+:::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::::::
+::<:ry:Z:J:::ryvYJ:B:vYxIB:>:xIya:J:ryvYJ:B:Zy=<:ryvY<:;:vYJ::yayM:B:v
+YxI;Z::xIya:J:ryvY<:;Zymy;::::::::::::::::::::::B:Zy=:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:<:ry::::::::::::::::::::::::::::::::::::>:jy;::::::::::::::::::::::::
+::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::<:ry::::::::::::
+::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B
+:Zy=:<:;Zymy;::B:>::jysy>:<::ryZ:::jysy:>:<::ryvYJ:B:vYxI;Z::::xIB::Zy
+my;:::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::
+:::::::::::::::::>:jy;::::::::::::::::::::::::::::::::::::::::::::::::
+::B:Zy=:::::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::
+:::::::::::::::::::::::::::::::::::::::::::::B:Zy=:<:;Zymy;;Z:jysy:>:<
+:ryvYJ:B::Zy=<:yA>:xIyA:Z:J::yay=J:B:vYxI;Z:jy;;:vYxI;Z:::xIyA::::::::
+:::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::
+::::::J::yA::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::
+:::::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::
+::::::::::::::::::::::::::::::::::Z::xI:B:>:::jysy::::Z:J:ryvY::::::::
+::::::::<:;Zymy;::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::
+:::::::::::::::::::::::::::::::>:jy;::::::::::::::::::::::::::::::::::
+::::::::::::::::B:Zy=:::::::::::::::::::::::<:ry::::::::::::::::::::::
+::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:J:B::
+Zymy;:::::;:vY:::::::::J:B:vYxI:::::;:vY:::::::::::::::::::::::<:ry:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::;:vY::::::::::
+:::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::Z:
+:xI::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::J:B:vYxI:
+;Z:jysyZ:J:ryvY:<:;:Zymy;B:>:jysy>:<:ryZ:jysy:::Z::xI:::::::::::::::::
+::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::
+:::::::::::::::::::::::::::::>:jy;::::::::::::::::::::::::::::::::::::
+::::::::::::::B:Zy=:::::::::::::::::::::::<:ry::::::::::::::::::::::::
+::::Z::xI::::::::::::::::::::::::::;Z:jysy:>:<:yay=<:;Zymy;;Z:::jysy>:
+<::yA>:::xIyA:::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::
+::::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::>:j
+y;::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::
+::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::
+:::;Z:jysy:>:<:yay=<:;ZymyC:>:xIyA::>:<:yay=<:;ZymyC:>:xIyA:::Z::xI:::
+::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::<:ry::::::::::::::::::::::::::::::::::::>:jy;::::::::::::::::::::::
+::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::<:ry::::::::::
+::::::::::::::::::Z::xI::::::::::::::::::::::::::;Z:jysy:>:<:yay=<:;Zy
+myC:>:::jysy>:<:yay=J:B:vYJ:ryvY::::<:ry::::::::::::::::::::::::::::::
+:::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::
+::::::::::::::::J::yA:::::::::::::::::::::::::::::::::::::::::::::::::
+:Z::xI:::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry::::
+::::::::::::::::::::::>:<:yay=J:B:vYxIB:>:xIya:J::::yayM:B:vYxI:B:>::x
+IyA:::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::>:jy;::::::::
+::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::
+<:ry::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::;Z:jysy
+:>:<:ryvY<:;ZymyC:>:xIyA>:<:yayM:B:vYxI::B:>:xIyA:::Z::xI:::::::::::::
+::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::
+:::::::::::::::::::::::::::::::::>:jy;::::::::::::::::::::::::::::::::
+::::::::::::::::::B:Zy=:::::::::::::::::::::::<:ry::::::::::::::::::::
+::::::::Z::xI::::::::::::::::::::::::::;Z:jysy:>:<:::ryvYJ:B::ZymyC:>:
+:jy;;::Zymy;:::B:Zy=:J:B:vYxI:::B:>:jysy:Z:J::ryvYJ:B:vYxIB:>:jy;;Zymy
+;B:>:jysy:>:<:yay=<:;Zymy;::::::::::::::::::::B:>::::jysy:::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:Z:J:::::yay=:::::::::::::::::::::::::::::::::J::yA:::::::::::::::::::
+:::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::B:Zy=::::::
+::::::::::::::::::::::<:ry::::::::::::::::::::::::::>:<:yay=J:B:vYJ::y
+ay=:<:;:vYxIB:>::jysy>:<::yay=::::<:ry::>:<:yay=::J:B::Zymy;;Z:::jysy>
+:<:yayM:B::vYJ:ryvYJ:B::Zymy;;Z:jysyZ:J:ryvY:::::::::::::::::::::<:;::
+:Zymy;::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::B:>::::xIyA::::::::::::::::::::::::::::::::::>:jy;
+::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::
+::::::::<:ry::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::B
+:>::::xIB:vYxI:::::::;Z:jysy::::::::Z::xI::;Z:jysy::Z:J::yA>:jysy::>:<
+:yayM:B:vYxI;Z:jysyZ:J:ryvY<:;:vYJ::yayM:B:vYxIB:>:xIyA:::::::::::::::
+::::::>:<:::ryvY::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::J:B:::Zymy;::::::::::::::::::::::::::::
+::::::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::
+::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::::::::::
+::::::::::<:;:::Zy=<:yay=:::::::<:ry::::::::Z::xI::;Z:jysy::Z:J:ryvYJ:
+B:vYxIB:>::jysy>:<:yayM:B:vYxIB:>:xIya:J:ryvYJ:B:vYxI;Z:jysyZ:J:ryvY::
+:::::::::::::::::::J:B:::vYxI:::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::;Z:::jysy::::::::::::::::
+:::::::::::::::::::>:jy;::::::::::::::::::::::::::::::::::::::::::::::
+::::B:Zy=:::::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:
+:::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:J:B:::vYxIB:>:xIy
+A>:<:yayM:B::Zymy;;Z:jysy>:<:yay=<:;ZymyC:>:xIyA>:<:yayM:B:vYxIB:>:xIy
+A:::::::::::::::::::::Z:J:::yay=::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::<:;::vYxI:::::::::::::
+::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::::
+:::::::<:ry:::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Z
+y=::::::::::::::::::::::::::::::::::::::::::::::::<:ry::>:<:::ryvY<:;:
+vYJ::yayM:B:vYxI::;Z:jysy>:<:yay=<:;ZymyC:>:jy;;:vYxI;Z::xIya:J:ryvY::
+::::::::::::::::::::<:;:Zymy;:::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::B:>::xIyA::::::::::::::::
+:::::::::::::::::::>:jy;::::::::::::::::::::::::::::::::::::::::::::::
+::::B:Zy=:::::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:
+:::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:J:B:vYxIB:>:xIyA>
+:<::ryvYJ:B:::vYxI;Z:jy;;::vYJ:ryvYJ:B::Zymy;;Z::::xIyA:::::::::::::::
+:::::::>:<:ryvY:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::J:B:Zymy;:::::::::::::::::::::::::::::
+::::::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::
+::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::::::::::
+::::::::::::::::::::::::::::::::::<:ry::>:<:yay=<:;Zymy;B:>:jysy:Z:J::
+ryvYJ:B:vYJ:::yA>:xIyAZ:J::yay=J:B:vYJ::yay=::::::::::::::::::::::J:B:
+vYxI::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::;Z:jysy::::::::::::::::::::::::::::::::::::>:jy;
+::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::
+::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::
+:;Z::::::::::::::::::jysy:::Z::xI::;Z::::xIyA::::::::::>:<:yay=:::::::
+:::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::
+::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::::::
+:::::<:ry:::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=
+:::::::::::::::::::::::::J::yA:::::::::::::::Z::xI:::B:Zy=:J:B:::vYxI:
+::::::::;Z:jysyZ::xIB:>:xIyA::::::::::::::::::::::::::::::Z:J:::yay=::
+:::::::::::::::::::::::::<:;Zymy;:::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::B:>::jysy:::::::::::::::::::::::::::::::::::>:jy;::
+::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::
+::::::<:ry::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::;
+:vY::::::::::::::::<:ry:::Z::xI:::::::::::::::::::::::::::::::::::::::
+:::::::::::;Z:::xIyA:>:<::ryvY:::::::::::::::::::::::::<::;:vYxI::::::
+:::::::::::::::::::::::::::::::::::::::::::::::;Z:::xIyA:>:<::ryvY::::
+::::::::::::::::::::::::::::J::yA:::::::::::::::::::::::::::::::::::::
+:::::::::::::Z::xI:::::::::::::::::::::::B:Zy=::::::::::::::::::::::::
+::::<:ry::::::::::::::::::::::::::>:jy;:::::::::::::::B:Zy=:::<:ry::::
+:::::::::::::::::::::::::::::::::::::::::::::>:<:yay=::::::<:;Zymy;:::
+::::::::::::::::::::B:Zy=J:B:Zymy;::::::::::::::::::::::::::::::::::::
+::::::::::::::;Z:jysy::::::Z:J:ryvY:::::::::::::::::::::::::::::::J::y
+A::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::
+:::::::::B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::
+::>:jy;:::::::::::::::B:Zy=:::<:ry::::::::::::::::::::::::::::::::::::
+::::::::::::Z::xI::::::::B:Zy=:::::::::::::::::::::::<:ry::Z:J::yay=::
+::::::::::::::::::::::::::::::::::::::::::::::<:ry::::::::Z::xI:::::::
+::::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::
+:::::::::<:ry:::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::B
+:Zy=:::::::::::::::::::::::::J::yA:::::::::::::::Z::xI:::B:Zy=::::::::
+:::::::::::::::::::::::::::::::::::::::<:;Zymy;:::::::::;Z:jysy:::::::
+:::::::::::::::Z::xI::::;Z::xIyA::::::::::::::::::::::::::::::::::::::
+:::::::Z:J:ryvY:::::::::J:B:vYxI::::::::::::::::::::::::::::::;:vY::::
+:::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::
+::::Z::xI::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::J::
+yA:::::::::::::::Z::xI:::B:Zy=::::::::<:;:::::::::::::::vYxI::::::::::
+::::::::::::;:vY::::<:;::vYxI::::;:vY::::::::::::::::::::::<:ry:::::Z:
+J::yay=:::::::::::::::::::::::::::::::::::::::::::J::yA:::Z:J:::yay=::
+:J::yA:::::::::::::::::::::::::::::>:jy;::::::::::::::::::::::::::::::
+::::::::::::::::::::B:Zy=:::::::::::::::::::::::<:ry::::::::::::::::::
+::::::::::Z::xI::::::::::::::::::::::::::;:vY::::::::::::::::<:ry:::Z:
+:xI::::::::B:Zy=:::::::::::::<:ry:::::::::::::::::::::Z::xI:::::::::::
+:B:Zy=:::::::::::::::::::::<:ry:::::::>:<:ryvY::::::::::::::::::::::::
+::::::::::::::::::<:ry::::::::::::Z::xI:::::::::::::::::::::::::::::;:
+vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::
+::::::::::Z::xI::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::::
+:::J::yA:::::::::::::::Z::xI:::B:Zy=::::::::<:ry:::::::::::::Z::xI::::
+:::::::::::::::::;:vY:::::::::::::J::yA::::::::::::::::::::Z::xI::::::
+::B:>:jysy::::::::::::::::::::::::::::::::::::::::>:jy;:::::::::::::;:
+vY::::::::::::::::::::::::::::J::yA:::::::::::::::::::::::::::::::::::
+:::::::::::::::Z::xI:::::::::::::::::::::::B:Zy=::::::::::::::::::::::
+::::::<:ry::::::::::::::::::::::::::>:jy;:::::::::::::::B:Zy=:::<:ry::
+::::::Z::xI:::::::::::::B:Zy=::::::::::::::::::::<:ry::::::::::::::Z::
+xI::::::::::::::::::::B:Zy=:::::::::J:B:Zymy;:::::::::::::::::::::::::
+::::::::::::B:Zy=::::::::::::::<:ry::::::::::::::::::::::::::::>:jy;::
+::::::::::::::::::::::::::::::::::::::::::::::::B:Zy=:::::::::::::::::
+::::::<:ry::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::;
+:vY::::::::::::::::<:ry:::Z::xI::::::::B:Zy=:::::::::::::<:ry:::::::::
+:::::::::::Z::xI::::::::::::::B:Zy=::::::::::::::::::::<:ry:::::::::::
+Z:J::yay=::::::::::::::::::::::::::::::::::::<:ry::::::::::::::Z::xI::
+::::::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::
+:::::::::::<:ry:::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::
+:B:Zy=:::::::::::::::::::::::::J::yA:::::::::::::::Z::xI:::B:Zy=::::::
+::<:ry:::::::::::::Z::xI::::::::::::::::::::;:vY:::::::::::::::J::yA::
+:::::::::::::::::Z::xI:::::::::::::;Z::xIyA:::::::::::::::::::::::::::
+:::::::>:jy;:::::::::::::::;:vY:::::::::::::::::::::::::::J::yA:::::::
+:::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::
+:B:Zy=::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::>:jy;:
+::::::::::::::B:Zy=:::<:ry::::::::Z::xI:::::::::::::B:Zy=:::::::::::::
+::::::<:ry::::::::::::::::Z::xI:::::::::::::::::::B:Zy=::::::::::::::<
+:;:vYxI::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::<:ry::::::
+:::::::::::::::::::::>:jy;::::::::::::::::::::::::::::::::::::::::::::
+::::::B:Zy=:::::::::::::::::::::::<:ry::::::::::::::::::::::::::::Z::x
+I::::::::::::::::::::::::::;:vY::::::::::::::::<:ry:::Z::xI::::::::B:Z
+y=:::::::::::::<:ry:::::::::::::::::::Z::xI::::::::::::::::B:Zy=::::::
+:::::::::::::<:ry::::::::::::::::>:<:ryvY:::::::::::::::::::::::::::::
+::<:ry::::::::::::::::Z::xI:::::::::::::::::::::::::::;:vY::::::::::::
+:::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::Z::x
+I::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::J::yA::::::
+:::::::::Z::xI:::B:Zy=::::::::<:ry:::::::::::::Z::xI::::::::::::::::::
+:;:vY:::::::::::::::::J::yA::::::::::::::::::Z::xI:::::::;Z:jysy::::::
+::Z:J::yay=::::::::::::::::::::::::::::J::yA:::::::::::::::::>:jy;::::
+::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::::
+:::::::<:ry:::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::B:Z
+y=:::::::::::::::::::::::::J::yA:::::::::::::::Z::xI:::B:Zy=::::::::<:
+ry:::::::::::::Z::xI:::::::::::::::::::;:vY:::::::::::::::::J::yA:::::
+:::::::::::::Z::xI:::::::;Z:jysy::::::::::>:<:ryvY::::::::::::::::::::
+:::::::J::yA:::::::::::::::::>:jy;::::::::::::::::::::::::::;:vY::::::
+:::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::
+::Z::xI::::::::::::::::::::::::::::B:Zy=:::::::::::::::::::::::::J::yA
+:::::::::::::::Z::xI:::B:Zy=::::::::<:ry:::::::::::::Z::xI::::::::::::
+:::::::;:vY:::::::::::::::::J::yA::::::::::::::::::Z::xI:::::::;Z:jysy
+:::::::::::Z:J::yay=:::::::::::::::::::::::::J::yA:::::::::::::::::>:j
+y;::::::::::::::::::::::::::;:vY::::::::::::<:ry:::Z::xI::::::::::::::
+::::::::;:vY:::::J::yA:Z::xI:::::::::::::::::::::::B:Zy=::::::::::::::
+::::::::::::::<:ry::::::::::::::::::::::::::>:jy;:::::::::::::::B:Zy=:
+::<:ry::::::::Z::xI:::::::::::::B:Zy=:::::::::::::<:;Zymy;:::;:vY:::::
+::::::::::::J::yA:::::::::::::Z:J:ryvY:::<:ry::>:<:yay=J:B:vYxI;Z:jy;;
+Zymy;:::::::::::;Z::xIyA::::::::::::::::::Z:J:ryvY:::J::yA::::::::::::
+:::::>:jy;:::::::::::::::::::::;Z:jysy:::>:jy;:::::::::::;Z:jysy:::Z:J
+:ryvY:::::::::::::::::::::<:;Zymy;:::::;Z:jysy:Z::xI::::::::::::::::::
+:::::B:Zy=::::::::::::::::::::::::::::<:ry:::::::::::::::::::::>:<:yay
+=::J::yA:::::::::::::::Z::xI:::B:Zy=::::::::<:ry::>:<:yay=:<:;Zymy;:::
+::B:Zy=:::::::::::::<:;:Zymy;::;:vY:::::::::::::::::J::yA:::::::::::::
+Z:J::ryvY::<:ry::>:<:yay=J:B:vYxI;Z:::jysy::::::::::::Z:J::yay=:::::::
+::::::::::<:;:Zymy;::;:vY:::::::::::::::::J::yA:::::::::::::::::::::>:
+<::yay=:J::yAZ:J::yay=<:;ZymyC:>:xIya:J:ryvY:J::yAZ:J::yay=J::yA::::>:
+<:yay=<:;ZymyC:>:xIya:J::ryvYJ:B:vYxI;Z::jysy:Z::xI;Z:jysy:>:<::ryvY<:
+ry:Z::xI:::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::<:ry::
+:::::::::::::::::::>:<::yay=:J::yA:::::::::::::::Z::xI:::B:Zy=::::::::
+<:ry:Z::xI;:vYJ::ya::xI:::::B:Zy=:::::::::::::<:;::Zymy;B:Zy=J::yA::::
+:::::::::::Z::xI:::::::::::::B:>:::xIyAZ::xI::;Z:jysyZ:J:ryvYJ:B:Zy=<:
+ryvY:::::::::::::J:B:Zymy;:::::::::::::::B:>:::xIyAZ::xI:;:vY:::::::::
+:::::::<:ry:::::::::::::::::::::>:<:::yay=J::yAZ:J::yay=<:;ZymyC:>:xIy
+a:J:ryvY:<:;Zymy;B:>:jysy:>:<:yay=:::J:B:vYxIB:>:xIya:J:ryZ:jysy>:<:yA
+>:xIya:J:ryZ:jysy:>:<:yayM:B:vYxIB:>:xIya:J:ryvY<:;Zymy;B:Zy=:::::::::
+::::::::::::::<:ry::::::::::::::::::::::::::::Z::xI:::::::::::::::::::
+::;Z:::jysy:>:jy;:::::::::::::::B:Zy=:::<:ry::::::::Z::xI:;:vY:<::ry:>
+:jy;::::B:Zy=:::::::::::::<:;:::ZymyC:Zy=J::yA:::::::::::::::Z::xI::::
+:::::::::B:>::::xIya::xI::;Z:jysyZ:J:ryvYJ:B:vYxIB:>:xIyA:::::::::::::
+:Z:J::yay=::::::::::::::<:;:::ZymyC:Zy=J::yA:::::::::::::::Z::xI::::::
+:::::::::::::::;Z::::jysy>:jy;;Z:jy;;ZymyC:>:xIya:J:ryvY<:;Zymy;B:>:xI
+yA>:<:yA>:xIyA>:<:yay=:::J:B:vYxIB:>:xIya:J:ryZ:jysy:Z:J:ryvY<:;Zy=<:y
+ay=J:B:vYxI;Z:jysyZ:J:ryvY<:;ZymyC:>:xIyAZ::xI:::::::::::::::::::::::;
+Z::xIyA:::::::::::::::::::::::::::>:<:ryvY::::::::::::::::::::J:B::::v
+YxI;:vY::::::::::::::::<:ry:::Z::xI::::::::B:Zy=J::yAZ:::xI:;:vY:::::<
+:;::::::::::::::::::::vYxI;Z:::xIyA::::::::::::::Z:J::::::::::::::::::
+:::yay=:J:B:Zy=<:yay=J:B:vYxIB:>:xIyA::::::::::::::::>:<::::::::::::::
+:::::::yayM:B::Zymy;::::::::::::::B:>::::::::::::::::::::::::::::xIyA>
+:<:yA>:xIya:J:ryvY<:;ZymyC:>:xIyAZ:J:ryvYJ:B:vYJ:ryvYJ:B:vYxI::::;Z:jy
+syZ:J:ryvY<:;Zy=<:::yA>:xIyA>:<::yay=J:B:vYxI;Z:jysyZ:J:ryvY<:;ZymyC:>
+:xIyAZ:J::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::ryvY:<:;::::::::::::Zymy;B:Zy=:::<:ry::::::::Z::x
+I:B:ZyM::yA>:jyC:Zy=:::::<:ry:::::::::::::Z:J::::ryvY<:ry:>:jy;:::::::
+::::::::B:Zy=:::::::::::::<:;:::ZymyC:Zy=:J:B:::vYxI:;Z::xIB:Zymy;::::
+::::::::::B:>:jysy::::::::::::::Z:J::::ryvY<:ry:>:jy;:::::::::::::::B:
+Zy=::::::::::::::::::::J:B::::vYxI;:vYJ:B:vYJ:ryvY<:;ZymyC:>:xIya:J:ry
+vY:<:;Zymy;;Z:jy;;Zymy;;Z:jysy::::>:<:yay=<:;ZymyC:>:xIB:vYxI;Z:jy;;Zy
+myC:ZyM:B:vYxI:;Z:jysy>:<:yay=<:;ZymyC:>:xIya:J:ryvY:<:ry:::::::::::::
+::::::::::>:<:ryvY:::::::::::::::::::::::::::J:B:Zymy;::::::::::::::::
+::::;Z::::jysy>:jy;B:Zy=::::::::::J::yAZ::xI:::B:Zy=::::::::<:ry::>:<:
+yay=:<:;Zymy;:::::B:Zy=:::::::::::::<:;::Zymy;B:Zy=J::yA::::::::::::::
+:Z::xI:::::::::::::B:>:::xIyAZ::xI::;Z:jy;;Zymy;:;Z:::jysy::::::::::::
+::>:<:ryvY::::::::::::::::<:;::Zymy;B:Zy=J::yA:::::::::::::::Z::xI::::
+:::::::::::::::::;Z:::jysy:>:jy;;Z:jy;;ZymyC:>::::jysy:Z:J:ryvYJ:B:vYJ
+:ryvYJ::yA::::>:<:yay=<:;::vYxIB:>::xIB::vYxI;Z::xIyA:>:<:yayM:B::vYxI
+;Z:::xIya::xI:B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::J:B:::vYxI:;:vY:<:ry:::::::::::>:jy;B:Zy=:::<:
+ry::::::::Z::xI:::::::::::::B:Zy=:::::::::::::<:;:Zymy;::;:vY:::::::::
+::::::::J::yA:::::::::::::Z:J::ryvY::<:ry::>:<:yayM:B:vYxI:;Z:jy;;Zymy
+;::::::::::::B:>:jysy:::::::::::::::::Z:J::ryvY::J::yA::::::::::::::::
+:>:jy;:::::::::::::::::::::;Z::jysy::>:jyC:>:xIyA>:<:yay=::::::J:B:vYJ
+:ryvYJ:B:vYxI;:vY::::J:B:vYxIB:>:xIyA::::Z:J:ryvY:::::<:;Zymy;:::B:>:x
+Iya::xI:B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::J:B::vYxI::;:vY:<:ry:::::::::::>:jy;B:Zy=:::<:ry::::
+::::Z::xI:::::::::::::B:Zy=:::::::::::::<:;Zymy;:::;:vY:::::::::::::::
+::J::yA:::::::::::::Z:J:ryvY:::<:ry::>:<:yay=<:;Zymy;:::::::::::::::;Z
+::xIyA::::::::::::::::::Z:J:ryvY:::J::yA:::::::::::::::::>:jy;::::::::
+:::::::::::::;Z:jysy:::>:jyC:>:xIyA>:<:yay=:::::::<::;Zymy;;Z:jy;ry:::
+:>:<:::yA>:xIyA:::::>:jy;:::::;:vY::::<:;Zy=jy;:B:Zy=:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::J:B:vYxI:::;
+:vY:<:ry:::::::::::>:jy;B:Zy=:::<:ry::::::::Z::xI:::::::::::::B:Zy=:::
+:::::::::::::::J::yA:::::::::::::::::>:jy;::::::::::::::::::B:Zy=:J:B:
+vYxI:;Z:jysy:::::::::::::Z:J::yay=:::::::::::::::::::::::::J::yA::::::
+:::::::::::>:jy;::::::::::::::::::::::::::;:vY::::::::::::::::::::::::
+:::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::>:jy;B:Zy=::::::::::J::yAZ::
+xI:::B:Zy=::::::::<:ry>:<::yayM:B::ZymyC:>::jysy>:<::yay=<:ry:::::::::
+::::::::::>:jy;:::::::::::::::::;:vY:::::::::::::::::::<:ry:::::::::::
+::::::::>:<:ryvY:::::::::::::::::::::::::::J::yA:::::::::::::::::>:jy;
+::::::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::
+:::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::>:jy;B:Zy=::::::::::J::yAZ::xI:::B:Zy=::::::
+::<:ry>:jyC:ZyM::yA>:jyC:Zy=<:ry>:jyC:Zy=<:ry:::::::::::::::::::>:jy;:
+::::::::::::::::;:vY:::::::::::::::::::<:ry:::::::::::::::::Z:J::yay=:
+:::::::::::::::::::::::::::J::yA:::::::::::::::::>:jy;::::::::::::::::
+::::::::::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::>:jy;B:Zy=::::::::::J::yAZ::xI:::B:Zy=::::::::<:ry>:jyC:ZyM:
+:yA>:jyC:Zy=<:ry>:jyC:Zy=<:ry:::::::::::::::::::Z::xI::::::::::::::::B
+:Zy=:::::::::::::::::::<:ry::::::::::::::::>:<:ryvY:::::::::::::::::::
+::::::::::::<:ry::::::::::::::::Z::xI:::::::::::::::::::::::::::;:vY::
+:::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::>:jy;B
+:Zy=::::::::::J::yAZ::xI:::B:Zy=::::::::<:ry>:jyC:ZyM::yA>:jyC:Zy=<:ry
+>:jyC:Zy=<:ry:::::::::::::::::::Z::xI::::::::::::::::B:Zy=::::::::::::
+:::::::<:ry::::::::::::::Z:J::yay=::::::::::::::::::::::::::::::::<:ry
+::::::::::::::::Z::xI:::::::::::::::::::::::::::;:vY::::::::::::::::::
+:::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::>:jy;B:Zy=::::::::::J:
+:yAZ::xI:::B:Zy=::::::::<:ry>:jyC:ZyM::yA>:jyC:Zy=<:ry>:jyC:Zy=<:ry:::
+:::::::::::::::::>:jy;:::::::::::::::;:vY::::::::::::::::::::<:ry:::::
+::::::::>:<:ryvY::::::::::::::::::::::::::::::::::J::yA:::::::::::::::
+>:jy;:::::::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::
+:::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::>:jy;B:Zy=::::::::::J::yAZ::xI:::B:Zy=
+::::::::<:ry>:<::yayM:B::ZymyC:>::jysy>:<::yay=<:ry:::::::::::::::::::
+:Z::xI::::::::::::::B:Zy=::::::::::::::::::::<:ry:::::::::::Z:J::yay=:
+:::::::::::::::::::::::::::::::::::<:ry::::::::::::::Z::xI::::::::::::
+::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::::::::::
+:<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::>:jy;B:Zy=::::::::::J::yAZ::xI:::B:Zy=::::::::<:ry::::
+:::::::::Z::xI::::::::::::::::::::B:Zy=::::::::::::::<:ry:::::::::::::
+:::::::Z::xI::::::::::;Z::xIyA:::::::::::::::::::::::::::::::::::::Z::
+xI::::::::::::::B:Zy=:::::::::::::::::::::::::::J::yA:::::::::::::::::
+:::::::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::;:vY:<:ry:::::::::::>
+:jy;B:Zy=:::<:ry::::::::Z::xI:::::::::::::B:Zy=::::::::::::::::::::J::
+yA:::::::::::::>:jy;::::::::::::::::::::B:Zy=::::::::<:;:vYxI:::::::::
+:::::::::::::::::::::::::::::::;:vY:::::::::::::J::yA:::::::::::::::::
+:::::::::::>:jy;::::::::::::::::::::::::::::::::::::::::::::::::::B:Zy
+=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::J::yAZ::xI:::::::::::;:vY:<:ry:::Z::xI::::::::B:Zy=::::::::
+:::::<:ry:::::::::::::::::::::Z::xI::::::::::::B:Zy=::::::::::::::::::
+:::<:ry:::::::>:<:ryvY::::::::::::::::::::::::::::::::::::::::::<:ry::
+::::::::::Z::xI:::::::::::::::::::::::::::::;:vY::::::::::::::::::::::
+:::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::>:jy;B:Zy=::::::::::J::yAZ
+::xI:::B:Zy=::::::::<:;:::::::::::::::vYxI::::::::::::::::::::::;:vY::
+:::::::::J::yA:::::::::::::::::::::Z::xI:::::B:>:jysy:::::::::::::::::
+:::::::::::::::::::::::::::>:jy;:::::::::::;:vY:::::::::::::::::::::::
+::::::J::yA::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::;:vY:<:ry:::::::::::>:jy;B:Zy=:::<:ry::::::::::::::::::::::::::
+:::::::::::::::::::::Z:J:ryvY:::::::::J:B:vYxI::::::::::::::::::::::B:
+Zy=:::J:B:Zymy;:::::::::::::::::::::::::::::::::::::::::::::B:>:xIyA::
+:::::::>:<:yay=:::::::::::::::::::::::::::::J::yA:::::::::::::::::::::
+:::::::::::::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::;:vY:<:;::::::::::::Zymy;
+B:Zy=:::<:ry::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::
+:::B:Zy=:::::::::::::::::::::::<:ry::Z:J::yay=::::::::::::::::::::::::
+::::::::::::::::::::::::<:ry::::::::Z::xI:::::::::::::::::::::::::::::
+::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::>:jy;:::::::::::::::B:Zy=:::<:ry::::::::::::::::::::::::::::::::::::
+:::::::::::::>:<:yay=::::::<:;Zymy;:::::::::::::::::::::::B:Zy=J:B:Zym
+y;::::::::::::::::::::::::::::::::::::::::::::::::::;Z:jysy::::::Z:J:r
+yvY:::::::::::::::::::::::::::::::J::yA:::::::::::::::::::::::::::::::
+:::::::::::::::::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::;:vY::::::::::::::::<:ry:::Z::xI:::
+:::::::::::::::::::::::::::::::::::::::::::::::;Z:::xIyA:>:<::ryvY::::
+:::::::::::::::::::::<::;:vYxI::::::::::::::::::::::::::::::::::::::::
+:::::::::::::;Z:::xIyA:>:<::ryvY::::::::::::::::::::::::::::::::J::yA:
+:::::::::::::::::::::::::::::::::::::::::::::::::Z::xI::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:vY:
+:::::::::::::::<:ry:::Z::xI:::::::::::::::::::::::::::::::::::::::::::
+:::::::::B:>::jysy:::::::::::::::::::::::::::Z:J:ryvY:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::<:;::vYxI:::::::::::::::::::::
+::::::::::::::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<
+:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::>:jy;:::::::::::::::B:Zy=:::<:ry::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::>:jy;::::::::::::::::::::::::::::::::::::::::::::::::
+::B:Zy=:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::J::yA:::::::::::::::Z::xI:::B:Zy=::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::J::yA:::::::::::::::::::::::::::::::::::::::::::::
+:::::Z::xI::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::;Z::::::::::::::::::jysy:::Z::xI:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::
+:::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::::
+:::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::::::
+:::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::::::::
+:::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::;:vY::::::::::::::::::::::::::::::::::::::::::::::::::
+:<:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<
+:ry:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:r
+y:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+;:vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:
+vY:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:vY
+:::::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:vY::
+:::::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:vY::::
+:::::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:vY::::::
+:::::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:vY::::::::
+:::::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::;:vY::::::::::
+:::::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::;:vY::::::::::::
+:::::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::;:vY::::::::::::::
+:::::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::;:vY::::::::::::::::
+:::::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::;:vY::::::::::::::::::
+:::::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Z::xI:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::;:vY::::::::::::::::::::
+:::::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z:
+:xI:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::;:vY::::::::::::::::::::::
+:::::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::x
+I:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::;:vY::::::::::::::::::::::::
+:::::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::;:vY::::::::::::::::::::::::::
+:::::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::;:vY::::::::::::::::::::::::::::
+:::::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::
+:::::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::
+:::::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::;:vY::::::::::::::::::::::::::::::::::
+:::::::::::::::::<:ry:::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::;Z::::::::::::::::::::::::::::::::::::::
+:::::::::::::::jysy:::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::Z::xI:::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::B:Zy=::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::<:ry::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::Z::xI:::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::B:Zy=::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::<:ry::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::Z:5:" }{TEXT 211 0 "" }}{PARA 0 "" 0 "" {TEXT 211 0 "" }}
+{SECT 0 {PARA 5 "" 0 "" {XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-
+mi(\"\", italic = \"true\", executable = \"true\", font_style_name = \+
+\"2D Input\", mathvariant = \"italic\"), Typesetting:-mrow(Typesetting
+:-msub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant = \"itali
+c\"), Typesetting:-mrow(Typesetting:-mi(\"p\", italic = \"true\", math
+variant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(\"=\"
+, mathvariant = \"normal\", fence = \"false\", separator = \"false\", \+
+stretchy = \"false\", symmetric = \"false\", largeop = \"false\", mova
+blelimits = \"false\", accent = \"false\", lspace = \"0.27777779102325
+44em\", rspace = \"0.2777777910232544em\"), Typesetting:-mrow(Typesett
+ing:-msub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant = \"it
+alic\"), Typesetting:-mrow(Typesetting:-mi(\"p\", italic = \"true\", m
+athvariant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(\"
+&ApplyFunction;\", mathvariant = \"normal\", fence = \"false\", separa
+tor = \"false\", stretchy = \"false\", symmetric = \"false\", largeop \+
+= \"false\", movablelimits = \"false\", accent = \"false\", lspace = \+
+\"0.0em\", rspace = \"0.0em\"), Typesetting:-mfenced(Typesetting:-mrow
+(Typesetting:-mi(\"\1666\", italic = \"false\", mathvariant = \"normal
+\"), Typesetting:-mo(\",\", mathvariant = \"normal\", fence = \"false
+\", separator = \"true\", stretchy = \"false\", symmetric = \"false\",
+ largeop = \"false\", movablelimits = \"false\", accent = \"false\", l
+space = \"0.0em\", rspace = \"0.3333333134651184em\"), Typesetting:-ms
+ub(Typesetting:-mi(\"\1711\", italic = \"false\", mathvariant = \"norm
+al\"), Typesetting:-mrow(Typesetting:-mi(\"n\", italic = \"true\", mat
+hvariant = \"italic\")), subscriptshift = \"0\")), mathvariant = \"nor
+mal\")), Typesetting:-mi(\"\", italic = \"true\", executable = \"true
+\", font_style_name = \"2D Input\", mathvariant = \"italic\")), Typese
+tting:-mi(\"\", italic = \"true\", executable = \"true\", font_style_n
+ame = \"2D Input\", mathvariant = \"italic\"));" "-I%mrowG6#/I+modulen
+ameG6\"I,TypesettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+
+executableGF1/%0font_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-
+F#6&-I%msubGF$6%-F,6%Q\"KF'F/F7-F#6#-F,6%Q\"pF'F/F7/%/subscriptshiftGQ
+\"0F'-I#moGF$6-Q\"=F'/F8Q'normalF'/%&fenceGQ&falseF'/%*separatorGFR/%)
+stretchyGFR/%*symmetricGFR/%(largeopGFR/%.movablelimitsGFR/%'accentGFR
+/%'lspaceGQ50.2777777910232544emF'/%'rspaceGF[o-F#6%F<-FK6-Q0&ApplyFun
+ction;F'FNFPFSFUFWFYFenFgn/FjnQ&0.0emF'/F]oFdo-I(mfencedGF$6$-F#6%-F,6
+%Q'&zeta;F'/F0FRFN-FK6-Q\",F'FNFP/FTF1FUFWFYFenFgnFco/F]oQ50.333333313
+4651184emF'-F=6%-F,6%Q(&omega;F'F^pFN-F#6#-F,6%Q\"nF'F/F7FGFNF+F+" }
+{TEXT 213 5 " and " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(
+\"\", italic = \"true\", executable = \"true\", font_style_name = \"2D
+ Input\", mathvariant = \"italic\"), Typesetting:-mrow(Typesetting:-ms
+ub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant = \"italic\")
+, Typesetting:-mrow(Typesetting:-mi(\"v\", italic = \"true\", mathvari
+ant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(\"=\", ma
+thvariant = \"normal\", fence = \"false\", separator = \"false\", stre
+tchy = \"false\", symmetric = \"false\", largeop = \"false\", movablel
+imits = \"false\", accent = \"false\", lspace = \"0.2777777910232544em
+\", rspace = \"0.2777777910232544em\"), Typesetting:-mrow(Typesetting:
+-msub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant = \"italic
+\"), Typesetting:-mrow(Typesetting:-mi(\"v\", italic = \"true\", mathv
+ariant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(\"&App
+lyFunction;\", mathvariant = \"normal\", fence = \"false\", separator \+
+= \"false\", stretchy = \"false\", symmetric = \"false\", largeop = \"
+false\", movablelimits = \"false\", accent = \"false\", lspace = \"0.0
+em\", rspace = \"0.0em\"), Typesetting:-mfenced(Typesetting:-mrow(Type
+setting:-mi(\"\1666\", italic = \"false\", mathvariant = \"normal\"), \+
+Typesetting:-mo(\",\", mathvariant = \"normal\", fence = \"false\", se
+parator = \"true\", stretchy = \"false\", symmetric = \"false\", large
+op = \"false\", movablelimits = \"false\", accent = \"false\", lspace \+
+= \"0.0em\", rspace = \"0.3333333134651184em\"), Typesetting:-msub(Typ
+esetting:-mi(\"\1711\", italic = \"false\", mathvariant = \"normal\"),
+ Typesetting:-mrow(Typesetting:-mi(\"n\", italic = \"true\", mathvaria
+nt = \"italic\")), subscriptshift = \"0\")), mathvariant = \"normal\")
+), Typesetting:-mi(\"\", italic = \"true\", executable = \"true\", fon
+t_style_name = \"2D Input\", mathvariant = \"italic\")), Typesetting:-
+mi(\"\", italic = \"true\", executable = \"true\", font_style_name = \+
+\"2D Input\", mathvariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6
+\"I,TypesettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+execu
+tableGF1/%0font_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6&-
+I%msubGF$6%-F,6%Q\"KF'F/F7-F#6#-F,6%Q\"vF'F/F7/%/subscriptshiftGQ\"0F'
+-I#moGF$6-Q\"=F'/F8Q'normalF'/%&fenceGQ&falseF'/%*separatorGFR/%)stret
+chyGFR/%*symmetricGFR/%(largeopGFR/%.movablelimitsGFR/%'accentGFR/%'ls
+paceGQ50.2777777910232544emF'/%'rspaceGF[o-F#6%F<-FK6-Q0&ApplyFunction
+;F'FNFPFSFUFWFYFenFgn/FjnQ&0.0emF'/F]oFdo-I(mfencedGF$6$-F#6%-F,6%Q'&z
+eta;F'/F0FRFN-FK6-Q\",F'FNFP/FTF1FUFWFYFenFgnFco/F]oQ50.33333331346511
+84emF'-F=6%-F,6%Q(&omega;F'F^pFN-F#6#-F,6%Q\"nF'F/F7FGFNF+F+" }{TEXT 
+213 14 " Determination" }}{PARA 0 "" 0 "" {TEXT 211 35 "Determine the \+
+PV controller gains: " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-
+msub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant = \"italic
+\"), Typesetting:-mrow(Typesetting:-mi(\"p\", italic = \"true\", mathv
+ariant = \"italic\")), subscriptshift = \"0\"));" "-I%mrowG6#/I+module
+nameG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"KF'/%'ita
+licGQ%trueF'/%,mathvariantGQ'italicF'-F#6#-F/6%Q\"pF'F2F5/%/subscripts
+hiftGQ\"0F'" }{TEXT 211 5 " and " }{XPPEDIT 18 0 "Typesetting:-mrow(Ty
+pesetting:-msub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant \+
+= \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"v\", italic = \"tru
+e\", mathvariant = \"italic\")), subscriptshift = \"0\"));" "-I%mrowG6
+#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q
+\"KF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-F#6#-F/6%Q\"vF'F2F5/%
+/subscriptshiftGQ\"0F'" }{TEXT 211 1 "." }}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 211 18 "unassign variables" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 41 
+"G[c] := 'G[c]': H := 'H': K[p] := 'K[p]':" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 211 33 "Controller TF in the forward loop" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "G[c] := 'K[p]';" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&
+%\"GG6#%\"cG&%\"KG6#%\"pG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 211 56 "Fee
+dback loop equivalent block (through block reduction)" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 26 "H := 'K[v] / K[p] * s +1';" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"HG,&*(&%\"KG6#%\"vG\"\"\"&%\"KG6#%\"pG!\"\"%\"sG\"
+\"\"\"\"\"\"\"\"\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 211 31 "Closed
+ Loop Transfer Function: " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetti
+ng:-mi(\"\", italic = \"true\", executable = \"true\", font_style_name
+ = \"2D Input\", mathvariant = \"italic\"), Typesetting:-mrow(Typesett
+ing:-msub(Typesetting:-mi(\"T\", italic = \"true\", mathvariant = \"it
+alic\"), Typesetting:-mrow(Typesetting:-mi(\"pv\", italic = \"true\", \+
+mathvariant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(
+\"=\", mathvariant = \"normal\", fence = \"false\", separator = \"fals
+e\", stretchy = \"false\", symmetric = \"false\", largeop = \"false\",
+ movablelimits = \"false\", accent = \"false\", lspace = \"0.277777791
+0232544em\", rspace = \"0.2777777910232544em\"), Typesetting:-mfrac(Ty
+pesetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"\1630\", italic = \+
+\"false\", mathvariant = \"normal\"), Typesetting:-mrow(Typesetting:-m
+i(\"l\", italic = \"true\", mathvariant = \"italic\")), subscriptshift
+ = \"0\")), Typesetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"\163
+0\", italic = \"false\", mathvariant = \"normal\"), Typesetting:-mrow(
+Typesetting:-mi(\"l_d\", italic = \"true\", mathvariant = \"italic\"))
+, subscriptshift = \"0\")), linethickness = \"1\", denomalign = \"cent
+er\", numalign = \"center\", bevelled = \"false\")), Typesetting:-mi(
+\"\", italic = \"true\", executable = \"true\", font_style_name = \"2D
+ Input\", mathvariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6\"I,T
+ypesettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+executable
+GF1/%0font_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6%-I%msu
+bGF$6%-F,6%Q\"TF'F/F7-F#6#-F,6%Q#pvF'F/F7/%/subscriptshiftGQ\"0F'-I#mo
+GF$6-Q\"=F'/F8Q'normalF'/%&fenceGQ&falseF'/%*separatorGFR/%)stretchyGF
+R/%*symmetricGFR/%(largeopGFR/%.movablelimitsGFR/%'accentGFR/%'lspaceG
+Q50.2777777910232544emF'/%'rspaceGF[o-I&mfracGF$6(-F#6#-F=6%-F,6%Q(&Th
+eta;F'/F0FRFN-F#6#-F,6%Q\"lF'F/F7FG-F#6#-F=6%Feo-F#6#-F,6%Q$l_dF'F/F7F
+G/%.linethicknessGQ\"1F'/%+denomalignGQ'centerF'/%)numalignGF\\q/%)bev
+elledGFRF+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "T[pv] := G[c] * G[j1]
+ / ( 1 + G[c] * G[j1] * H );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"T
+G6#%#pvG*,&%\"KG6#%\"pG\"\"\"&%\"KG6#%\"tG\"\"\",&*&&%\"JG6#%$eq1G\"\"
+\"%\"sG\"\"\"\"\"\"&%\"BG6#%$eq1G\"\"\"!\"\"%\"sG!\"\",&\"\"\"\"\"\"*,
+&%\"KG6#%\"pG\"\"\"&%\"KG6#%\"tG\"\"\",&*&&%\"JG6#%$eq1G\"\"\"%\"sG\"
+\"\"\"\"\"&%\"BG6#%$eq1G\"\"\"!\"\"%\"sG!\"\",&*(&%\"KG6#%\"vG\"\"\"&%
+\"KG6#%\"pG!\"\"%\"sG\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "T[pv] := simplify( T[pv] );"
+ }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"TG6#%#pvG*(&%\"KG6#%\"tG\"\"\"
+&%\"KG6#%\"pG\"\"\",**&&%\"JG6#%$eq1G\"\"\")%\"sG\"\"#\"\"\"\"\"\"*&&%
+\"BG6#%$eq1G\"\"\"%\"sG\"\"\"\"\"\"*(&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"vG
+\"\"\"%\"sG\"\"\"\"\"\"*&&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"pG\"\"\"\"\"\"!
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "char_eqn[pv] := col
+lect( denom( T[pv] ), s );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%)char
+_eqnG6#%#pvG,(*&&%\"JG6#%$eq1G\"\"\")%\"sG\"\"#\"\"\"\"\"\"*&,&&%\"BG6
+#%$eq1G\"\"\"*&&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"vG\"\"\"\"\"\"\"\"\"%\"sG
+\"\"\"\"\"\"*&&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"pG\"\"\"\"\"\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 211 37 "normalize the characteristic equation" }
+}{PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "char_eqn[pv] := collect( char_eqn[
+pv] / coeff( char_eqn[pv], s^2), s );" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>&%)char_eqnG6#%#pvG,(*$)%\"sG\"\"#\"\"\"\"\"\"*(,&&%\"BG6#%$eq1G\"
+\"\"*&&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"vG\"\"\"\"\"\"\"\"\"&%\"JG6#%$eq1G
+!\"\"%\"sG\"\"\"\"\"\"*(&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"pG\"\"\"&%\"JG6#
+%$eq1G!\"\"\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "char_e
+qn[std] := s^2 + 2 * zeta * omega[n] * s + omega[n]^2;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>&%)char_eqnG6#%$stdG,(*$)%\"sG\"\"#\"\"\"\"\"\"**
+\"\"#\"\"\"%%zetaG\"\"\"&%&omegaG6#%\"nG\"\"\"%\"sG\"\"\"\"\"\"*$)&%&o
+megaG6#%\"nG\"\"#\"\"\"\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 38 "ID_EQ := char_eqn[pv] = char_eqn[std];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%&ID_EQG/,(*$)%\"sG\"\"#\"\"\"\"\"\"*(,&&%\"BG6#%$eq1G
+\"\"\"*&&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"vG\"\"\"\"\"\"\"\"\"&%\"JG6#%$eq
+1G!\"\"%\"sG\"\"\"\"\"\"*(&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"pG\"\"\"&%\"JG
+6#%$eq1G!\"\"\"\"\",(*$)%\"sG\"\"#\"\"\"\"\"\"**\"\"#\"\"\"%%zetaG\"\"
+\"&%&omegaG6#%\"nG\"\"\"%\"sG\"\"\"\"\"\"*$)&%&omegaG6#%\"nG\"\"#\"\"
+\"\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 211 31 "solving ID_EQ by ide
+ntification" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "EQ_KP := coeff( rhs(
+ ID_EQ ), s, 0 ) = coeff( lhs( ID_EQ ), s, 0 );" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%&EQ_KPG/*$)&%&omegaG6#%\"nG\"\"#\"\"\"*(&%\"KG6#%\"tG
+\"\"\"&%\"KG6#%\"pG\"\"\"&%\"JG6#%$eq1G!\"\"" }}}{EXCHG {PARA 0 "> " 0
+ "" {MPLTEXT 1 0 29 "K[p] := solve( EQ_KP, K[p] );" }}{PARA 11 "" 1 ""
+ {XPPMATH 20 "6#>&%\"KG6#%\"pG*()&%&omegaG6#%\"nG\"\"#\"\"\"&%\"KG6#%
+\"tG!\"\"&%\"JG6#%$eq1G\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 61 "EQ_KV := coeff( rhs( ID_EQ ), s ) = coeff( lhs( ID_EQ ), s );" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&EQ_KVG/,$*(\"\"#\"\"\"%%zetaG\"\"
+\"&%&omegaG6#%\"nG\"\"\"\"\"\"*&,&&%\"BG6#%$eq1G\"\"\"*&&%\"KG6#%\"tG
+\"\"\"&%\"KG6#%\"vG\"\"\"\"\"\"\"\"\"&%\"JG6#%$eq1G!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "K[v] := solve( EQ_KV, K[v] );" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"KG6#%\"vG*&,&**\"\"#\"\"\"%%zetaG
+\"\"\"&%&omegaG6#%\"nG\"\"\"&%\"JG6#%$eq1G\"\"\"\"\"\"&%\"BG6#%$eq1G!
+\"\"\"\"\"&%\"KG6#%\"tG!\"\"" }}}{PARA 0 "" 0 "" {TEXT 211 0 "" }}}
+{PARA 0 "" 0 "" {TEXT 211 0 "" }}{SECT 0 {PARA 5 "" 0 "" {TEXT 213 1 "
+ " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(\"\", italic = \"
+true\", executable = \"true\", font_style_name = \"2D Input\", mathvar
+iant = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"\1666\", itali
+c = \"false\", mathvariant = \"normal\"), Typesetting:-mo(\"=\", mathv
+ariant = \"normal\", fence = \"false\", separator = \"false\", stretch
+y = \"false\", symmetric = \"false\", largeop = \"false\", movablelimi
+ts = \"false\", accent = \"false\", lspace = \"0.2777777910232544em\",
+ rspace = \"0.2777777910232544em\"), Typesetting:-mrow(Typesetting:-mi
+(\"\1666\", italic = \"false\", mathvariant = \"normal\"), Typesetting
+:-mo(\"&ApplyFunction;\", mathvariant = \"normal\", fence = \"false\",
+ separator = \"false\", stretchy = \"false\", symmetric = \"false\", l
+argeop = \"false\", movablelimits = \"false\", accent = \"false\", lsp
+ace = \"0.0em\", rspace = \"0.0em\"), Typesetting:-mfenced(Typesetting
+:-mrow(Typesetting:-msub(Typesetting:-mi(\"K\", italic = \"true\", mat
+hvariant = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"p\", itali
+c = \"true\", mathvariant = \"italic\")), subscriptshift = \"0\"), Typ
+esetting:-mo(\",\", mathvariant = \"normal\", fence = \"false\", separ
+ator = \"true\", stretchy = \"false\", symmetric = \"false\", largeop \+
+= \"false\", movablelimits = \"false\", accent = \"false\", lspace = \+
+\"0.0em\", rspace = \"0.3333333134651184em\"), Typesetting:-msub(Types
+etting:-mi(\"K\", italic = \"true\", mathvariant = \"italic\"), Typese
+tting:-mrow(Typesetting:-mi(\"v\", italic = \"true\", mathvariant = \"
+italic\")), subscriptshift = \"0\")), mathvariant = \"normal\")), Type
+setting:-mi(\"\", italic = \"true\", executable = \"true\", font_style
+_name = \"2D Input\", mathvariant = \"italic\")), Typesetting:-mi(\"\"
+, italic = \"true\", executable = \"true\", font_style_name = \"2D Inp
+ut\", mathvariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6\"I,Types
+ettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/
+%0font_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6&-F,6%Q'&ze
+ta;F'/F0Q&falseF'/F8Q'normalF'-I#moGF$6-Q\"=F'FA/%&fenceGF@/%*separato
+rGF@/%)stretchyGF@/%*symmetricGF@/%(largeopGF@/%.movablelimitsGF@/%'ac
+centGF@/%'lspaceGQ50.2777777910232544emF'/%'rspaceGFW-F#6%F<-FD6-Q0&Ap
+plyFunction;F'FAFGFIFKFMFOFQFS/FVQ&0.0emF'/FYFjn-I(mfencedGF$6$-F#6%-I
+%msubGF$6%-F,6%Q\"KF'F/F7-F#6#-F,6%Q\"pF'F/F7/%/subscriptshiftGQ\"0F'-
+FD6-Q\",F'FAFG/FJF1FKFMFOFQFSFin/FYQ50.3333333134651184emF'-Fbo6%Fdo-F
+#6#-F,6%Q\"vF'F/F7F\\pFAF+F+" }{TEXT 213 5 " and " }{XPPEDIT 18 0 "Typ
+esetting:-mrow(Typesetting:-mi(\"\", italic = \"true\", executable = \+
+\"true\", font_style_name = \"2D Input\", mathvariant = \"italic\"), T
+ypesetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"\1711\", italic =
+ \"false\", mathvariant = \"normal\"), Typesetting:-mrow(Typesetting:-
+mi(\"n\", italic = \"true\", mathvariant = \"italic\")), subscriptshif
+t = \"0\"), Typesetting:-mo(\"=\", mathvariant = \"normal\", fence = \+
+\"false\", separator = \"false\", stretchy = \"false\", symmetric = \"
+false\", largeop = \"false\", movablelimits = \"false\", accent = \"fa
+lse\", lspace = \"0.2777777910232544em\", rspace = \"0.277777791023254
+4em\"), Typesetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"\1711\",
+ italic = \"false\", mathvariant = \"normal\"), Typesetting:-mrow(Type
+setting:-mi(\"n\", italic = \"true\", mathvariant = \"italic\")), subs
+criptshift = \"0\"), Typesetting:-mo(\"&ApplyFunction;\", mathvariant \+
+= \"normal\", fence = \"false\", separator = \"false\", stretchy = \"f
+alse\", symmetric = \"false\", largeop = \"false\", movablelimits = \"
+false\", accent = \"false\", lspace = \"0.0em\", rspace = \"0.0em\"), \+
+Typesetting:-mfenced(Typesetting:-mrow(Typesetting:-msub(Typesetting:-
+mi(\"K\", italic = \"true\", mathvariant = \"italic\"), Typesetting:-m
+row(Typesetting:-mi(\"p\", italic = \"true\", mathvariant = \"italic\"
+)), subscriptshift = \"0\"), Typesetting:-mo(\",\", mathvariant = \"no
+rmal\", fence = \"false\", separator = \"true\", stretchy = \"false\",
+ symmetric = \"false\", largeop = \"false\", movablelimits = \"false\"
+, accent = \"false\", lspace = \"0.0em\", rspace = \"0.333333313465118
+4em\"), Typesetting:-msub(Typesetting:-mi(\"K\", italic = \"true\", ma
+thvariant = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"v\", ital
+ic = \"true\", mathvariant = \"italic\")), subscriptshift = \"0\")), m
+athvariant = \"normal\")), Typesetting:-mi(\"\", italic = \"true\", ex
+ecutable = \"true\", font_style_name = \"2D Input\", mathvariant = \"i
+talic\")), Typesetting:-mi(\"\", italic = \"true\", executable = \"tru
+e\", font_style_name = \"2D Input\", mathvariant = \"italic\"));" "-I%
+mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'i
+talicGQ%trueF'/%+executableGF1/%0font_style_nameGQ)2D~InputF'/%,mathva
+riantGQ'italicF'-F#6&-I%msubGF$6%-F,6%Q(&omega;F'/F0Q&falseF'/F8Q'norm
+alF'-F#6#-F,6%Q\"nF'F/F7/%/subscriptshiftGQ\"0F'-I#moGF$6-Q\"=F'FD/%&f
+enceGFC/%*separatorGFC/%)stretchyGFC/%*symmetricGFC/%(largeopGFC/%.mov
+ablelimitsGFC/%'accentGFC/%'lspaceGQ50.2777777910232544emF'/%'rspaceGF
+\\o-F#6%F<-FO6-Q0&ApplyFunction;F'FDFRFTFVFXFZFfnFhn/F[oQ&0.0emF'/F^oF
+eo-I(mfencedGF$6$-F#6%-F=6%-F,6%Q\"KF'F/F7-F#6#-F,6%Q\"pF'F/F7FK-FO6-Q
+\",F'FDFR/FUF1FVFXFZFfnFhnFdo/F^oQ50.3333333134651184emF'-F=6%F^p-F#6#
+-F,6%Q\"vF'F/F7FKFDF+F+" }{TEXT 213 14 " Determination" }}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 211 18 "unassign variables" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "K[p] := 'K[p]': K[v] := 'K[v]':" }}}{EXCHG {PARA 212 
+"" 0 "" {TEXT 205 74 "assume( J[eq]>0, R[m]>0, eta[g]>0, K[g]>0, eta[m
+]>0, K[p]>0, omega[n]>0 );" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+38 "solns := [ solve( EQ_KP, omega[n] ) ];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%&solnsG7$*&&%\"JG6#%$eq1G!\"\")*(&%\"JG6#%$eq1G\"\"\"
+&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"pG\"\"\"#\"\"\"\"\"#\"\"\",$*&&%\"JG6#%$
+eq1G!\"\")*(&%\"JG6#%$eq1G\"\"\"&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"pG\"\"\"
+#\"\"\"\"\"#\"\"\"!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 211 9 "howeve
+r: " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(\"\", italic = \+
+\"true\", executable = \"true\", font_style_name = \"2D Input\", mathv
+ariant = \"italic\"), Typesetting:-mrow(Typesetting:-mn(\"0\", mathvar
+iant = \"normal\"), Typesetting:-mo(\"<\", mathvariant = \"normal\", f
+ence = \"false\", separator = \"false\", stretchy = \"false\", symmetr
+ic = \"false\", largeop = \"false\", movablelimits = \"false\", accent
+ = \"false\", lspace = \"0.2777777910232544em\", rspace = \"0.27777779
+10232544em\"), Typesetting:-msub(Typesetting:-mi(\"\1711\", italic = \+
+\"false\", mathvariant = \"normal\"), Typesetting:-mrow(Typesetting:-m
+i(\"n\", italic = \"true\", mathvariant = \"italic\")), subscriptshift
+ = \"0\")), Typesetting:-mi(\"\", italic = \"true\", executable = \"tr
+ue\", font_style_name = \"2D Input\", mathvariant = \"italic\"));" "-I
+%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'
+italicGQ%trueF'/%+executableGF1/%0font_style_nameGQ)2D~InputF'/%,mathv
+ariantGQ'italicF'-F#6%-I#mnGF$6$Q\"0F'/F8Q'normalF'-I#moGF$6-Q\"<F'F@/
+%&fenceGQ&falseF'/%*separatorGFH/%)stretchyGFH/%*symmetricGFH/%(largeo
+pGFH/%.movablelimitsGFH/%'accentGFH/%'lspaceGQ50.2777777910232544emF'/
+%'rspaceGFW-I%msubGF$6%-F,6%Q(&omega;F'/F0FHF@-F#6#-F,6%Q\"nF'F/F7/%/s
+ubscriptshiftGQ\"0F'F+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "omega[n] \+
+:= solns[1];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%&omegaG6#%\"nG*&&%
+\"JG6#%$eq1G!\"\")*(&%\"JG6#%$eq1G\"\"\"&%\"KG6#%\"tG\"\"\"&%\"KG6#%\"
+pG\"\"\"#\"\"\"\"\"#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+29 "zeta := solve( EQ_KV, zeta );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%%zetaG,$*&#\"\"\"\"\"#\"\"\"*&,&&%\"BG6#%$eq1G\"\"\"*&&%\"KG6#%\"tG\"
+\"\"&%\"KG6#%\"vG\"\"\"\"\"\"\"\"\")*(&%\"JG6#%$eq1G\"\"\"&%\"KG6#%\"t
+G\"\"\"&%\"KG6#%\"pG\"\"\"#\"\"\"\"\"#!\"\"\"\"\"\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 211 0 "" 
+}}}{SECT 0 {PARA 5 "" 0 "" {XPPEDIT 18 0 "Typesetting:-mrow(Typesettin
+g:-mi(\"\", italic = \"true\", executable = \"true\", font_style_name \+
+= \"2D Input\", mathvariant = \"italic\"), Typesetting:-mrow(Typesetti
+ng:-msub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant = \"ita
+lic\"), Typesetting:-mrow(Typesetting:-mi(\"p\", italic = \"true\", ma
+thvariant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(\"=
+\", mathvariant = \"normal\", fence = \"false\", separator = \"false\"
+, stretchy = \"false\", symmetric = \"false\", largeop = \"false\", mo
+vablelimits = \"false\", accent = \"false\", lspace = \"0.277777791023
+2544em\", rspace = \"0.2777777910232544em\"), Typesetting:-mrow(Typese
+tting:-msub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant = \"
+italic\"), Typesetting:-mrow(Typesetting:-mi(\"p\", italic = \"true\",
+ mathvariant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(
+\"&ApplyFunction;\", mathvariant = \"normal\", fence = \"false\", sepa
+rator = \"false\", stretchy = \"false\", symmetric = \"false\", largeo
+p = \"false\", movablelimits = \"false\", accent = \"false\", lspace =
+ \"0.0em\", rspace = \"0.0em\"), Typesetting:-mfenced(Typesetting:-mro
+w(Typesetting:-mi(\"\1666\", italic = \"false\", mathvariant = \"norma
+l\"), Typesetting:-mo(\",\", mathvariant = \"normal\", fence = \"false
+\", separator = \"true\", stretchy = \"false\", symmetric = \"false\",
+ largeop = \"false\", movablelimits = \"false\", accent = \"false\", l
+space = \"0.0em\", rspace = \"0.3333333134651184em\"), Typesetting:-ms
+ub(Typesetting:-mi(\"\1711\", italic = \"false\", mathvariant = \"norm
+al\"), Typesetting:-mrow(Typesetting:-mi(\"n\", italic = \"true\", mat
+hvariant = \"italic\")), subscriptshift = \"0\")), mathvariant = \"nor
+mal\")), Typesetting:-mi(\"\", italic = \"true\", executable = \"true
+\", font_style_name = \"2D Input\", mathvariant = \"italic\")), Typese
+tting:-mi(\"\", italic = \"true\", executable = \"true\", font_style_n
+ame = \"2D Input\", mathvariant = \"italic\"));" "-I%mrowG6#/I+modulen
+ameG6\"I,TypesettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+
+executableGF1/%0font_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-
+F#6&-I%msubGF$6%-F,6%Q\"KF'F/F7-F#6#-F,6%Q\"pF'F/F7/%/subscriptshiftGQ
+\"0F'-I#moGF$6-Q\"=F'/F8Q'normalF'/%&fenceGQ&falseF'/%*separatorGFR/%)
+stretchyGFR/%*symmetricGFR/%(largeopGFR/%.movablelimitsGFR/%'accentGFR
+/%'lspaceGQ50.2777777910232544emF'/%'rspaceGF[o-F#6%F<-FK6-Q0&ApplyFun
+ction;F'FNFPFSFUFWFYFenFgn/FjnQ&0.0emF'/F]oFdo-I(mfencedGF$6$-F#6%-F,6
+%Q'&zeta;F'/F0FRFN-FK6-Q\",F'FNFP/FTF1FUFWFYFenFgnFco/F]oQ50.333333313
+4651184emF'-F=6%-F,6%Q(&omega;F'F^pFN-F#6#-F,6%Q\"nF'F/F7FGFNF+F+" }
+{TEXT 213 5 " and " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(
+\"\", italic = \"true\", executable = \"true\", font_style_name = \"2D
+ Input\", mathvariant = \"italic\"), Typesetting:-mrow(Typesetting:-ms
+ub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant = \"italic\")
+, Typesetting:-mrow(Typesetting:-mi(\"v\", italic = \"true\", mathvari
+ant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(\"=\", ma
+thvariant = \"normal\", fence = \"false\", separator = \"false\", stre
+tchy = \"false\", symmetric = \"false\", largeop = \"false\", movablel
+imits = \"false\", accent = \"false\", lspace = \"0.2777777910232544em
+\", rspace = \"0.2777777910232544em\"), Typesetting:-mrow(Typesetting:
+-msub(Typesetting:-mi(\"K\", italic = \"true\", mathvariant = \"italic
+\"), Typesetting:-mrow(Typesetting:-mi(\"v\", italic = \"true\", mathv
+ariant = \"italic\")), subscriptshift = \"0\"), Typesetting:-mo(\"&App
+lyFunction;\", mathvariant = \"normal\", fence = \"false\", separator \+
+= \"false\", stretchy = \"false\", symmetric = \"false\", largeop = \"
+false\", movablelimits = \"false\", accent = \"false\", lspace = \"0.0
+em\", rspace = \"0.0em\"), Typesetting:-mfenced(Typesetting:-mrow(Type
+setting:-mi(\"\1666\", italic = \"false\", mathvariant = \"normal\"), \+
+Typesetting:-mo(\",\", mathvariant = \"normal\", fence = \"false\", se
+parator = \"true\", stretchy = \"false\", symmetric = \"false\", large
+op = \"false\", movablelimits = \"false\", accent = \"false\", lspace \+
+= \"0.0em\", rspace = \"0.3333333134651184em\"), Typesetting:-msub(Typ
+esetting:-mi(\"\1711\", italic = \"false\", mathvariant = \"normal\"),
+ Typesetting:-mrow(Typesetting:-mi(\"n\", italic = \"true\", mathvaria
+nt = \"italic\")), subscriptshift = \"0\")), mathvariant = \"normal\")
+), Typesetting:-mi(\"\", italic = \"true\", executable = \"true\", fon
+t_style_name = \"2D Input\", mathvariant = \"italic\")), Typesetting:-
+mi(\"\", italic = \"true\", executable = \"true\", font_style_name = \+
+\"2D Input\", mathvariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6
+\"I,TypesettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+execu
+tableGF1/%0font_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6&-
+I%msubGF$6%-F,6%Q\"KF'F/F7-F#6#-F,6%Q\"vF'F/F7/%/subscriptshiftGQ\"0F'
+-I#moGF$6-Q\"=F'/F8Q'normalF'/%&fenceGQ&falseF'/%*separatorGFR/%)stret
+chyGFR/%*symmetricGFR/%(largeopGFR/%.movablelimitsGFR/%'accentGFR/%'ls
+paceGQ50.2777777910232544emF'/%'rspaceGF[o-F#6%F<-FK6-Q0&ApplyFunction
+;F'FNFPFSFUFWFYFenFgn/FjnQ&0.0emF'/F]oFdo-I(mfencedGF$6$-F#6%-F,6%Q'&z
+eta;F'/F0FRFN-FK6-Q\",F'FNFP/FTF1FUFWFYFenFgnFco/F]oQ50.33333331346511
+84emF'-F=6%-F,6%Q(&omega;F'F^pFN-F#6#-F,6%Q\"nF'F/F7FGFNF+F+" }{TEXT 
+213 48 " Standard Calculations for a Second-Order System" }}{PARA 0 ""
+ 0 "" {TEXT 211 53 "Determine the general formula to calculate the gai
+ns " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-msub(Typesetting:-
+mi(\"K\", italic = \"true\", mathvariant = \"italic\"), Typesetting:-m
+row(Typesetting:-mi(\"p\", italic = \"true\", mathvariant = \"italic\"
+)), subscriptshift = \"0\"));" "-I%mrowG6#/I+modulenameG6\"I,Typesetti
+ngGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"KF'/%'italicGQ%trueF'/%,math
+variantGQ'italicF'-F#6#-F/6%Q\"pF'F2F5/%/subscriptshiftGQ\"0F'" }{TEXT
+ 211 5 " and " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-msub(Typ
+esetting:-mi(\"K\", italic = \"true\", mathvariant = \"italic\"), Type
+setting:-mrow(Typesetting:-mi(\"v\", italic = \"true\", mathvariant = \+
+\"italic\")), subscriptshift = \"0\"));" "-I%mrowG6#/I+modulenameG6\"I
+,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"KF'/%'italicGQ%tru
+eF'/%,mathvariantGQ'italicF'-F#6#-F/6%Q\"vF'F2F5/%/subscriptshiftGQ\"0
+F'" }{TEXT 211 73 " of a PV controller from the system standard open l
+oop transfer function " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:
+-msub(Typesetting:-mi(\"G\", italic = \"true\", mathvariant = \"italic
+\"), Typesetting:-mrow(Typesetting:-mi(\"std\", italic = \"true\", mat
+hvariant = \"italic\")), subscriptshift = \"0\"));" "-I%mrowG6#/I+modu
+lenameG6\"I,TypesettingGI(_syslibGF'6#-I%msubGF$6%-I#miGF$6%Q\"GF'/%'i
+talicGQ%trueF'/%,mathvariantGQ'italicF'-F#6#-F/6%Q$stdF'F2F5/%/subscri
+ptshiftGQ\"0F'" }{TEXT 211 1 "." }}{EXCHG {PARA 0 "" 0 "" {TEXT 211 
+18 "unassign variables" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "G[c] := '
+G[c]': H := 'H': K[p] := 'K[p]': K[v] := 'K[v]': \n" }{MPLTEXT 1 0 39 
+"omega[n] := 'omega[n]': zeta := 'zeta':" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 211 45 "Standard form of the system transfer function" }}{PARA 0
+ "> " 0 "" {MPLTEXT 1 0 64 "G[std] := 'G[num0] / ( G[den2] * s^2 + G[d
+en1] * s + G[den0] )';" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"GG6#%$s
+tdG*&&%\"GG6#%%num0G\"\"\",(*&&%\"GG6#%%den2G\"\"\")%\"sG\"\"#\"\"\"\"
+\"\"*&&%\"GG6#%%den1G\"\"\"%\"sG\"\"\"\"\"\"&%\"GG6#%%den0G\"\"\"!\"\"
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 211 33 "Controller TF in the forward
+ loop" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "G[c] := 'K[p]';" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%\"GG6#%\"cG&%\"KG6#%\"pG" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 211 56 "Feedback loop equivalent block (through \+
+block reduction)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "H := 'K[v] / K[
+p] * s +1';" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"HG,&*(&%\"KG6#%\"vG
+\"\"\"&%\"KG6#%\"pG!\"\"%\"sG\"\"\"\"\"\"\"\"\"\"\"\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 211 47 "Closed Loop Transfer Function (standard \+
+form): " }{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(\"\", itali
+c = \"true\", executable = \"true\", font_style_name = \"2D Input\", m
+athvariant = \"italic\"), Typesetting:-mrow(Typesetting:-msub(Typesett
+ing:-mi(\"T\", italic = \"true\", mathvariant = \"italic\"), Typesetti
+ng:-mrow(Typesetting:-mi(\"pv_std\", italic = \"true\", mathvariant = \+
+\"italic\")), subscriptshift = \"0\"), Typesetting:-mo(\"=\", mathvari
+ant = \"normal\", fence = \"false\", separator = \"false\", stretchy =
+ \"false\", symmetric = \"false\", largeop = \"false\", movablelimits \+
+= \"false\", accent = \"false\", lspace = \"0.2777777910232544em\", rs
+pace = \"0.2777777910232544em\"), Typesetting:-mfrac(Typesetting:-mrow
+(Typesetting:-msub(Typesetting:-mi(\"\1630\", italic = \"false\", math
+variant = \"normal\"), Typesetting:-mrow(Typesetting:-mi(\"l\", italic
+ = \"true\", mathvariant = \"italic\")), subscriptshift = \"0\")), Typ
+esetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"\1630\", italic = \+
+\"false\", mathvariant = \"normal\"), Typesetting:-mrow(Typesetting:-m
+i(\"l_d\", italic = \"true\", mathvariant = \"italic\")), subscriptshi
+ft = \"0\")), linethickness = \"1\", denomalign = \"center\", numalign
+ = \"center\", bevelled = \"false\")), Typesetting:-mi(\"\", italic = \+
+\"true\", executable = \"true\", font_style_name = \"2D Input\", mathv
+ariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_s
+yslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/%0font_styl
+e_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6%-I%msubGF$6%-F,6%Q\"T
+F'F/F7-F#6#-F,6%Q'pv_stdF'F/F7/%/subscriptshiftGQ\"0F'-I#moGF$6-Q\"=F'
+/F8Q'normalF'/%&fenceGQ&falseF'/%*separatorGFR/%)stretchyGFR/%*symmetr
+icGFR/%(largeopGFR/%.movablelimitsGFR/%'accentGFR/%'lspaceGQ50.2777777
+910232544emF'/%'rspaceGF[o-I&mfracGF$6(-F#6#-F=6%-F,6%Q(&Theta;F'/F0FR
+FN-F#6#-F,6%Q\"lF'F/F7FG-F#6#-F=6%Feo-F#6#-F,6%Q$l_dF'F/F7FG/%.linethi
+cknessGQ\"1F'/%+denomalignGQ'centerF'/%)numalignGF\\q/%)bevelledGFRF+"
+ }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "T[pv_std] := G[c] * G[std] / ( 1
+ + G[c] * G[std] * H );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"TG6#%'
+pv_stdG**&%\"KG6#%\"pG\"\"\"&%\"GG6#%%num0G\"\"\",(*&&%\"GG6#%%den2G\"
+\"\")%\"sG\"\"#\"\"\"\"\"\"*&&%\"GG6#%%den1G\"\"\"%\"sG\"\"\"\"\"\"&%
+\"GG6#%%den0G\"\"\"!\"\",&\"\"\"\"\"\"**&%\"KG6#%\"pG\"\"\"&%\"GG6#%%n
+um0G\"\"\",(*&&%\"GG6#%%den2G\"\"\")%\"sG\"\"#\"\"\"\"\"\"*&&%\"GG6#%%
+den1G\"\"\"%\"sG\"\"\"\"\"\"&%\"GG6#%%den0G\"\"\"!\"\",&*(&%\"KG6#%\"v
+G\"\"\"&%\"KG6#%\"pG!\"\"%\"sG\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"!\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "T[pv_std] := simplify
+( T[pv_std] );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"TG6#%'pv_stdG*(
+&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"pG\"\"\",,*&&%\"GG6#%%den2G\"\"\")%\"s
+G\"\"#\"\"\"\"\"\"*&&%\"GG6#%%den1G\"\"\"%\"sG\"\"\"\"\"\"&%\"GG6#%%de
+n0G\"\"\"*(&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"vG\"\"\"%\"sG\"\"\"\"\"\"*&
+&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"pG\"\"\"\"\"\"!\"\"" }}}{EXCHG {PARA 0
+ "> " 0 "" {MPLTEXT 1 0 53 "char_eqn[pv_std] := collect( denom( T[pv_s
+td] ), s );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%)char_eqnG6#%'pv_std
+G,**&&%\"GG6#%%den2G\"\"\")%\"sG\"\"#\"\"\"\"\"\"*&,&&%\"GG6#%%den1G\"
+\"\"*&&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"vG\"\"\"\"\"\"\"\"\"%\"sG\"\"\"
+\"\"\"*&&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"pG\"\"\"\"\"\"&%\"GG6#%%den0G
+\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 211 37 "normalize the characte
+ristic equation" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 84 "char_eqn[pv_std]
+ := collect( char_eqn[pv_std] / coeff( char_eqn[pv_std], s^2 ), s );" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%)char_eqnG6#%'pv_stdG,(*$)%\"sG\"
+\"#\"\"\"\"\"\"*(,&&%\"GG6#%%den1G\"\"\"*&&%\"GG6#%%num0G\"\"\"&%\"KG6
+#%\"vG\"\"\"\"\"\"\"\"\"&%\"GG6#%%den2G!\"\"%\"sG\"\"\"\"\"\"*&,&*&&%
+\"GG6#%%num0G\"\"\"&%\"KG6#%\"pG\"\"\"\"\"\"&%\"GG6#%%den0G\"\"\"\"\"
+\"&%\"GG6#%%den2G!\"\"\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 46 "ID_EQ_STD := char_eqn[pv_std] = char_eqn[std];" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%*ID_EQ_STDG/,(*$)%\"sG\"\"#\"\"\"\"\"\"*(,&&%\"GG6
+#%%den1G\"\"\"*&&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"vG\"\"\"\"\"\"\"\"\"&%
+\"GG6#%%den2G!\"\"%\"sG\"\"\"\"\"\"*&,&*&&%\"GG6#%%num0G\"\"\"&%\"KG6#
+%\"pG\"\"\"\"\"\"&%\"GG6#%%den0G\"\"\"\"\"\"&%\"GG6#%%den2G!\"\"\"\"\"
+,(*$)%\"sG\"\"#\"\"\"\"\"\"**\"\"#\"\"\"%%zetaG\"\"\"&%&omegaG6#%\"nG
+\"\"\"%\"sG\"\"\"\"\"\"*$)&%&omegaG6#%\"nG\"\"#\"\"\"\"\"\"" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT 211 39 "solving Eq. ID_EQ_STD by identifi
+cation" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 79 "EQ_KP_STD := coeff( rhs( \+
+ID_EQ_STD ), s, 0 ) = coeff( lhs( ID_EQ_STD ), s, 0 ):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "K[p] := solve( EQ_KP_STD, K[p] );" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"KG6#%\"pG*&,&*&)&%&omegaG6#%\"n
+G\"\"#\"\"\"&%\"GG6#%%den2G\"\"\"\"\"\"&%\"GG6#%%den0G!\"\"\"\"\"&%\"G
+G6#%%num0G!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 79 "EQ_KV_ST
+D := coeff( rhs( ID_EQ_STD ), s, 1 ) = coeff( lhs( ID_EQ_STD ), s, 1 )
+:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "K[v] := solve( EQ_KV_STD, K[v]
+ );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"KG6#%\"vG*&,&**\"\"#\"\"\"
+%%zetaG\"\"\"&%&omegaG6#%\"nG\"\"\"&%\"GG6#%%den2G\"\"\"\"\"\"&%\"GG6#
+%%den1G!\"\"\"\"\"&%\"GG6#%%num0G!\"\"" }}}}{SECT 0 {PARA 5 "" 0 "" 
+{XPPEDIT 18 0 "Typesetting:-mrow(Typesetting:-mi(\"\", italic = \"true
+\", executable = \"true\", font_style_name = \"2D Input\", mathvariant
+ = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"\1666\", italic = \+
+\"false\", mathvariant = \"normal\"), Typesetting:-mo(\"=\", mathvaria
+nt = \"normal\", fence = \"false\", separator = \"false\", stretchy = \+
+\"false\", symmetric = \"false\", largeop = \"false\", movablelimits =
+ \"false\", accent = \"false\", lspace = \"0.2777777910232544em\", rsp
+ace = \"0.2777777910232544em\"), Typesetting:-mrow(Typesetting:-mi(\"
+\1666\", italic = \"false\", mathvariant = \"normal\"), Typesetting:-m
+o(\"&ApplyFunction;\", mathvariant = \"normal\", fence = \"false\", se
+parator = \"false\", stretchy = \"false\", symmetric = \"false\", larg
+eop = \"false\", movablelimits = \"false\", accent = \"false\", lspace
+ = \"0.0em\", rspace = \"0.0em\"), Typesetting:-mfenced(Typesetting:-m
+row(Typesetting:-msub(Typesetting:-mi(\"K\", italic = \"true\", mathva
+riant = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"p\", italic =
+ \"true\", mathvariant = \"italic\")), subscriptshift = \"0\"), Typese
+tting:-mo(\",\", mathvariant = \"normal\", fence = \"false\", separato
+r = \"true\", stretchy = \"false\", symmetric = \"false\", largeop = \+
+\"false\", movablelimits = \"false\", accent = \"false\", lspace = \"0
+.0em\", rspace = \"0.3333333134651184em\"), Typesetting:-msub(Typesett
+ing:-mi(\"K\", italic = \"true\", mathvariant = \"italic\"), Typesetti
+ng:-mrow(Typesetting:-mi(\"v\", italic = \"true\", mathvariant = \"ita
+lic\")), subscriptshift = \"0\")), mathvariant = \"normal\")), Typeset
+ting:-mi(\"\", italic = \"true\", executable = \"true\", font_style_na
+me = \"2D Input\", mathvariant = \"italic\")), Typesetting:-mi(\"\", i
+talic = \"true\", executable = \"true\", font_style_name = \"2D Input
+\", mathvariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6\"I,Typeset
+tingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/%0
+font_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6&-F,6%Q'&zeta
+;F'/F0Q&falseF'/F8Q'normalF'-I#moGF$6-Q\"=F'FA/%&fenceGF@/%*separatorG
+F@/%)stretchyGF@/%*symmetricGF@/%(largeopGF@/%.movablelimitsGF@/%'acce
+ntGF@/%'lspaceGQ50.2777777910232544emF'/%'rspaceGFW-F#6%F<-FD6-Q0&Appl
+yFunction;F'FAFGFIFKFMFOFQFS/FVQ&0.0emF'/FYFjn-I(mfencedGF$6$-F#6%-I%m
+subGF$6%-F,6%Q\"KF'F/F7-F#6#-F,6%Q\"pF'F/F7/%/subscriptshiftGQ\"0F'-FD
+6-Q\",F'FAFG/FJF1FKFMFOFQFSFin/FYQ50.3333333134651184emF'-Fbo6%Fdo-F#6
+#-F,6%Q\"vF'F/F7F\\pFAF+F+" }{TEXT 213 5 " and " }{XPPEDIT 18 0 "Types
+etting:-mrow(Typesetting:-mi(\"\", italic = \"true\", executable = \"t
+rue\", font_style_name = \"2D Input\", mathvariant = \"italic\"), Type
+setting:-mrow(Typesetting:-msub(Typesetting:-mi(\"\1711\", italic = \"
+false\", mathvariant = \"normal\"), Typesetting:-mrow(Typesetting:-mi(
+\"n\", italic = \"true\", mathvariant = \"italic\")), subscriptshift =
+ \"0\"), Typesetting:-mo(\"=\", mathvariant = \"normal\", fence = \"fa
+lse\", separator = \"false\", stretchy = \"false\", symmetric = \"fals
+e\", largeop = \"false\", movablelimits = \"false\", accent = \"false
+\", lspace = \"0.2777777910232544em\", rspace = \"0.2777777910232544em
+\"), Typesetting:-mrow(Typesetting:-msub(Typesetting:-mi(\"\1711\", it
+alic = \"false\", mathvariant = \"normal\"), Typesetting:-mrow(Typeset
+ting:-mi(\"n\", italic = \"true\", mathvariant = \"italic\")), subscri
+ptshift = \"0\"), Typesetting:-mo(\"&ApplyFunction;\", mathvariant = \+
+\"normal\", fence = \"false\", separator = \"false\", stretchy = \"fal
+se\", symmetric = \"false\", largeop = \"false\", movablelimits = \"fa
+lse\", accent = \"false\", lspace = \"0.0em\", rspace = \"0.0em\"), Ty
+pesetting:-mfenced(Typesetting:-mrow(Typesetting:-msub(Typesetting:-mi
+(\"K\", italic = \"true\", mathvariant = \"italic\"), Typesetting:-mro
+w(Typesetting:-mi(\"p\", italic = \"true\", mathvariant = \"italic\"))
+, subscriptshift = \"0\"), Typesetting:-mo(\",\", mathvariant = \"norm
+al\", fence = \"false\", separator = \"true\", stretchy = \"false\", s
+ymmetric = \"false\", largeop = \"false\", movablelimits = \"false\", \+
+accent = \"false\", lspace = \"0.0em\", rspace = \"0.3333333134651184e
+m\"), Typesetting:-msub(Typesetting:-mi(\"K\", italic = \"true\", math
+variant = \"italic\"), Typesetting:-mrow(Typesetting:-mi(\"v\", italic
+ = \"true\", mathvariant = \"italic\")), subscriptshift = \"0\")), mat
+hvariant = \"normal\")), Typesetting:-mi(\"\", italic = \"true\", exec
+utable = \"true\", font_style_name = \"2D Input\", mathvariant = \"ita
+lic\")), Typesetting:-mi(\"\", italic = \"true\", executable = \"true
+\", font_style_name = \"2D Input\", mathvariant = \"italic\"));" "-I%m
+rowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6%-I#miGF$6'Q!F'/%'it
+alicGQ%trueF'/%+executableGF1/%0font_style_nameGQ)2D~InputF'/%,mathvar
+iantGQ'italicF'-F#6&-I%msubGF$6%-F,6%Q(&omega;F'/F0Q&falseF'/F8Q'norma
+lF'-F#6#-F,6%Q\"nF'F/F7/%/subscriptshiftGQ\"0F'-I#moGF$6-Q\"=F'FD/%&fe
+nceGFC/%*separatorGFC/%)stretchyGFC/%*symmetricGFC/%(largeopGFC/%.mova
+blelimitsGFC/%'accentGFC/%'lspaceGQ50.2777777910232544emF'/%'rspaceGF
+\\o-F#6%F<-FO6-Q0&ApplyFunction;F'FDFRFTFVFXFZFfnFhn/F[oQ&0.0emF'/F^oF
+eo-I(mfencedGF$6$-F#6%-F=6%-F,6%Q\"KF'F/F7-F#6#-F,6%Q\"pF'F/F7FK-FO6-Q
+\",F'FDFR/FUF1FVFXFZFfnFhnFdo/F^oQ50.3333333134651184emF'-F=6%F^p-F#6#
+-F,6%Q\"vF'F/F7FKFDF+F+" }{TEXT 213 48 " Standard Calculations for a S
+econd-Order System" }}{EXCHG {PARA 0 "" 0 "" {TEXT 211 18 "unassign va
+riables" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "K[p] := 'K[p]': K[v] := \+
+'K[v]': omega[n] := 'omega[n]': zeta := 'zeta':" }}}{EXCHG {PARA 0 "> 
+" 0 "" {MPLTEXT 1 0 42 "solns := \{ solve( EQ_KP_STD, omega[n] ) \};" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&solnsG<$,$*&&%\"GG6#%%den2G!\"\")
+*&&%\"GG6#%%den2G\"\"\",&*&&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"pG\"\"\"\"
+\"\"&%\"GG6#%%den0G\"\"\"\"\"\"#\"\"\"\"\"#\"\"\"!\"\"*&&%\"GG6#%%den2
+G!\"\")*&&%\"GG6#%%den2G\"\"\",&*&&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"pG\"
+\"\"\"\"\"&%\"GG6#%%den0G\"\"\"\"\"\"#\"\"\"\"\"#\"\"\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 211 10 "assuming: " }{XPPEDIT 18 0 "Typesetting:
+-mrow(Typesetting:-mi(\"\", italic = \"true\", executable = \"true\", \+
+font_style_name = \"2D Input\", mathvariant = \"italic\"), Typesetting
+:-mrow(Typesetting:-mn(\"0\", mathvariant = \"normal\"), Typesetting:-
+mo(\"<\", mathvariant = \"normal\", fence = \"false\", separator = \"f
+alse\", stretchy = \"false\", symmetric = \"false\", largeop = \"false
+\", movablelimits = \"false\", accent = \"false\", lspace = \"0.277777
+7910232544em\", rspace = \"0.2777777910232544em\"), Typesetting:-msub(
+Typesetting:-mi(\"G\", italic = \"true\", mathvariant = \"italic\"), T
+ypesetting:-mrow(Typesetting:-mi(\"den2\", italic = \"true\", mathvari
+ant = \"italic\")), subscriptshift = \"0\")), Typesetting:-mi(\"\", it
+alic = \"true\", executable = \"true\", font_style_name = \"2D Input\"
+, mathvariant = \"italic\"));" "-I%mrowG6#/I+modulenameG6\"I,Typesetti
+ngGI(_syslibGF'6%-I#miGF$6'Q!F'/%'italicGQ%trueF'/%+executableGF1/%0fo
+nt_style_nameGQ)2D~InputF'/%,mathvariantGQ'italicF'-F#6%-I#mnGF$6$Q\"0
+F'/F8Q'normalF'-I#moGF$6-Q\"<F'F@/%&fenceGQ&falseF'/%*separatorGFH/%)s
+tretchyGFH/%*symmetricGFH/%(largeopGFH/%.movablelimitsGFH/%'accentGFH/
+%'lspaceGQ50.2777777910232544emF'/%'rspaceGFW-I%msubGF$6%-F,6%Q\"GF'F/
+F7-F#6#-F,6%Q%den2F'F/F7/%/subscriptshiftGQ\"0F'F+" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 21 "omega[n] := solns[1];" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>&%&omegaG6#%\"nG,$*&&%\"GG6#%%den2G!\"\")*&&%\"GG6#%%den2G\"\"
+\",&*&&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"pG\"\"\"\"\"\"&%\"GG6#%%den0G\"
+\"\"\"\"\"#\"\"\"\"\"#\"\"\"!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "zeta := solve( EQ_KV_STD, zeta );" }}{PARA 11 "" 1 ""
+ {XPPMATH 20 "6#>%%zetaG,$*&#\"\"\"\"\"#\"\"\"*&,&&%\"GG6#%%den1G\"\"
+\"*&&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"vG\"\"\"\"\"\"\"\"\")*&&%\"GG6#%%d
+en2G\"\"\",&*&&%\"GG6#%%num0G\"\"\"&%\"KG6#%\"pG\"\"\"\"\"\"&%\"GG6#%%
+den0G\"\"\"\"\"\"#\"\"\"\"\"#!\"\"\"\"\"!\"\"" }}}{PARA 0 "" 0 "" 
+{TEXT 211 0 "" }}}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{SECT 0 {PARA 3 "" 0 "" {TEXT 209 54 "DC Motor System Definition: Stat
+e-Space Representation" }}{PARA 0 "" 0 "" {TEXT 211 35 "Xdot_ss = A_ss
+ . X_ss + B_ss . U_ss" }}{PARA 0 "" 0 "" {TEXT 211 32 "Y_ss = C_ss . X
+_ss + D_ss . U_ss" }}{PARA 0 "" 0 "" {TEXT 211 62 "Y_ss = output vecto
+r; U_ss = input vector; X_ss = state vector" }}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 211 18 "unassign variables" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 63 
+"Theta[1] := 'Theta[1]': theta[1] := 'theta[1]': I[1] := 'I[1]':" }}}
+{SECT 0 {PARA 4 "" 0 "" {TEXT 212 35 "Standard State-Space Representat
+ion" }}{EXCHG {PARA 0 "" 0 "" {TEXT 211 34 "Standard Laplace Transfer \+
+Function" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "TF_EQ_S := G[std] = The
+ta[1] / I[1];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(TF_EQ_SG/*&&%\"GG6
+#%%num0G\"\"\",(*&&%\"GG6#%%den2G\"\"\")%\"sG\"\"#\"\"\"\"\"\"*&&%\"GG
+6#%%den1G\"\"\"%\"sG\"\"\"\"\"\"&%\"GG6#%%den0G\"\"\"!\"\"*&&%&ThetaG6
+#\"\"\"\"\"\"&%\"IG6#\"\"\"!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT
+ 1 0 41 "TF_EQ_S := I[1] = solve( TF_EQ_S, I[1] );" }}{PARA 11 "" 1 ""
+ {XPPMATH 20 "6#>%(TF_EQ_SG/&%\"IG6#\"\"\"*(&%&ThetaG6#\"\"\"\"\"\",(*
+&&%\"GG6#%%den2G\"\"\")%\"sG\"\"#\"\"\"\"\"\"*&&%\"GG6#%%den1G\"\"\"%
+\"sG\"\"\"\"\"\"&%\"GG6#%%den0G\"\"\"\"\"\"&%\"GG6#%%num0G!\"\"" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT 211 27 "initial conditions are null" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 65 "TF_EQ_T := I[1] = subs( IC, invlapl
+ace( rhs( TF_EQ_S ), s, t ) );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(T
+F_EQ_TG/&%\"IG6#\"\"\"*&&%\"GG6#%%num0G!\"\",(*&&%\"GG6#%%den2G\"\"\"-
+%%diffG6$-&%&thetaG6#\"\"\"6#%\"tG-%\"$G6$%\"tG\"\"#\"\"\"\"\"\"*&&%\"
+GG6#%%den1G\"\"\"-%%diffG6$-&%&thetaG6#\"\"\"6#%\"tG%\"tG\"\"\"\"\"\"*
+&&%\"GG6#%%den0G\"\"\"-&%&thetaG6#\"\"\"6#%\"tG\"\"\"\"\"\"\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 91 "TF_EQ_T := diff( theta[1](t)
+, t$2 ) = expand( solve( TF_EQ_T, diff( theta[1](t), t$2 ) ) );" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(TF_EQ_TG/-%%diffG6$-&%&thetaG6#\"\"
+\"6#%\"tG-%\"$G6$%\"tG\"\"#,(*(&%\"GG6#%%den2G!\"\"&%\"GG6#%%num0G\"\"
+\"&%\"IG6#\"\"\"\"\"\"\"\"\"*(&%\"GG6#%%den2G!\"\"&%\"GG6#%%den1G\"\"
+\"-%%diffG6$-&%&thetaG6#\"\"\"6#%\"tG%\"tG\"\"\"!\"\"*(&%\"GG6#%%den2G
+!\"\"&%\"GG6#%%den0G\"\"\"-&%&thetaG6#\"\"\"6#%\"tG\"\"\"!\"\"" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT 211 12 "state vector" }}{PARA 0 "> " 0 ""
+ {MPLTEXT 1 0 23 "X_ss := matrix( 2, 1 ):" }}}{EXCHG {PARA 0 "> " 0 ""
+ {MPLTEXT 1 0 61 "X_ss[1,1] := theta[1](t): X_ss[2,1] := diff( theta[1
+](t), t):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "'X_ss' = evalm
+( X_ss );" }}{PARA 11 "" 1 "" {XPPMATH 20 "-I%mrowG6#/I+modulenameG6\"
+I,TypesettingGI(_syslibGF'6#-F#6%-I#miGF$6%Q%X_ssF'/%'italicGQ%trueF'/
+%,mathvariantGQ'italicF'-I#moGF$6-Q\"=F'/F5Q'normalF'/%&fenceGQ&falseF
+'/%*separatorGF?/%)stretchyGF?/%*symmetricGF?/%(largeopGF?/%.movableli
+mitsGF?/%'accentGF?/%'lspaceGQ50.2777777910232544emF'/%'rspaceGFN-I(mf
+encedGF$6&-F#6#-I'mtableGF$66-I$mtrGF$6&-I$mtdGF$6(-F#6%-I%msubGF$6%-F
+.6%Q(&theta;F'/F2F?F;-F#6#-I#mnGF$6$Q\"1F'F;/%/subscriptshiftGQ\"0F'-F
+86-Q0&ApplyFunction;F'F;F=F@FBFDFFFHFJ/FMQ&0.0emF'/FPF_p-FR6$-F#6#-F.6
+%Q\"tF'F1F4F;/%)rowalignGQ!F'/%,columnalignGFjp/%+groupalignGFjp/%(row
+spanGQ\"1F'/%+columnspanGFaqFhpF[qF]q-FZ6&-Fgn6(-F#6%-I&mfracGF$6(-F#6
+#-F86-Q0&DifferentialD;F'F;F=F@FBFDFFFHFJF^pF`p-F#6#-F#6$F_rFep/%.line
+thicknessGFaq/%+denomalignGQ'centerF'/%)numalignGFjr/%)bevelledGF?-F86
+-Q1&InvisibleTimes;F'F;F=F@FBFDFFFHFJF^pF`pFinFhpF[qF]qF_qFbqFhpF[qF]q
+/%&alignGQ%axisF'/FipQ)baselineF'/F\\qFjr/F^qQ'|frleft|hrF'/%/alignmen
+tscopeGF3/%,columnwidthGQ%autoF'/%&widthGF^t/%+rowspacingGQ&1.0exF'/%.
+columnspacingGQ&0.8emF'/%)rowlinesGQ%noneF'/%,columnlinesGFit/%&frameG
+Fit/%-framespacingGQ,0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-
+displaystyleGF?/%%sideGQ&rightF'/%0minlabelspacingGFftF;/%%openGQ\"[F'
+/%&closeGQ\"]F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "Xdot_ss \+
+:= map( diff, X_ss, t );" }}{PARA 11 "" 1 "" {XPPMATH 20 "-I%mrowG6#/I
++modulenameG6\"I,TypesettingGI(_syslibGF'6#-F#6%-I#miGF$6%Q(Xdot_ssF'/
+%'italicGQ%trueF'/%,mathvariantGQ'italicF'-I#moGF$6-Q#:=F'/F5Q'normalF
+'/%&fenceGQ&falseF'/%*separatorGF?/%)stretchyGF?/%*symmetricGF?/%(larg
+eopGF?/%.movablelimitsGF?/%'accentGF?/%'lspaceGQ50.2777777910232544emF
+'/%'rspaceGFN-I(mfencedGF$6&-F#6#-I'mtableGF$66-I$mtrGF$6&-I$mtdGF$6(-
+F#6%-I&mfracGF$6(-F#6#-F86-Q0&DifferentialD;F'F;F=F@FBFDFFFHFJ/FMQ&0.0
+emF'/FPFdo-F#6#-F#6$F`o-F.6%Q\"tF'F1F4/%.linethicknessGQ\"1F'/%+denoma
+lignGQ'centerF'/%)numalignGFbp/%)bevelledGF?-F86-Q1&InvisibleTimes;F'F
+;F=F@FBFDFFFHFJFcoFeo-F#6%-I%msubGF$6%-F.6%Q(&theta;F'/F2F?F;-F#6#-I#m
+nGF$6$Q\"1F'F;/%/subscriptshiftGQ\"0F'-F86-Q0&ApplyFunction;F'F;F=F@FB
+FDFFFHFJFcoFeo-FR6$-F#6#FjoF;/%)rowalignGQ!F'/%,columnalignGFer/%+grou
+palignGFer/%(rowspanGF_p/%+columnspanGF_pFcrFfrFhr-FZ6&-Fgn6(-F#6%-F
+\\o6(-F#6#-I%msupGF$6%F`o-Ffq6$Q\"2F'F;/%1superscriptshiftGF[r-F#6#-F#
+6$F`o-Fis6%FjoF[tF^tF]pF`pFcpFepFgpFjpFcrFfrFhrFjrF\\sFcrFfrFhr/%&alig
+nGQ%axisF'/FdrQ)baselineF'/FgrFbp/FirQ'|frleft|hrF'/%/alignmentscopeGF
+3/%,columnwidthGQ%autoF'/%&widthGFbu/%+rowspacingGQ&1.0exF'/%.columnsp
+acingGQ&0.8emF'/%)rowlinesGQ%noneF'/%,columnlinesGF]v/%&frameGF]v/%-fr
+amespacingGQ,0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-displays
+tyleGF?/%%sideGQ&rightF'/%0minlabelspacingGFjuF;/%%openGQ\"[F'/%&close
+GQ\"]F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "U_ss := I[1];" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%U_ssG&%\"IG6#\"\"\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 211 24 "according to Eq. TF_EQ_T" }}{PARA 0 "> "
+ 0 "" {MPLTEXT 1 0 73 "A_ss := matrix( [ [0, 1], [- G[den0] / G[den2],
+ - G[den1] / G[den2]] ] );" }}{PARA 11 "" 1 "" {XPPMATH 20 "-I%mrowG6#
+/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-F#6%-I#miGF$6%Q%A_ssF'/%
+'italicGQ%trueF'/%,mathvariantGQ'italicF'-I#moGF$6-Q#:=F'/F5Q'normalF'
+/%&fenceGQ&falseF'/%*separatorGF?/%)stretchyGF?/%*symmetricGF?/%(large
+opGF?/%.movablelimitsGF?/%'accentGF?/%'lspaceGQ50.2777777910232544emF'
+/%'rspaceGFN-I(mfencedGF$6&-F#6#-I'mtableGF$66-I$mtrGF$6'-I$mtdGF$6(-I
+#mnGF$6$Q\"0F'F;/%)rowalignGQ!F'/%,columnalignGF_o/%+groupalignGF_o/%(
+rowspanGQ\"1F'/%+columnspanGFfo-Fgn6(-Fjn6$Q\"1F'F;F]oF`oFboFdoFgoF]oF
+`oFbo-FZ6'-Fgn6(-F#6$-F86-Q*&uminus0;F'F;F=F@FBFDFFFHFJ/FMQ50.22222219
+40755844emF'/FPFhp-I&mfracGF$6(-F#6#-I%msubGF$6%-F.6%Q\"GF'F1F4-F#6#-F
+.6%Q%den0F'F1F4/%/subscriptshiftGQ\"0F'-F#6#-F`q6%Fbq-F#6#-F.6%Q%den2F
+'F1F4Fjq/%.linethicknessGFfo/%+denomalignGQ'centerF'/%)numalignGFjr/%)
+bevelledGF?F]oF`oFboFdoFgo-Fgn6(-F#6$Fdp-F[q6(-F#6#-F`q6%Fbq-F#6#-F.6%
+Q%den1F'F1F4FjqF]rFfrFhrF[sF]sF]oF`oFboFdoFgoF]oF`oFbo/%&alignGQ%axisF
+'/F^oQ)baselineF'/FaoFjr/FcoQ'|frleft|hrF'/%/alignmentscopeGF3/%,colum
+nwidthGQ%autoF'/%&widthGFjt/%+rowspacingGQ&1.0exF'/%.columnspacingGQ&0
+.8emF'/%)rowlinesGQ%noneF'/%,columnlinesGFeu/%&frameGFeu/%-framespacin
+gGQ,0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-displaystyleGF?/%
+%sideGQ&rightF'/%0minlabelspacingGFbuF;/%%openGQ\"[F'/%&closeGQ\"]F'" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "B_ss := matrix( [ [0], [G
+[num0] / G[den2]] ] );" }}{PARA 11 "" 1 "" {XPPMATH 20 "-I%mrowG6#/I+m
+odulenameG6\"I,TypesettingGI(_syslibGF'6#-F#6%-I#miGF$6%Q%B_ssF'/%'ita
+licGQ%trueF'/%,mathvariantGQ'italicF'-I#moGF$6-Q#:=F'/F5Q'normalF'/%&f
+enceGQ&falseF'/%*separatorGF?/%)stretchyGF?/%*symmetricGF?/%(largeopGF
+?/%.movablelimitsGF?/%'accentGF?/%'lspaceGQ50.2777777910232544emF'/%'r
+spaceGFN-I(mfencedGF$6&-F#6#-I'mtableGF$66-I$mtrGF$6&-I$mtdGF$6(-I#mnG
+F$6$Q\"0F'F;/%)rowalignGQ!F'/%,columnalignGF_o/%+groupalignGF_o/%(rows
+panGQ\"1F'/%+columnspanGFfoF]oF`oFbo-FZ6&-Fgn6(-I&mfracGF$6(-F#6#-I%ms
+ubGF$6%-F.6%Q\"GF'F1F4-F#6#-F.6%Q%num0F'F1F4/%/subscriptshiftGQ\"0F'-F
+#6#-Fcp6%Fep-F#6#-F.6%Q%den2F'F1F4F]q/%.linethicknessGFfo/%+denomalign
+GQ'centerF'/%)numalignGF]r/%)bevelledGF?F]oF`oFboFdoFgoF]oF`oFbo/%&ali
+gnGQ%axisF'/F^oQ)baselineF'/FaoF]r/FcoQ'|frleft|hrF'/%/alignmentscopeG
+F3/%,columnwidthGQ%autoF'/%&widthGF^s/%+rowspacingGQ&1.0exF'/%.columns
+pacingGQ&0.8emF'/%)rowlinesGQ%noneF'/%,columnlinesGFis/%&frameGFis/%-f
+ramespacingGQ,0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-display
+styleGF?/%%sideGQ&rightF'/%0minlabelspacingGFfsF;/%%openGQ\"[F'/%&clos
+eGQ\"]F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "C_ss := Matrix(
+ 2, 2, shape=identity ); D_ss := array( [ [0], [0] ] );" }}{PARA 11 ""
+ 1 "" {XPPMATH 20 "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibG
+F'6#-F#6%-I#miGF$6%Q%C_ssF'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'
+-I#moGF$6-Q#:=F'/F5Q'normalF'/%&fenceGQ&falseF'/%*separatorGF?/%)stret
+chyGF?/%*symmetricGF?/%(largeopGF?/%.movablelimitsGF?/%'accentGF?/%'ls
+paceGQ50.2777777910232544emF'/%'rspaceGFN-I(mactionGF$6%-I(mfencedGF$6
+(-F#6#-I'mtableGF$66-I$mtrGF$6'-I$mtdGF$6(-I#mnGF$6$Q\"1F'F;/%)rowalig
+nGQ!F'/%,columnalignGFbo/%+groupalignGFbo/%(rowspanGQ\"1F'/%+columnspa
+nGFio-Fjn6(-F]o6$Q\"0F'F;F`oFcoFeoFgoFjoF`oFcoFeo-Fgn6'F\\pFinF`oFcoFe
+o/%&alignGQ%axisF'/FaoQ)baselineF'/FdoQ&rightF'/FfoQ'|frleft|hrF'/%/al
+ignmentscopeGF3/%,columnwidthGQ%autoF'/%&widthGF`q/%+rowspacingGQ&1.0e
+xF'/%.columnspacingGQ&0.8emF'/%)rowlinesGQ%noneF'/%,columnlinesGF[r/%&
+frameGF[r/%-framespacingGQ,0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumns
+GF?/%-displaystyleGF?/%%sideGFip/%0minlabelspacingGFhqF;/I+msemanticsG
+F$Q'MatrixF'/%%openGQ\"[F'/%&closeGQ\"]F'F]s/%+actiontypeGQ.rtableaddr
+essF'/%)rtableidGQ(2741512F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "-I%mrowG
+6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-F#6%-I#miGF$6%Q%D_ssF'
+/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-I#moGF$6-Q#:=F'/F5Q'normal
+F'/%&fenceGQ&falseF'/%*separatorGF?/%)stretchyGF?/%*symmetricGF?/%(lar
+geopGF?/%.movablelimitsGF?/%'accentGF?/%'lspaceGQ50.2777777910232544em
+F'/%'rspaceGFN-I(mfencedGF$6&-F#6#-I'mtableGF$66-I$mtrGF$6&-I$mtdGF$6(
+-I#mnGF$6$Q\"0F'F;/%)rowalignGQ!F'/%,columnalignGF_o/%+groupalignGF_o/
+%(rowspanGQ\"1F'/%+columnspanGFfoF]oF`oFboFY/%&alignGQ%axisF'/F^oQ)bas
+elineF'/FaoQ&rightF'/FcoQ'|frleft|hrF'/%/alignmentscopeGF3/%,columnwid
+thGQ%autoF'/%&widthGFfp/%+rowspacingGQ&1.0exF'/%.columnspacingGQ&0.8em
+F'/%)rowlinesGQ%noneF'/%,columnlinesGFaq/%&frameGFaq/%-framespacingGQ,
+0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-displaystyleGF?/%%sid
+eGF_p/%0minlabelspacingGF^qF;/%%openGQ\"[F'/%&closeGQ\"]F'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "Y_ss = evalm( C_ss &* X_ss + D_ss *
+ U_ss );" }}{PARA 11 "" 1 "" {XPPMATH 20 "-I%mrowG6#/I+modulenameG6\"I
+,TypesettingGI(_syslibGF'6#-F#6%-I#miGF$6%Q%Y_ssF'/%'italicGQ%trueF'/%
+,mathvariantGQ'italicF'-I#moGF$6-Q\"=F'/F5Q'normalF'/%&fenceGQ&falseF'
+/%*separatorGF?/%)stretchyGF?/%*symmetricGF?/%(largeopGF?/%.movablelim
+itsGF?/%'accentGF?/%'lspaceGQ50.2777777910232544emF'/%'rspaceGFN-I(mfe
+ncedGF$6&-F#6#-I'mtableGF$66-I$mtrGF$6&-I$mtdGF$6(-F#6%-I%msubGF$6%-F.
+6%Q(&theta;F'/F2F?F;-F#6#-I#mnGF$6$Q\"1F'F;/%/subscriptshiftGQ\"0F'-F8
+6-Q0&ApplyFunction;F'F;F=F@FBFDFFFHFJ/FMQ&0.0emF'/FPF_p-FR6$-F#6#-F.6%
+Q\"tF'F1F4F;/%)rowalignGQ!F'/%,columnalignGFjp/%+groupalignGFjp/%(rows
+panGQ\"1F'/%+columnspanGFaqFhpF[qF]q-FZ6&-Fgn6(-F#6%-I&mfracGF$6(-F#6#
+-F86-Q0&DifferentialD;F'F;F=F@FBFDFFFHFJF^pF`p-F#6#-F#6$F_rFep/%.linet
+hicknessGFaq/%+denomalignGQ'centerF'/%)numalignGFjr/%)bevelledGF?-F86-
+Q1&InvisibleTimes;F'F;F=F@FBFDFFFHFJF^pF`pFinFhpF[qF]qF_qFbqFhpF[qF]q/
+%&alignGQ%axisF'/FipQ)baselineF'/F\\qFjr/F^qQ'|frleft|hrF'/%/alignment
+scopeGF3/%,columnwidthGQ%autoF'/%&widthGF^t/%+rowspacingGQ&1.0exF'/%.c
+olumnspacingGQ&0.8emF'/%)rowlinesGQ%noneF'/%,columnlinesGFit/%&frameGF
+it/%-framespacingGQ,0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-d
+isplaystyleGF?/%%sideGQ&rightF'/%0minlabelspacingGFftF;/%%openGQ\"[F'/
+%&closeGQ\"]F'" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{SECT 0 {PARA 4 "" 0 "" {TEXT 212 35 "DC Motor State-Space Representat
+ion" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "G_num0 := numer( G[j1
+] ):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "denom( G[j1] ):" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "G_den2 := coeff( denom( G[j
+1] ), s^2 ):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "G_den1 := c
+oeff( denom( G[j1] ), s ):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+40 "G_den0 := coeff( denom( G[j1] ), s, 0 ):" }}}{EXCHG {PARA 0 "> " 0
+ "" {MPLTEXT 1 0 87 "std_subs := \{ G[num0] = G_num0, G[den2] = G_den2
+, G[den1] = G_den1, G[den0] = G_den0 \}:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "A_J1 := matrix( 2, 2 ):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "for i from 1 to 2 do\n" }{MPLTEXT 1 0 23 "  for k fro
+m 1 to 2 do\n" }{MPLTEXT 1 0 46 "    A_J1[i,k] := subs( std_subs, A_ss
+[i,k] );\n" }{MPLTEXT 1 0 10 "  end do:\n" }{MPLTEXT 1 0 7 "end do:" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "'A_J1' = evalm( A_J1 );" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "-I%mrowG6#/I+modulenameG6\"I,Typesettin
+gGI(_syslibGF'6#-F#6%-I#miGF$6%Q%A_J1F'/%'italicGQ%trueF'/%,mathvarian
+tGQ'italicF'-I#moGF$6-Q\"=F'/F5Q'normalF'/%&fenceGQ&falseF'/%*separato
+rGF?/%)stretchyGF?/%*symmetricGF?/%(largeopGF?/%.movablelimitsGF?/%'ac
+centGF?/%'lspaceGQ50.2777777910232544emF'/%'rspaceGFN-I(mfencedGF$6&-F
+#6#-I'mtableGF$66-I$mtrGF$6'-I$mtdGF$6(-I#mnGF$6$Q\"0F'F;/%)rowalignGQ
+!F'/%,columnalignGF_o/%+groupalignGF_o/%(rowspanGQ\"1F'/%+columnspanGF
+fo-Fgn6(-Fjn6$Q\"1F'F;F]oF`oFboFdoFgoF]oF`oFbo-FZ6'Ffn-Fgn6(-F#6$-F86-
+Q*&uminus0;F'F;F=F@FBFDFFFHFJ/FMQ50.2222221940755844emF'/FPFhp-I&mfrac
+GF$6(-F#6#-I%msubGF$6%-F.6%Q\"BF'F1F4-F#6#-F.6%Q$eq1F'F1F4/%/subscript
+shiftGQ\"0F'-F#6#-F`q6%-F.6%Q\"JF'F1F4FeqFjq/%.linethicknessGFfo/%+den
+omalignGQ'centerF'/%)numalignGFhr/%)bevelledGF?F]oF`oFboFdoFgoF]oF`oFb
+o/%&alignGQ%axisF'/F^oQ)baselineF'/FaoFhr/FcoQ'|frleft|hrF'/%/alignmen
+tscopeGF3/%,columnwidthGQ%autoF'/%&widthGFis/%+rowspacingGQ&1.0exF'/%.
+columnspacingGQ&0.8emF'/%)rowlinesGQ%noneF'/%,columnlinesGFdt/%&frameG
+Fdt/%-framespacingGQ,0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-
+displaystyleGF?/%%sideGQ&rightF'/%0minlabelspacingGFatF;/%%openGQ\"[F'
+/%&closeGQ\"]F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "B_J1 := \+
+matrix( [ [0], [subs( std_subs, B_ss[2,1] )] ] );" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-F
+#6%-I#miGF$6%Q%B_J1F'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-I#moG
+F$6-Q#:=F'/F5Q'normalF'/%&fenceGQ&falseF'/%*separatorGF?/%)stretchyGF?
+/%*symmetricGF?/%(largeopGF?/%.movablelimitsGF?/%'accentGF?/%'lspaceGQ
+50.2777777910232544emF'/%'rspaceGFN-I(mfencedGF$6&-F#6#-I'mtableGF$66-
+I$mtrGF$6&-I$mtdGF$6(-I#mnGF$6$Q\"0F'F;/%)rowalignGQ!F'/%,columnalignG
+F_o/%+groupalignGF_o/%(rowspanGQ\"1F'/%+columnspanGFfoF]oF`oFbo-FZ6&-F
+gn6(-I&mfracGF$6(-F#6#-I%msubGF$6%-F.6%Q\"KF'F1F4-F#6#-F.6%Q\"tF'F1F4/
+%/subscriptshiftGQ\"0F'-F#6#-Fcp6%-F.6%Q\"JF'F1F4-F#6#-F.6%Q$eq1F'F1F4
+F]q/%.linethicknessGFfo/%+denomalignGQ'centerF'/%)numalignGF`r/%)bevel
+ledGF?F]oF`oFboFdoFgoF]oF`oFbo/%&alignGQ%axisF'/F^oQ)baselineF'/FaoF`r
+/FcoQ'|frleft|hrF'/%/alignmentscopeGF3/%,columnwidthGQ%autoF'/%&widthG
+Fas/%+rowspacingGQ&1.0exF'/%.columnspacingGQ&0.8emF'/%)rowlinesGQ%none
+F'/%,columnlinesGF\\t/%&frameGF\\t/%-framespacingGQ,0.4em~0.5exF'/%*eq
+ualrowsGF?/%-equalcolumnsGF?/%-displaystyleGF?/%%sideGQ&rightF'/%0minl
+abelspacingGFisF;/%%openGQ\"[F'/%&closeGQ\"]F'" }}}{EXCHG {PARA 0 "> "
+ 0 "" {MPLTEXT 1 0 17 "C_SRV02 := C_ss; " }}{PARA 11 "" 1 "" {XPPMATH 
+20 "-I%mrowG6#/I+modulenameG6\"I,TypesettingGI(_syslibGF'6#-F#6%-I#miG
+F$6%Q(C_SRV02F'/%'italicGQ%trueF'/%,mathvariantGQ'italicF'-I#moGF$6-Q#
+:=F'/F5Q'normalF'/%&fenceGQ&falseF'/%*separatorGF?/%)stretchyGF?/%*sym
+metricGF?/%(largeopGF?/%.movablelimitsGF?/%'accentGF?/%'lspaceGQ50.277
+7777910232544emF'/%'rspaceGFN-I(mactionGF$6%-I(mfencedGF$6(-F#6#-I'mta
+bleGF$66-I$mtrGF$6'-I$mtdGF$6(-I#mnGF$6$Q\"1F'F;/%)rowalignGQ!F'/%,col
+umnalignGFbo/%+groupalignGFbo/%(rowspanGQ\"1F'/%+columnspanGFio-Fjn6(-
+F]o6$Q\"0F'F;F`oFcoFeoFgoFjoF`oFcoFeo-Fgn6'F\\pFinF`oFcoFeo/%&alignGQ%
+axisF'/FaoQ)baselineF'/FdoQ&rightF'/FfoQ'|frleft|hrF'/%/alignmentscope
+GF3/%,columnwidthGQ%autoF'/%&widthGF`q/%+rowspacingGQ&1.0exF'/%.column
+spacingGQ&0.8emF'/%)rowlinesGQ%noneF'/%,columnlinesGF[r/%&frameGF[r/%-
+framespacingGQ,0.4em~0.5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-displa
+ystyleGF?/%%sideGFip/%0minlabelspacingGFhqF;/I+msemanticsGF$Q'MatrixF'
+/%%openGQ\"[F'/%&closeGQ\"]F'F]s/%+actiontypeGQ.rtableaddressF'/%)rtab
+leidGQ(2741512F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "D_SRV02
+:= evalm( D_ss );" }}{PARA 11 "" 1 "" {XPPMATH 20 "-I%mrowG6#/I+module
+nameG6\"I,TypesettingGI(_syslibGF'6#-F#6%-I#miGF$6%Q(D_SRV02F'/%'itali
+cGQ%trueF'/%,mathvariantGQ'italicF'-I#moGF$6-Q#:=F'/F5Q'normalF'/%&fen
+ceGQ&falseF'/%*separatorGF?/%)stretchyGF?/%*symmetricGF?/%(largeopGF?/
+%.movablelimitsGF?/%'accentGF?/%'lspaceGQ50.2777777910232544emF'/%'rsp
+aceGFN-I(mfencedGF$6&-F#6#-I'mtableGF$66-I$mtrGF$6&-I$mtdGF$6(-I#mnGF$
+6$Q\"0F'F;/%)rowalignGQ!F'/%,columnalignGF_o/%+groupalignGF_o/%(rowspa
+nGQ\"1F'/%+columnspanGFfoF]oF`oFboFY/%&alignGQ%axisF'/F^oQ)baselineF'/
+FaoQ&rightF'/FcoQ'|frleft|hrF'/%/alignmentscopeGF3/%,columnwidthGQ%aut
+oF'/%&widthGFfp/%+rowspacingGQ&1.0exF'/%.columnspacingGQ&0.8emF'/%)row
+linesGQ%noneF'/%,columnlinesGFaq/%&frameGFaq/%-framespacingGQ,0.4em~0.
+5exF'/%*equalrowsGF?/%-equalcolumnsGF?/%-displaystyleGF?/%%sideGF_p/%0
+minlabelspacingGF^qF;/%%openGQ\"[F'/%&closeGQ\"]F'" }}}}}{EXCHG }
+{EXCHG }{EXCHG }{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 211 0 "" }{HYPERLNK 17 "Click here to go back to
+ top: Description Section" 1 "" "Description" }{TEXT 211 1 "." }}}}
+{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2
+ 33 1 1 }

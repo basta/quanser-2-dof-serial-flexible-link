@@ -1,0 +1,1140 @@
+<?xml version="1.0"  encoding="iso-8859-1" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DCMotor_Pos_Equations.html</title>
+<!-- Created by Maple 8.00, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size="3">
+<a name="MapleAutoBookmark1" />
+<p align="center">
+<b><u><font color="#000000" size="6">Modelling Equations For A DC Motor</font></u></b>
+</p>
+<p align="center">
+<b><u><font color="#000000" size="6">And PV Position Controller</font></u></b>
+</p>
+<p align="center">
+<i><font color="#000000">©</font></i>
+<i><font color="#000000">&nbsp;2008 Quanser Consulting Inc.</font></i>
+</p>
+<p align="center">
+<font color="#000000">URL: </font>
+<a href="http://www.quanser.com" target="_top">http://www.quanser.com</a></p>
+<dl><a name="MapleAutoBookmark2" />
+<p align="left"><a name="Description" />
+<b><font color="#000000" size="5">Description</font></b>
+</p>
+<ul><li>
+<font color="#000000">This worksheet presents the equations related to the position control of a DC motor.</font>
+</li>
+</ul>
+</dl><dl><a name="MapleAutoBookmark3" />
+</ul>
+<p align="left">
+<b><font color="#000000" size="5">Worksheet Initialization</font></b>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">restart: interface( imaginaryunit=j ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">with(inttrans):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<img src="images/DCMotor_Pos_Equations1.gif" width="28" height="32" alt="theta[l]" align="middle" />
+<font color="#000000">&nbsp;= first load angular position [rad]</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">alias( Theta[1] = laplace( theta[1](t), t, s ) ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<img src="images/DCMotor_Pos_Equations2.gif" width="29" height="32" alt="T[l]" align="middle" />
+<font color="#000000">&nbsp;= Torque produced by the motor at the load gear</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">alias( T[1] = laplace( tq[1](t), t, s ) ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+</dl><dl><a name="MapleAutoBookmark4" />
+<p align="left">
+<b><font color="#000000" size="5">DC Motor System Definition - Laplace Representation: G(s)</font></b>
+</p>
+<p align="left">
+<font color="#000000">This section models the motor system to be controlled.</font>
+</p>
+<p align="left">
+<font color="#000000">motor transfer function (in the Laplace domain)</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G[j1] := 'Theta[1] / I[1]';</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations3.gif" width="85" height="59" alt="G[j1] := Theta[1]/I[1]" />
+</p>
+<p align="left">
+<font color="#000000">Newton's second law of motion (i.e. equation of motion in the time domain):</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">NEWTON_EQ_DT := J[eq1] * diff( theta[1](t), t$2 ) = tq[1]( t ) - B[eq1] * diff( theta[1](t), t );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations4.gif" width="447" height="63" alt="NEWTON_EQ_DT := J[eq1]*diff(theta[1](t),`$`(t,2)) = tq[1](t)-B[eq1]*diff(theta[1](t),t)" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">NEWTON_EQ_S := laplace( NEWTON_EQ_DT, t, s );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations5.gif" width="569" height="27" alt="NEWTON_EQ_S := J[eq1]*(s*(s*Theta[1]-theta[1](0))-D(theta[1])(0)) = T[1]-B[eq1]*(s*Theta[1]-theta[1](0))" />
+</p>
+<p align="left">
+<font color="#000000">the initial conditions are null</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">IC := { theta[1](0) = 0, D(theta[1])(0) = 0 }:</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">NEWTON_EQ_S := subs( IC, NEWTON_EQ_S );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations6.gif" width="336" height="36" alt="NEWTON_EQ_S := J[eq1]*s^2*Theta[1] = T[1]-B[eq1]*s*Theta[1]" />
+</p>
+<p align="left">
+<font color="#000000">Torque generated by the DC motor</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">T[1] := K[t] * I[1];</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations7.gif" width="86" height="27" alt="T[1] := K[t]*I[1]" />
+</p>
+<p align="left">
+<font color="#000000">Back-ElectroMotive-Force Voltage:</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">E[emf] := 'K[m] * Omega[m]';</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations8.gif" width="122" height="27" alt="E[emf] := K[m]*Omega[m]" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">Omega[l] := Theta[1] * s;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations9.gif" width="83" height="27" alt="Omega[l] := s*Theta[1]" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">NEWTON_EQ_S := collect( NEWTON_EQ_S, { s, Theta[1] } );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations10.gif" width="352" height="36" alt="NEWTON_EQ_S := J[eq1]*s^2*Theta[1] = K[t]*I[1]-B[eq1]*s*Theta[1]" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">Theta[1] := solve( NEWTON_EQ_S, Theta[1] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations11.gif" width="173" height="59" alt="Theta[1] := K[t]*I[1]/s/(J[eq1]*s+B[eq1])" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G[j1] := sort( G[j1], s );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations12.gif" width="178" height="59" alt="G[j1] := K[t]/(J[eq1]*s+B[eq1])/s" />
+</p>
+<p align="left">
+<font color="#000000">and </font>
+<img src="images/DCMotor_Pos_Equations13.gif" width="159" height="36" alt="J[eq] := J[l]+eta[g]*K[g]^2*J[m]" align="middle" />
+</p>
+<p align="left">
+<font color="#000000">Open Loop (i.e. SRV02) Transfer Function</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">'G[j1]' = G[j1];</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations14.gif" width="175" height="59" alt="G[j1] = K[t]/(J[eq1]*s+B[eq1])/s" />
+</p>
+<p align="left">
+</p>
+</dl><dl><a name="MapleAutoBookmark5" />
+<p align="left">
+<b><font color="#000000" size="5">Position Controller Characterisation</font></b>
+</p>
+<dl><a name="MapleAutoBookmark6" />
+<p align="left">
+<b><font color="#000000" size="4">PD Position Control</font></b>
+</p>
+<p align="left">
+<font color="#000000">Control Law: </font>
+<img src="images/DCMotor_Pos_Equations15.gif" width="261" height="32" alt="I[m] = K[p]*(theta[l_d]-theta[l])-K[d]*(omega[l_d]-omega[l])" align="middle" />
+</p>
+<p align="left">
+<font color="#000000">where </font>
+<img src="images/DCMotor_Pos_Equations16.gif" width="77" height="58" alt="omega[l] = Diff(theta[l],t)" align="middle" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G[c] := 'K[p] + K[d] * s';</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations17.gif" width="120" height="27" alt="G[c] := K[p]+K[d]*s" />
+</p>
+<p align="left">
+<font color="#000000">unity feedback</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">H := '1';</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations18.gif" width="55" height="20" alt="H := 1" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">T[pd] := G[c] * G[j1] / ( 1 + G[c] * G[j1] * H );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations19.gif" width="340" height="91" alt="T[pd] := (K[p]+K[d]*s)*K[t]/(J[eq1]*s+B[eq1])/s/(1+(K[p]+K[d]*s)*K[t]/(J[eq1]*s+B[eq1])/s)" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">T[pd] := simplify( T[pd] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations20.gif" width="295" height="68" alt="T[pd] := (K[p]+K[d]*s)*K[t]/(J[eq1]*s^2+B[eq1]*s+K[t]*K[p]+K[t]*K[d]*s)" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">char_eqn[pd] := collect( denom( T[pd] ), s );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations21.gif" width="346" height="36" alt="char_eqn[pd] := J[eq1]*s^2+(B[eq1]+K[t]*K[d])*s+K[t]*K[p]" />
+</p>
+<p align="left">
+<font color="#000000">Same characteristic equation as with a PV controller (as seen below: char_eqn[pd] == char_eqn[pv]).</font>
+</p>
+<p align="left">
+<font color="#000000">However, a PD controller introduces an unaccounted zero in the closed-loop transfer function (see T[pd]).</font>
+</p>
+</dl><dl><a name="MapleAutoBookmark7" />
+<p align="left">
+<b><font color="#000000" size="4">PV Position Control</font></b>
+</p>
+<ul><li>
+<font color="#000000">Control Law: </font>
+<img src="images/DCMotor_Pos_Equations22.gif" width="229" height="58" alt="I[m] = K[p]*(theta[l_d]-theta[l])-K[v]*Diff(theta[l],t)" align="middle" />
+</li>
+<li>
+<font color="#000000">&nbsp;Block Diagram:</font>
+</li>
+</ul>
+<p align="left">
+<font color="#000000">&nbsp;</font>
+<img src="images/DCMotor_Pos_Equations23.gif" width="679" height="224" alt="[Maple Bitmap]" />
+</p>
+<p align="left">
+</p>
+<dl><a name="MapleAutoBookmark8" />
+<p align="left">
+<img src="images/DCMotor_Pos_Equations24.gif" width="126" height="32" alt="K[p] = K[p](zeta,omega[n])" align="middle" />
+<i><b><font color="#000000">&nbsp;and </font></b></i>
+<img src="images/DCMotor_Pos_Equations25.gif" width="124" height="32" alt="K[v] = K[v](zeta,omega[n])" align="middle" />
+<i><b><font color="#000000">&nbsp;Determination</font></b></i>
+</p>
+<p align="left">
+<font color="#000000">Determine the PV controller gains: </font>
+<img src="images/DCMotor_Pos_Equations26.gif" width="35" height="32" alt="K[p]" align="middle" />
+<font color="#000000">&nbsp;and </font>
+<img src="images/DCMotor_Pos_Equations27.gif" width="35" height="32" alt="K[v]" align="middle" />
+<font color="#000000">.</font>
+</p>
+<p align="left">
+<font color="#000000">unassign variables</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G[c] := 'G[c]': H := 'H': K[p] := 'K[p]':</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<font color="#000000">Controller TF in the forward loop</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G[c] := 'K[p]';</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations28.gif" width="74" height="27" alt="G[c] := K[p]" />
+</p>
+<p align="left">
+<font color="#000000">Feedback loop equivalent block (through block reduction)</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">H := 'K[v] / K[p] * s +1';</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations29.gif" width="105" height="59" alt="H := K[v]/K[p]*s+1" />
+</p>
+<p align="left">
+<font color="#000000">Closed Loop Transfer Function: </font>
+<img src="images/DCMotor_Pos_Equations30.gif" width="94" height="72" alt="T[pv] = Theta[l]/Theta[l_d]" align="middle" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">T[pv] := G[c] * G[j1] / ( 1 + G[c] * G[j1] * H );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations31.gif" width="344" height="123" alt="T[pv] := K[p]*K[t]/(J[eq1]*s+B[eq1])/s/(1+K[p]*K[t]/(J[eq1]*s+B[eq1])/s*(K[v]/K[p]*s+1))" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">T[pv] := simplify( T[pv] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations32.gif" width="295" height="68" alt="T[pv] := K[t]*K[p]/(J[eq1]*s^2+B[eq1]*s+K[t]*K[v]*s+K[t]*K[p])" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">char_eqn[pv] := collect( denom( T[pv] ), s );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations33.gif" width="346" height="36" alt="char_eqn[pv] := J[eq1]*s^2+(B[eq1]+K[t]*K[v])*s+K[t]*K[p]" />
+</p>
+<p align="left">
+<font color="#000000">normalize the characteristic equation</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">char_eqn[pv] := collect( char_eqn[pv] / coeff( char_eqn[pv], s^2), s );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations34.gif" width="320" height="59" alt="char_eqn[pv] := s^2+(B[eq1]+K[t]*K[v])/J[eq1]*s+K[t]*K[p]/J[eq1]" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">char_eqn[std] := s^2 + 2 * zeta * omega[n] * s + omega[n]^2;</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations35.gif" width="245" height="36" alt="char_eqn[std] := s^2+2*zeta*omega[n]*s+omega[n]^2" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ID_EQ := char_eqn[pv] = char_eqn[std];</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations36.gif" width="436" height="59" alt="ID_EQ := s^2+(B[eq1]+K[t]*K[v])/J[eq1]*s+K[t]*K[p]/J[eq1] = s^2+2*zeta*omega[n]*s+omega[n]^2" />
+</p>
+<p align="left">
+<font color="#000000">solving ID_EQ by identification</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">EQ_KP := coeff( rhs( ID_EQ ), s, 0 ) = coeff( lhs( ID_EQ ), s, 0 );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations37.gif" width="174" height="59" alt="EQ_KP := omega[n]^2 = K[t]*K[p]/J[eq1]" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">K[p] := solve( EQ_KP, K[p] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations38.gif" width="121" height="61" alt="K[p] := omega[n]^2/K[t]*J[eq1]" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">EQ_KV := coeff( rhs( ID_EQ ), s ) = coeff( lhs( ID_EQ ), s );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations39.gif" width="238" height="59" alt="EQ_KV := 2*zeta*omega[n] = (B[eq1]+K[t]*K[v])/J[eq1]" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">K[v] := solve( EQ_KV, K[v] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations40.gif" width="185" height="59" alt="K[v] := (2*zeta*omega[n]*J[eq1]-B[eq1])/K[t]" />
+</p>
+<p align="left">
+</p>
+</dl><p align="left">
+</p>
+<dl><a name="MapleAutoBookmark9" />
+<p align="left">
+<i><b><font color="#000000">&nbsp;</font></b></i>
+<img src="images/DCMotor_Pos_Equations41.gif" width="113" height="32" alt="zeta = zeta(K[p],K[v])" align="middle" />
+<i><b><font color="#000000">&nbsp;and </font></b></i>
+<img src="images/DCMotor_Pos_Equations42.gif" width="137" height="32" alt="omega[n] = omega[n](K[p],K[v])" align="middle" />
+<i><b><font color="#000000">&nbsp;Determination</font></b></i>
+</p>
+<p align="left">
+<font color="#000000">unassign variables</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">K[p] := 'K[p]': K[v] := 'K[v]':</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<b><font color="#000000">assume( J[eq]&gt;0, R[m]&gt;0, eta[g]&gt;0, K[g]&gt;0, eta[m]&gt;0, K[p]&gt;0, omega[n]&gt;0 );</font></b>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">solns := [ solve( EQ_KP, omega[n] ) ];</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations43.gif" width="293" height="62" alt="solns := [1/J[eq1]*(J[eq1]*K[t]*K[p])^(1/2), -1/J[eq1]*(J[eq1]*K[t]*K[p])^(1/2)]" />
+</p>
+<p align="left">
+<font color="#000000">however: </font>
+<img src="images/DCMotor_Pos_Equations44.gif" width="60" height="32" alt="0 &lt; omega[n]" align="middle" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">omega[n] := solns[1];</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations45.gif" width="149" height="62" alt="omega[n] := 1/J[eq1]*(J[eq1]*K[t]*K[p])^(1/2)" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">zeta := solve( EQ_KV, zeta );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations46.gif" width="150" height="62" alt="zeta := 1/2*(B[eq1]+K[t]*K[v])/(J[eq1]*K[t]*K[p])^(1/2)" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<p align="left">
+</p>
+</dl><dl><a name="MapleAutoBookmark10" />
+<p align="left">
+<img src="images/DCMotor_Pos_Equations47.gif" width="126" height="32" alt="K[p] = K[p](zeta,omega[n])" align="middle" />
+<i><b><font color="#000000">&nbsp;and </font></b></i>
+<img src="images/DCMotor_Pos_Equations48.gif" width="124" height="32" alt="K[v] = K[v](zeta,omega[n])" align="middle" />
+<i><b><font color="#000000">&nbsp;Standard Calculations for a Second-Order System</font></b></i>
+</p>
+<p align="left">
+<font color="#000000">Determine the general formula to calculate the gains </font>
+<img src="images/DCMotor_Pos_Equations49.gif" width="35" height="32" alt="K[p]" align="middle" />
+<font color="#000000">&nbsp;and </font>
+<img src="images/DCMotor_Pos_Equations50.gif" width="35" height="32" alt="K[v]" align="middle" />
+<font color="#000000">&nbsp;of a PV controller from the system standard open loop transfer function </font>
+<img src="images/DCMotor_Pos_Equations51.gif" width="47" height="32" alt="G[std]" align="middle" />
+<font color="#000000">.</font>
+</p>
+<p align="left">
+<font color="#000000">unassign variables</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G[c] := 'G[c]': H := 'H': K[p] := 'K[p]': K[v] := 'K[v]': <br />
+omega[n] := 'omega[n]': zeta := 'zeta':</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<font color="#000000">Standard form of the system transfer function</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G[std] := 'G[num0] / ( G[den2] * s^2 + G[den1] * s + G[den0] )';</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations52.gif" width="263" height="68" alt="G[std] := G[num0]/(G[den2]*s^2+G[den1]*s+G[den0])" />
+</p>
+<p align="left">
+<font color="#000000">Controller TF in the forward loop</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G[c] := 'K[p]';</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations53.gif" width="74" height="27" alt="G[c] := K[p]" />
+</p>
+<p align="left">
+<font color="#000000">Feedback loop equivalent block (through block reduction)</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">H := 'K[v] / K[p] * s +1';</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations54.gif" width="105" height="59" alt="H := K[v]/K[p]*s+1" />
+</p>
+<p align="left">
+<font color="#000000">Closed Loop Transfer Function (standard form): </font>
+<img src="images/DCMotor_Pos_Equations55.gif" width="121" height="72" alt="T[pv_std] = Theta[l]/Theta[l_d]" align="middle" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">T[pv_std] := G[c] * G[std] / ( 1 + G[c] * G[std] * H );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations56.gif" width="539" height="132" alt="T[pv_std] := K[p]*G[num0]/(G[den2]*s^2+G[den1]*s+G[den0])/(1+K[p]*G[num0]/(G[den2]*s^2+G[den1]*s+G[den0])*(K[v]/K[p]*s+1))" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">T[pv_std] := simplify( T[pv_std] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations57.gif" width="470" height="68" alt="T[pv_std] := G[num0]*K[p]/(G[den2]*s^2+G[den1]*s+G[den0]+G[num0]*K[v]*s+G[num0]*K[p])" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">char_eqn[pv_std] := collect( denom( T[pv_std] ), s );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations58.gif" width="521" height="36" alt="char_eqn[pv_std] := G[den2]*s^2+(G[den1]+G[num0]*K[v])*s+G[num0]*K[p]+G[den0]" />
+</p>
+<p align="left">
+<font color="#000000">normalize the characteristic equation</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">char_eqn[pv_std] := collect( char_eqn[pv_std] / coeff( char_eqn[pv_std], s^2 ), s );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations59.gif" width="482" height="59" alt="char_eqn[pv_std] := s^2+(G[den1]+G[num0]*K[v])/G[den2]*s+(G[num0]*K[p]+G[den0])/G[den2]" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">ID_EQ_STD := char_eqn[pv_std] = char_eqn[std];</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations60.gif" width="607" height="59" alt="ID_EQ_STD := s^2+(G[den1]+G[num0]*K[v])/G[den2]*s+(G[num0]*K[p]+G[den0])/G[den2] = s^2+2*zeta*omega[n]*s+omega[n]^2" />
+</p>
+<p align="left">
+<font color="#000000">solving Eq. ID_EQ_STD by identification</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">EQ_KP_STD := coeff( rhs( ID_EQ_STD ), s, 0 ) = coeff( lhs( ID_EQ_STD ), s, 0 ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">K[p] := solve( EQ_KP_STD, K[p] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations61.gif" width="194" height="61" alt="K[p] := (omega[n]^2*G[den2]-G[den0])/G[num0]" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">EQ_KV_STD := coeff( rhs( ID_EQ_STD ), s, 1 ) = coeff( lhs( ID_EQ_STD ), s, 1 ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">K[v] := solve( EQ_KV_STD, K[v] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations62.gif" width="209" height="59" alt="K[v] := (2*zeta*omega[n]*G[den2]-G[den1])/G[num0]" />
+</p>
+</dl><dl><a name="MapleAutoBookmark11" />
+<p align="left">
+<img src="images/DCMotor_Pos_Equations63.gif" width="113" height="32" alt="zeta = zeta(K[p],K[v])" align="middle" />
+<i><b><font color="#000000">&nbsp;and </font></b></i>
+<img src="images/DCMotor_Pos_Equations64.gif" width="137" height="32" alt="omega[n] = omega[n](K[p],K[v])" align="middle" />
+<i><b><font color="#000000">&nbsp;Standard Calculations for a Second-Order System</font></b></i>
+</p>
+<p align="left">
+<font color="#000000">unassign variables</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">K[p] := 'K[p]': K[v] := 'K[v]': omega[n] := 'omega[n]': zeta := 'zeta':</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">solns := { solve( EQ_KP_STD, omega[n] ) };</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations65.gif" width="535" height="62" alt="solns := {-1/G[den2]*(G[den2]*(G[num0]*K[p]+G[den0]))^(1/2), 1/G[den2]*(G[den2]*(G[num0]*K[p]+G[den0]))^(1/2)}" />
+</p>
+<p align="left">
+<font color="#000000">assuming: </font>
+<img src="images/DCMotor_Pos_Equations66.gif" width="84" height="32" alt="0 &lt; G[den2]" align="middle" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">omega[n] := solns[1];</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations67.gif" width="281" height="62" alt="omega[n] := -1/G[den2]*(G[den2]*(G[num0]*K[p]+G[den0]))^(1/2)" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">zeta := solve( EQ_KV_STD, zeta );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations68.gif" width="278" height="62" alt="zeta := -1/2*(G[den1]+G[num0]*K[v])/(G[den2]*(G[num0]*K[p]+G[den0]))^(1/2)" />
+</p>
+<p align="left">
+</p>
+</dl></dl></dl><p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<dl><a name="MapleAutoBookmark12" />
+<p align="left">
+<b><font color="#000000" size="5">DC Motor System Definition: State-Space Representation</font></b>
+</p>
+<p align="left">
+<font color="#000000">Xdot_ss = A_ss . X_ss + B_ss . U_ss</font>
+</p>
+<p align="left">
+<font color="#000000">Y_ss = C_ss . X_ss + D_ss . U_ss</font>
+</p>
+<p align="left">
+<font color="#000000">Y_ss = output vector; U_ss = input vector; X_ss = state vector</font>
+</p>
+<p align="left">
+<font color="#000000">unassign variables</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">Theta[1] := 'Theta[1]': theta[1] := 'theta[1]': I[1] := 'I[1]':</font></b>
+</td></tr>
+</table>
+</p>
+<dl><a name="MapleAutoBookmark13" />
+<p align="left">
+<b><font color="#000000" size="4">Standard State-Space Representation</font></b>
+</p>
+<p align="left">
+<font color="#000000">Standard Laplace Transfer Function</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">TF_EQ_S := G[std] = Theta[1] / I[1];</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations69.gif" width="337" height="68" alt="TF_EQ_S := G[num0]/(G[den2]*s^2+G[den1]*s+G[den0]) = Theta[1]/I[1]" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">TF_EQ_S := I[1] = solve( TF_EQ_S, I[1] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations70.gif" width="364" height="68" alt="TF_EQ_S := I[1] = Theta[1]*(G[den2]*s^2+G[den1]*s+G[den0])/G[num0]" />
+</p>
+<p align="left">
+<font color="#000000">initial conditions are null</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">TF_EQ_T := I[1] = subs( IC, invlaplace( rhs( TF_EQ_S ), s, t ) );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations71.gif" width="490" height="95" alt="TF_EQ_T := I[1] = 1/G[num0]*(G[den2]*diff(theta[1](t),`$`(t,2))+G[den1]*diff(theta[1](t),t)+G[den0]*theta[1](t))" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">TF_EQ_T := diff( theta[1](t), t$2 ) = expand( solve( TF_EQ_T, diff( theta[1](t), t$2 ) ) );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations72.gif" width="487" height="79" alt="TF_EQ_T := diff(theta[1](t),`$`(t,2)) = 1/G[den2]*G[num0]*I[1]-1/G[den2]*G[den1]*diff(theta[1](t),t)-1/G[den2]*G[den0]*theta[1](t)" />
+</p>
+<p align="left">
+<font color="#000000">state vector</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">X_ss := matrix( 2, 1 ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">X_ss[1,1] := theta[1](t): X_ss[2,1] := diff( theta[1](t), t):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">'X_ss' = evalm( X_ss );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations73.gif" width="127" height="82" alt="X_ss = matrix([[theta[1](t)], [diff(theta[1](t),t)]])" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">Xdot_ss := map( diff, X_ss, t );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations74.gif" width="160" height="118" alt="Xdot_ss := matrix([[diff(theta[1](t),t)], [diff(theta[1](t),`$`(t,2))]])" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">U_ss := I[1];</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations75.gif" width="81" height="27" alt="U_ss := I[1]" />
+</p>
+<p align="left">
+<font color="#000000">according to Eq. TF_EQ_T</font>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">A_ss := matrix( [ [0, 1], [- G[den0] / G[den2], - G[den1] / G[den2]] ] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations76.gif" width="214" height="89" alt="A_ss := matrix([[0, 1], [-G[den0]/G[den2], -G[den1]/G[den2]]])" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">B_ss := matrix( [ [0], [G[num0] / G[den2]] ] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations77.gif" width="129" height="89" alt="B_ss := matrix([[0], [G[num0]/G[den2]]])" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">C_ss := Matrix( 2, 2, shape=identity ); D_ss := array( [ [0], [0] ] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations78.gif" width="129" height="50" alt="C_ss := Matrix(%id = 2741512)" />
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations79.gif" width="104" height="50" alt="D_ss := matrix([[0], [0]])" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">Y_ss = evalm( C_ss &amp;* X_ss + D_ss * U_ss );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations80.gif" width="125" height="82" alt="Y_ss = matrix([[theta[1](t)], [diff(theta[1](t),t)]])" />
+</p>
+</dl><p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<dl><a name="MapleAutoBookmark14" />
+<p align="left">
+<b><font color="#000000" size="4">DC Motor State-Space Representation</font></b>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G_num0 := numer( G[j1] ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">denom( G[j1] ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G_den2 := coeff( denom( G[j1] ), s^2 ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G_den1 := coeff( denom( G[j1] ), s ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">G_den0 := coeff( denom( G[j1] ), s, 0 ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">std_subs := { G[num0] = G_num0, G[den2] = G_den2, G[den1] = G_den1, G[den0] = G_den0 }:</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">A_J1 := matrix( 2, 2 ):</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">for i from 1 to 2 do<br />
+&nbsp;&nbsp;for k from 1 to 2 do<br />
+&nbsp;&nbsp;&nbsp;&nbsp;A_J1[i,k] := subs( std_subs, A_ss[i,k] );<br />
+&nbsp;&nbsp;end do:<br />
+end do:</font></b>
+</td></tr>
+</table>
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">'A_J1' = evalm( A_J1 );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations81.gif" width="167" height="89" alt="A_J1 = matrix([[0, 1], [0, -B[eq1]/J[eq1]]])" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">B_J1 := matrix( [ [0], [subs( std_subs, B_ss[2,1] )] ] );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations82.gif" width="124" height="89" alt="B_J1 := matrix([[0], [K[t]/J[eq1]]])" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">C_SRV02 := C_ss; </font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations83.gif" width="160" height="50" alt="C_SRV02 := Matrix(%id = 2741512)" />
+</p>
+<p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"><b><font color="#FF0000">D_SRV02:= evalm( D_ss );</font></b>
+</td></tr>
+</table>
+</p>
+<p align="center">
+<img src="images/DCMotor_Pos_Equations84.gif" width="135" height="50" alt="D_SRV02 := matrix([[0], [0]])" />
+</p>
+</dl></dl><p align="left">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top"><tt>&gt; &nbsp;&nbsp;</tt></td>
+<td width="100%" valign="top"></td></tr>
+</table>
+</p>
+<p align="left">
+<a href="DCMotor_Pos_Equations1.html#Description" target="Content">Click here to go back to top: Description Section</a><font color="#000000">.</font>
+</p>
+</basefont>
+</body>
+</html>
