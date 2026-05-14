@@ -1,0 +1,9 @@
+-IC:\Users\bastaond\ORR\quanser-2-dof-serial-flexible-link\software\quanser_updated
+-IC:\Users\bastaond\ORR\quanser-2-dof-serial-flexible-link\software\quanser_updated\q_2dsfl_pos_cntrl_quarc_win64
+-IC:\MATLAB\R2021a\extern\include
+-IC:\MATLAB\R2021a\simulink\include
+-IC:\MATLAB\R2021a\rtw\c\src
+-IC:\MATLAB\R2021a\rtw\c\src\ext_mode\common
+-IC:\MATLAB\R2021a\toolbox\coder\rtiostream\src
+-IC:\MATLAB\R2021a\toolbox\coder\rtiostream\src\utils
+-I"C:\Program Files\Quanser\QUARC\include"
