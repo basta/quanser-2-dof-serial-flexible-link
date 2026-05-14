@@ -5,11 +5,12 @@
 %    1) Open q_2dsfl_pos_cntrl.slx and replace the stage-1 hub reference
 %       block with a "Repeating Sequence Stair" (Sources library).
 %       Configure it as the PREP section below prints.
-%    2) In each scope you want to log:
-%         settings -> Logging -> tick "Log data to workspace"
-%         Save format: "Structure With Time"
-%         Variable names (exactly):
-%           data_theta11   data_theta12   data_strain1   data_strain2
+%    2) Log full state vectors to the workspace, each as Structure With
+%       Time. Variable names (exactly):
+%         stage1_X1_meas   stage1_X1_ref
+%         stage2_X2_meas   stage2_X2_sim
+%       Each .signals.values is Nx4, columns =
+%         [theta_hub, theta_tip, theta_hub_dot, theta_tip_dot]
 %    3) Run setup_2dsfl  (Quanser's parameter script). Required.
 %    4) Run the PREP cell of this script. It will tell you the External
 %       Mode Duration in samples and the Repeating Sequence values.
@@ -26,7 +27,7 @@
 %% ---------- CONFIG (edit me) ----------
 amps_deg        = [0 5 -5 10 -10 20 -20 30 -30 0];   % step targets [deg]
 seg_dur         = 4;                                  % seconds per segment
-sample_rate_Hz  = 1000;                               % match Simulink fixed step
+sample_rate_Hz  = 500;                                % match Simulink fixed step (0.002 s)
 controller_name = 'lqr';                              % 'lqr' | 'hinf' | 'mpc'
 out_dir         = fullfile(pwd, 'data');              % output directory
 % --------------------------------------
@@ -90,7 +91,7 @@ fprintf('================\n\n');
 fprintf('\n===== SAVE =====\n');
 
 % Check logged variables exist
-required_scope_vars = {'data_theta11','data_theta12','data_strain1','data_strain2'};
+required_scope_vars = {'stage1_X1_meas','stage1_X1_ref','stage2_X2_meas','stage2_X2_sim'};
 missing = {};
 for vi = 1:numel(required_scope_vars)
     if ~evalin('base', sprintf('exist(''%s'',''var'')==1', required_scope_vars{vi}))
@@ -99,29 +100,36 @@ for vi = 1:numel(required_scope_vars)
 end
 if ~isempty(missing)
     error(['Missing scope variables: %s\n' ...
-           'In each scope:  settings -> Logging -> tick "Log data to workspace",\n' ...
-           'set the variable name accordingly, and Save format "Structure With Time".'], ...
+           'Log each as Structure With Time, with the names listed above.'], ...
            strjoin(missing, ', '));
 end
 
-% Pull signals (Structure With Time)
+% Pull signals (Structure With Time; each .signals.values is Nx4)
 try
-    t   = data_theta11.time;
-    y11 = data_theta11.signals.values;
-    y12 = data_theta12.signals.values;
-    s1  = data_strain1.signals.values;
-    s2  = data_strain2.signals.values;
+    t       = stage1_X1_meas.time;
+    X1_meas = stage1_X1_meas.signals.values;
+    X1_ref  = stage1_X1_ref.signals.values;
+    X2_meas = stage2_X2_meas.signals.values;
+    X2_sim  = stage2_X2_sim.signals.values;
 catch ME
     error(['Could not read .time / .signals.values from a scope variable.\n' ...
            'Make sure scope Save format is "Structure With Time".\n' ...
            'Original error: %s'], ME.message);
 end
 
-% Sanity: lengths consistent
+% Sanity: shapes
 N = numel(t);
-lens = [numel(y11), numel(y12), numel(s1), numel(s2)];
-if any(lens ~= N)
-    error('Logged signals have mismatched lengths: t=%d, others=%s', N, mat2str(lens));
+sigs = struct('X1_meas',X1_meas,'X1_ref',X1_ref,'X2_meas',X2_meas,'X2_sim',X2_sim);
+fns = fieldnames(sigs);
+for fi = 1:numel(fns)
+    val = sigs.(fns{fi});
+    if size(val,1) ~= N
+        error('%s has %d rows but time has %d samples.', fns{fi}, size(val,1), N);
+    end
+    if size(val,2) ~= 4
+        warning('%s has %d columns (expected 4: [theta_hub theta_tip theta_hub_dot theta_tip_dot]).', ...
+            fns{fi}, size(val,2));
+    end
 end
 if N < 10
     error('Only %d samples logged. Did External Mode Duration get set?', N);
@@ -157,12 +165,27 @@ for k = 1:numel(amps_deg)
     end
     run_idx = run_count(amp_key);
 
+    % Full state matrices for this segment
+    X1m = X1_meas(idx, :);
+    X1r = X1_ref(idx, :);
+    X2m = X2_meas(idx, :);
+    X2s = X2_sim(idx, :);
+
     seg = struct();
     seg.time            = t(idx) - t0;
-    seg.theta11         = y11(idx);
-    seg.theta12         = y12(idx);
-    seg.strain1         = s1(idx);
-    seg.strain2         = s2(idx);
+    seg.X1_meas         = X1m;
+    seg.X1_ref          = X1r;
+    seg.X2_meas         = X2m;
+    seg.X2_sim          = X2s;
+    % Named scalar columns for convenience (col order: hub, tip, hub_dot, tip_dot)
+    seg.theta11         = X1m(:,1);
+    seg.theta12         = X1m(:,2);
+    seg.theta11_dot     = X1m(:,3);
+    seg.theta12_dot     = X1m(:,4);
+    seg.theta21         = X2m(:,1);
+    seg.theta22         = X2m(:,2);
+    seg.theta21_dot     = X2m(:,3);
+    seg.theta22_dot     = X2m(:,4);
     seg.ref_deg         = amps_deg(k);
     seg.controller      = controller_name;
     seg.sample_rate_Hz  = sample_rate_Hz;
