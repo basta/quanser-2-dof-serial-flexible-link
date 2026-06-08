@@ -65,8 +65,18 @@ for di = 1:numel(designs)
     add_line(mdl, 'ORR Mux/1',        ['ORR ' upper(name) '/1'], 'autorouting', 'on');
     add_line(mdl, ['ORR ' upper(name) '/1'], 'Im_r1: Saturation/1', 'autorouting', 'on');
 
-    % --- multirate: 10 ms controller inside the fast model ---------------
+    % --- multirate: 10 ms controller inside the 2 ms (ode1) model --------
+    % The stock model is multi-tasking with MultiTaskRateTransMsg=error, so a
+    % 10 ms -> 2 ms transition (controller out -> saturation -> continuous
+    % plant) is rejected. Single-tasking handles the transfer automatically
+    % (the controller simply runs every 5th base step); also auto-insert any
+    % discrete-discrete rate transitions.
     set_param(mdl, 'AutoInsertRateTranBlk', 'on');
+    try
+        set_param(mdl, 'EnableMultiTasking', 'off');   % single-tasking
+    catch
+        set_param(mdl, 'SolverMode', 'SingleTasking'); % older Simulink
+    end
 
     save_system(mdl);
     close_system(mdl, 0);
