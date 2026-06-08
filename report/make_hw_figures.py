@@ -51,7 +51,10 @@ LABEL = {"lqg": "LQG", "hinf": r"H$\infty$", "mpc": "output-MPC",
 
 # --------------------------------------------------------------------------
 #  Per-segment Python prediction: closed loop of (nominal plant + controller),
-#  started from the measured initial state x0, constant reference r [rad].
+#  started from the measured initial state x0 and driven by the *logged*
+#  reference r_series[k] (rad, at the 10 ms controller rate). Using the recorded
+#  reference -- which the rig smooths through a sigmoid -- means the residual
+#  reflects plant/model mismatch (friction, true resonance), not the step shape.
 # --------------------------------------------------------------------------
 Ad, Bd, C_POS, C_TIP = mf.Ad0, mf.Bd, mf.C_POS, mf.C_TIP
 Kf, L = mf.Kf, mf.L
@@ -61,19 +64,21 @@ def _observe(xh, u, ym):
     return Ad @ xh + Bd * u + L @ (ym - C_POS @ xh)
 
 
-def predict_lqg(r, x0, n, umax):
+def predict_lqg(r_series, x0, umax):
+    n = len(r_series)
     x = x0.copy(); xh = x0.copy()
     y = np.empty(n); d = np.empty(n)
-    xss = np.array([r, 0.0, 0.0, 0.0])
     for k in range(n):
         ym = C_POS @ x
+        xss = np.array([r_series[k], 0.0, 0.0, 0.0])
         u = float(np.clip(-Kf @ (xh - xss), -umax, umax))
         y[k] = np.rad2deg(C_TIP @ x); d[k] = np.rad2deg(x[1])
         xh = _observe(xh, u, ym); x = Ad @ x + Bd * u
     return y, d
 
 
-def predict_hinf(r, x0, n, umax):
+def predict_hinf(r_series, x0, umax):
+    n = len(r_series)
     Hk, HB, HC, HD = mf.Hk, mf.HB, mf.HC, mf.HD
     x = x0.copy(); xi = 0.0; xc = np.zeros(Hk.shape[0])
     y = np.empty(n); d = np.empty(n)
@@ -83,7 +88,7 @@ def predict_hinf(r, x0, n, umax):
         u = float(np.clip((HC @ xc + HD @ meas).reshape(-1)[0], -umax, umax))
         yk = float(C_TIP @ x)
         y[k] = np.rad2deg(yk); d[k] = np.rad2deg(x[1])
-        xc = Hk @ xc + HB @ meas; xi += mf.Ts * (r - yk); x = Ad @ x + Bd * u
+        xc = Hk @ xc + HB @ meas; xi += mf.Ts * (r_series[k] - yk); x = Ad @ x + Bd * u
     return y, d
 
 
@@ -99,12 +104,13 @@ _cost += cp.quad_form(_X[:, mf.Np] - _xss, cp.psd_wrap(mf.P))
 _mpc = cp.Problem(cp.Minimize(_cost), _cons)
 
 
-def predict_mpc(r, x0, n, umax):
+def predict_mpc(r_series, x0, umax):
+    n = len(r_series)
     x = x0.copy(); xh = x0.copy()
     y = np.empty(n); d = np.empty(n)
-    _xss.value = np.array([r, 0.0, 0.0, 0.0])
     for k in range(n):
         ym = C_POS @ x
+        _xss.value = np.array([r_series[k], 0.0, 0.0, 0.0])
         _x0p.value = xh
         _mpc.solve(solver=cp.CLARABEL, warm_start=True)
         u = float(np.clip(_U.value[0, 0], -umax, umax)) if _U.value is not None else 0.0
@@ -116,11 +122,23 @@ def predict_mpc(r, x0, n, umax):
 PREDICT = {"lqg": predict_lqg, "hinf": predict_hinf, "mpc": predict_mpc}
 
 
+def _predict_seg(pred, seg, umax):
+    """Run a predictor on the controller-rate grid for one logged segment.
+    Returns (t_ctrl, y_pred_deg, d_pred_deg)."""
+    t = seg["t"] - seg["t"][0]
+    t_c = np.arange(0.0, t[-1] + mf.Ts / 2, mf.Ts)
+    r_c = np.interp(t_c, t, seg["ref_series"])          # logged ref at 10 ms
+    yp, dp = pred(r_c, seg["X"][0, :].copy(), umax)
+    return t_c, yp, dp
+
+
 # --------------------------------------------------------------------------
 def _load(path):
     from scipy.io import loadmat
     m = loadmat(path)
+    Xr = np.asarray(m["X1_ref"], float)          # logged reference, col 0 = r [rad]
     return dict(t=np.ravel(m["time"]), X=np.asarray(m["X1_meas"], float),
+                ref_series=Xr[:, 0],
                 ref=float(np.ravel(m["ref_deg"])[0]),
                 fs=float(np.ravel(m["sample_rate_Hz"])[0]))
 
@@ -155,19 +173,17 @@ def make_one(ctrl):
     t = feat["t"] - feat["t"][0]
     tip_m = np.rad2deg(feat["X"][:, 0] + feat["X"][:, 1])
     defl_m = np.rad2deg(feat["X"][:, 1])
-    x0 = feat["X"][0, :].copy()
-    n = len(t)
-    yp, dp = pred(np.deg2rad(feat["ref"]), x0, n, mf.UMAX)
+    tc, yp, dp = _predict_seg(pred, feat, mf.UMAX)
 
     fig, (a1, a2) = plt.subplots(2, 1, figsize=(7.0, 5.0), sharex=True)
     a1.plot(t, tip_m, lw=1.6, color="#d62728", label="measured (rig)")
-    a1.plot(t, yp, lw=1.5, ls="--", color="#1f77b4", label="Python prediction")
+    a1.plot(tc, yp, lw=1.5, ls="--", color="#1f77b4", label="Python prediction")
     a1.axhline(feat["ref"], color="r", ls=":", lw=1, label="reference")
     a1.set_ylabel("tip angle [°]")
     a1.set_title(f"Hardware verification — {LABEL[ctrl]}  (step to {feat['ref']:+g}°)")
     a1.legend(loc="lower right", fontsize=8)
     a2.plot(t, defl_m, lw=1.6, color="#d62728", label="measured")
-    a2.plot(t, dp, lw=1.5, ls="--", color="#1f77b4", label="predicted")
+    a2.plot(tc, dp, lw=1.5, ls="--", color="#1f77b4", label="predicted")
     if ctrl == "mpc":
         a2.axhline(mf.DEFL_DEG, color="k", ls=":", lw=1); a2.axhline(-mf.DEFL_DEG, color="k", ls=":", lw=1)
     a2.set_ylabel(r"tip deflection $\theta_t$ [°]"); a2.set_xlabel("time [s]")
@@ -176,17 +192,17 @@ def make_one(ctrl):
     out = os.path.join(OUT_DIR, f"hw_{ctrl}.png")
     fig.savefig(out, dpi=mf.DPI, bbox_inches="tight"); plt.close(fig)
 
-    # metrics across all runs of this controller
+    # metrics across all runs of this controller (prediction driven by logged ref)
     print(f"\n[{LABEL[ctrl]}]  measured vs predicted   ({len(segs)} runs)")
-    print(f"  {'ref°':>5} | {'rise meas/pred':>16} | {'OS% m/p':>11} | {'sse° m':>7}")
+    print(f"  {'ref°':>5} | {'rise meas/pred':>15} | {'OS% m/p':>11} | {'sse°m/p':>11}")
     for s in sorted(segs, key=lambda s: s["ref"]):
         tt = s["t"] - s["t"][0]
         tm = np.rad2deg(s["X"][:, 0] + s["X"][:, 1])
-        yp2, _ = pred(np.deg2rad(s["ref"]), s["X"][0, :].copy(), len(tt), mf.UMAX)
-        mm, mp = _metrics(tt, tm, s["ref"]), _metrics(tt, yp2, s["ref"])
+        tcp, yp2, _ = _predict_seg(pred, s, mf.UMAX)
+        mm, mp = _metrics(tt, tm, s["ref"]), _metrics(tcp, yp2, s["ref"])
         if mm and mp:
-            print(f"  {s['ref']:>5g} | {mm[0]:6.2f} / {mp[0]:6.2f}  | "
-                  f"{mm[1]:4.1f}/{mp[1]:4.1f} | {mm[2]:6.2f}")
+            print(f"  {s['ref']:>5g} | {mm[0]:6.2f} /{mp[0]:6.2f} | "
+                  f"{mm[1]:4.1f}/{mp[1]:4.1f} | {mm[2]:5.2f}/{mp[2]:5.2f}")
     print(f"  -> saved {out}")
     return out
 

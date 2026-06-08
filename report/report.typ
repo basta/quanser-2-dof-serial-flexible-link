@@ -185,8 +185,8 @@ range and unit.
 The nominal model in @eq-ab is not an exact model. This makes it a good fit for testing robustness of
 a controller designed on the theoretical model. The main differences are:
 
-- Parametric stiffness $K_s$: The measured
-  resonance ($approx 1.3$~Hz) sits below the modelled $2.69$~Hz. We bracket this
+- Parametric stiffness $K_s$: The resonance measured on the rig ($approx 1.8$~Hz,
+  §6) sits #emph[below] the modelled $2.69$~Hz. We bracket this
   with a multiplier $K_s in [0.3, 1.5] times$ nominal.
 
 - Unmodelled dynamics: The single-mode model omits higher bending modes and any
@@ -456,47 +456,48 @@ first job.
 // ============================================================================
 
 Sections 3--5 are simulation. To verify that the conclusions survive contact
-with the apparatus, the #emph[same] three designs are deployed on the Quanser
-rig and their measured step responses compared against the Python prediction
-they were designed from.
+with the apparatus, the two linear designs (LQG and $H_infinity$) are deployed on
+the Quanser rig and their measured step responses compared against the Python
+prediction they were designed from. (MPC, which needs an online QP solver on the
+real-time target, was not deployed; it remains the simulation reference of §3.)
+The result is instructive: it does #emph[not] simply confirm §4 --- on the real
+plant the ranking #emph[reverses], for a reason that sharpens the project's
+thesis.
 
 == Deployment: the identical controller, on the rig
 
 The rig's control loop is a Simulink/QUARC model
 (#raw("q_2dsfl_pos_cntrl.slx")) running on a Q8-USB board at $500$~Hz; the
 stock model uses Quanser's own continuous full-state-feedback LQR. To verify
-#emph[our] designs we replace that single gain block with the corresponding
-discrete controller and change nothing else in the safety/IO path. The export
-script #raw("report/export_controllers.py") writes every designed matrix to
-#raw("orr_controllers.mat"); three MATLAB-Function blocks
-(#raw("orr_ctrl_{lqg,hinf,mpc}.m")) implement the control laws verbatim from
-§2 and run at the design rate $T_s = 10$~ms behind a rate transition. Two
-points keep the deployment #emph[faithful] to the simulation rather than merely
+#emph[our] designs we replace that single gain block and change nothing else in
+the safety/IO path. Each linear controller --- the Kalman observer, the LQG gain
+(or the integral-augmented $H_infinity$ dynamics) --- folds into a #emph[single]
+discrete state-space block, exported by #raw("report/export_controllers.py") and
+verified there to reproduce the §3 simulation (H$infinity$ to machine precision,
+LQG to $10^(-3) degree$); #raw("build_orr_models.m") drops it into the model
+automatically. Two points keep the deployment #emph[faithful] rather than merely
 similar:
 
-- #emph[Same estimator in the loop.] The blocks take only the two measured
-  positions and reconstruct the velocities with the #emph[same] Kalman
+- #emph[Same estimator in the loop.] The block takes only the two measured
+  positions and reconstructs the velocities with the #emph[same] Kalman
   predictor (@eq-kalman) used in simulation --- the rig's own filtered
   derivatives are #emph[not] used --- so the loop transfer function matches the
   design, not an accidental variant of it.
-- #emph[Same numbers.] The LQG gain $K$, the Kalman gain $L$, the 6th-order
-  $H_infinity$ controller, and the condensed MPC quadratic program are exported
-  from the very script that produced @fig-nominal, so there is no second
-  re-tuning step on the rig. (The online MPC QP is solved on the target by an
-  active-set solver; if real-time timing does not permit it, MPC remains the
-  simulation reference and the two linear controllers are verified.)
+- #emph[Same numbers.] The gains are exported from the very script that produced
+  @fig-nominal, so there is no second re-tuning step on the rig.
 
 == Experimental protocol
 
 Each controller drives the automated stair sequence of
 #raw("run_lab_experiments.m") --- steps to $plus.minus 5, plus.minus 10,
-plus.minus 20 degree$ at $u_max = 0.6$~A, MPC deflection limit $2 degree$ ---
-logging the full state at $500$~Hz; each segment steps from the previous stair
-level, not from zero. The script #raw("report/make_hw_figures.py") then overlays
-the measured tip angle and deflection against the closed-loop response predicted
-by the same Python design, simulated from each segment's measured initial state
-and setpoint. @fig-hw-lqg--@fig-hw-hinf show the $+20 degree$ step;
-@tab-hw collects the measured-vs-predicted metrics.
+plus.minus 20, plus.minus 30 degree$ at $u_max = 0.6$~A --- logging the full
+state at $500$~Hz; each segment steps from the previous stair level, not from
+zero. The rig shapes every commanded step through a smoothing sigmoid, so
+#raw("report/make_hw_figures.py") drives the Python prediction with the
+#emph[logged] reference: the residual between measured and predicted then
+reflects #emph[plant--model mismatch], not the command shape. @fig-hw-lqg and
+@fig-hw-hinf show the $+20 degree$ step; @tab-hw collects the
+measured-vs-predicted metrics.
 
 #figure(
   table(
@@ -507,55 +508,66 @@ and setpoint. @fig-hw-lqg--@fig-hw-hinf show the $+20 degree$ step;
     table.hline(stroke: 0.7pt),
     th[Method], th[rise m/p [s]], th[OS m/p [%]], th[max $|theta_t|$ [°]], th[sse [°]],
     table.hline(stroke: 0.4pt),
-    [LQG],          [-- / --], [-- / --], [--], [--],
-    [output-MPC],   [-- / --], [-- / --], [--], [--],
-    [$H_infinity$], [-- / --], [-- / --], [--], [--],
+    [LQG],          [$0.76\/0.70$], [$3.5\/0.0$],  [#strong[$1.64$]], [$0.04$],
+    [$H_infinity$], [$0.93\/0.96$], [$16.8\/0.5$], [$1.91$],          [$0.52$],
     table.hline(stroke: 0.7pt),
   ),
   caption: [Hardware metrics, measured (m) vs. predicted (p), step to
-  $+20 degree$. Fill from the table printed by #raw("make_hw_figures.py") once
-  the rig runs are collected.],
+  $+20 degree$ (from #raw("make_hw_figures.py")). LQG matches its prediction
+  closely; $H_infinity$ overshoots $5 times$ more than predicted. Across the
+  $plus.minus 20\/30 degree$ steps the residual tip ring is $0.2$--$0.5 degree$
+  for LQG but $1.8$--$3.0 degree$ for $H_infinity$.],
 ) <tab-hw>
 
 #wfloat[
   #figure(
-    figslot("hw_lqg.png"),
-    caption: [LQG on the rig: measured tip angle/deflection vs. the Python
-    prediction, $+20 degree$ step.],
+    image("figs/hw_lqg.png", width: 80%),
+    caption: [LQG on the rig (red) vs. the logged-reference Python prediction
+    (blue), $+20 degree$ step. Angle and deflection track the design closely; the
+    small residual ring ($approx 0.2 degree$) is the lightly-damped structural
+    mode, actively damped by the high-gain state feedback.],
   ) <fig-hw-lqg>
 ]
 
 #wfloat[
   #figure(
-    figslot("hw_mpc.png"),
-    caption: [Output-MPC on the rig. The deflection trace is the test of
-    whether the soft constraint that holds $|theta_t|$ at $2 degree$ in
-    simulation also binds on the apparatus.],
-  ) <fig-hw-mpc>
-]
-
-#wfloat[
-  #figure(
-    figslot("hw_hinf.png"),
-    caption: [$H_infinity$ on the rig. The true resonance sits near $1.3$~Hz
-    (§1.4), below the modelled $2.69$~Hz --- precisely the kind of mismatch the
-    rolled-off loop is designed to absorb.],
+    image("figs/hw_hinf.png", width: 80%),
+    caption: [$H_infinity$ on the rig (red) vs. prediction (blue), $+20 degree$.
+    The measured loop overshoots and rings at $approx 1.8$~Hz with $1.8$--$3 degree$
+    of deflection --- far more than predicted --- because its deliberately
+    low-authority loop adds little active damping at the true resonance.],
   ) <fig-hw-hinf>
 ]
 
-== What the mismatch reveals
+== What the mismatch reveals: the ranking reverses
 
 The rig is #emph[not] the nominal model, so the value of this section is in the
-gap. Three mismatches dominate and map directly onto the uncertainties named in
-§1.4: hub friction/stiction (a static nonlinearity no linear design models, most
-visible as a small steady-state offset and a slow final crawl), the amplifier
-current clip, and the true resonance near $1.3$~Hz versus the modelled
-$2.69$~Hz. The reading to look for is the §4 lesson made physical: the
-margin-blind LQG should track the prediction well in the gross motion but show
-the structural ring most plainly, whereas the deliberately rolled-off
-$H_infinity$ loop should follow its (slower) prediction most #emph[closely],
-because the very high-frequency mismatch it ignores is the one the rig actually
-has.
+gap --- and the gap is unequal between the two controllers.
+
+#emph[LQG verifies cleanly.] Measured rise tracks the prediction within
+$approx 0.1$~s across every amplitude, steady-state error stays under
+$approx 0.6 degree$, and the structural mode is actively damped to a
+$0.2$--$0.5 degree$ residual. The design transfers to hardware essentially as
+@fig-nominal promised.
+
+#emph[$H_infinity$, the simulation's robustness hero, is the one that struggles.]
+It rings hard on the large steps ($16$--$48%$ overshoot, $1.8$--$3 degree$ of
+sustained deflection at $approx 1.8$~Hz) and #emph[stalls] on the small ones
+($plus.minus 5, +10 degree$ end $3$--$4.6 degree$ short --- static friction the
+low-authority loop never overcomes). Two real-plant effects, both named in §1.4,
+drive this: hub #emph[stiction] (a nonlinearity no linear design models) and a
+true resonance at $approx 1.8$~Hz --- #emph[not] the modelled $2.69$~Hz, and
+right where the $H_infinity$ loop was deliberately given little gain. Its
+roll-off, which bought margin against the #emph[unstructured] high-frequency
+uncertainty of §4, leaves it without the authority to actively damp the (kicked)
+structural mode or to break stiction. LQG's higher loop gain --- exactly the
+property §4 flagged as fragile to unstructured error --- is what wins here.
+
+This does not contradict §4; it #emph[completes] it. $H_infinity$ is robust to
+the uncertainty we simulated; LQG wins against the uncertainty the rig actually
+has. One honest caveat: the $H_infinity$ weights were shaped around the
+#emph[modelled] $2.69$~Hz resonance, so part of its poor showing is a design
+tuned on a mis-located mode --- which is itself the §4 lesson restated.
 
 // ============================================================================
 = Summary and Outlook
@@ -575,15 +587,25 @@ trackers and compared them on identical terms:
   resonance.
 - The #emph[parametric] stiffness sweep favours none of them: structured error is
   the easy case here.
+- #emph[On the real rig] (§6) the simulation ranking #emph[reverses]: LQG tracks
+  its prediction closely while $H_infinity$ rings and stalls, because the
+  apparatus's dominant uncertainties --- hub stiction and a resonance at
+  $approx 1.8$~Hz rather than the modelled $2.69$~Hz --- are #emph[not] the
+  unstructured high-frequency dynamics $H_infinity$ was shaped against, and its
+  low-authority loop lacks the gain to damp them.
 
 The message for design practice: there is no single "most robust" controller; the
 right choice follows from #emph[which uncertainty dominates] --- state constraints
-$arrow.r$ MPC, trusted model and speed $arrow.r$ LQG, unstructured high-frequency
-dynamics $arrow.r$ $H_infinity$.
+$arrow.r$ MPC, unstructured high-frequency dynamics $arrow.r$ $H_infinity$, and
+(as the hardware shows) friction plus a mis-located resonance $arrow.r$ the
+higher-authority LQG. The simulation and the rig do not disagree; they name
+#emph[different] dominant uncertainties, and the right controller follows each.
 
-#emph[Outlook.] The companion hardware section (to be added) deploys the robust
-controllers on the physical rig, where the dominant mismatch --- amplifier
-saturation and friction (§1.4) --- tests exactly the margins quantified here.
+#emph[Outlook.] MPC was not deployed (its online QP needs a real-time solver on
+the target); closing that gap --- explicit/move-blocking MPC on the rig, to test
+whether its deflection constraint also holds under stiction --- is the natural
+next step, alongside re-shaping the $H_infinity$ weights around the
+#emph[measured] $1.8$~Hz mode.
 
 // ============================================================================
 = Appendix: Reproducibility and Figure Export
@@ -611,14 +633,23 @@ limit, deflection limit, perturbation amounts), rerun, and recompile:
     [3], [Scenario A: unmodelled 2nd mode, $f_2=3times$, coupling $1.0$], [#raw("robust_spillover.png")],
     [4], [Scenario B: input delay $approx 60$~ms], [#raw("robust_delay.png")],
     [5], [$K_s$ multiplier sweep $0.3 arrow.r 1.5$], [#raw("robust_ks_sweep.png")],
+    [6,7], [hardware: measured vs. predicted, LQG / $H_infinity$], [#raw("hw_{lqg,hinf}.png")],
     table.hline(stroke: 0.7pt),
   ),
-  caption: [Figures generated by #raw("make_figures.py") into
-  #raw("report/figs/").],
+  caption: [Figures 1--5 generated by #raw("make_figures.py"); the hardware
+  figures by #raw("make_hw_figures.py"), into #raw("report/figs/").],
 ) <tab-export>
+
+#emph[Hardware pipeline (§6).] #raw("export_controllers.py") writes the
+controllers (and their verified single-block state-space realizations) to
+#raw("orr_controllers.mat"); #raw("build_orr_models.m") generates the rig models
+#raw("q_2dsfl_orr_{lqg,hinf}.slx") from the stock Quanser model; runs are logged
+by #raw("run_lab_experiments.m") and overlaid against the logged-reference
+prediction by #raw("make_hw_figures.py"). See
+#raw("software/quanser_updated/WIRING.md").
 
 #emph[Environment:] Python 3.12, #raw("numpy"), #raw("scipy"),
 #raw("python-control") 0.10, #raw("cvxpy")~+~Clarabel, #raw("slycot"). Nominal
 model and parameters from the Quanser configuration files
 (#raw("software/quanser_updated/config_2dslf.m")). Sampling $T_s = 10$~ms,
-horizon $N_p = 40$, $N_"sim" = 500$ steps.
+horizon $N_p = 40$, $N_"sim" = 500$ steps. Rig: Q8-USB, $500$~Hz, single-tasking.
