@@ -146,18 +146,61 @@ def _(
         out = control.hinfsyn(control.ss(Ap, Bp, Cp, Dp), 3, 1)   # nmeas=3, ncon=1
         g = float(np.ravel(np.asarray(out[2], dtype=float))[0])
         Kd = control.sample_system(out[0], Ts, method="tustin")
+        # out[1] = closed loop [W1*S; W2*KS]; return it + the weights for the S/T plot
         return (np.atleast_2d(np.asarray(Kd.B)), np.atleast_2d(np.asarray(Kd.C)),
-                np.atleast_2d(np.asarray(Kd.D)), np.atleast_2d(np.asarray(Kd.A)), g)
+                np.atleast_2d(np.asarray(Kd.D)), np.atleast_2d(np.asarray(Kd.A)), g,
+                out[1], W1, W2)
 
     try:
-        HB, HC, HD, Hk, gamma_hinf = design(float(hinf_wb.value), float(hinf_M.value), float(hinf_w2.value))
+        HB, HC, HD, Hk, gamma_hinf, CLm, W1m, W2m = design(
+            float(hinf_wb.value), float(hinf_M.value), float(hinf_w2.value))
         hinf_status = f"**H∞ OK** — γ = {gamma_hinf:.2f}, controller order {Hk.shape[0]}"
     except Exception as e:                                  # bad weight combo -> safe default
-        HB, HC, HD, Hk, gamma_hinf = design(6.0, 2.0, 0.1)
+        HB, HC, HD, Hk, gamma_hinf, CLm, W1m, W2m = design(6.0, 2.0, 0.1)
         hinf_status = (f"⚠️ **H∞ synthesis failed** for these weights "
                        f"({type(e).__name__}); showing default (γ={gamma_hinf:.2f}). "
                        f"Try larger W2 weight or smaller wb.")
-    return HB, HC, HD, Hk, gamma_hinf, hinf_status
+    return CLm, HB, HC, HD, Hk, W1m, W2m, gamma_hinf, hinf_status
+
+
+@app.cell(hide_code=True)
+def _(CLm, W1m, W2m, gamma_hinf, mo, np, plt):
+    # ---- Mixed-sensitivity diagnostic: achieved S, T, KS vs the design bounds ----
+    # CLm = [W1*S ; W2*KS]  (r -> z), so S = (W1*S)/|W1|, KS = (W2*KS)/|W2|, T = 1 - S.
+    w = np.logspace(-2, 3, 500)
+    db = lambda x: 20 * np.log10(np.maximum(np.abs(x), 1e-12))
+
+    def freq(sys):
+        return np.array([sys(1j * wi) for wi in w]).reshape(-1)
+
+    aW1, aW2 = np.abs(freq(W1m)), np.abs(freq(W2m))
+    S = np.abs(freq(CLm[0, 0])) / aW1
+    KS = np.abs(freq(CLm[1, 0])) / aW2
+    T = np.abs(1.0 - S)
+    w_flex = 16.9   # nominal flexible-mode frequency [rad/s]
+
+    figST, (axS, axT) = plt.subplots(2, 1, figsize=(9, 7), sharex=True)
+    axS.semilogx(w, db(S), lw=1.8, color="C0", label="|S| achieved")
+    axS.semilogx(w, db(gamma_hinf / aW1), "k--", lw=1.0, label="γ/|W₁| (S bound)")
+    axS.axvline(w_flex, color="r", ls=":", lw=1, label="flex mode")
+    axS.axhline(0, color="0.7", lw=0.8)
+    axS.set_ylabel("sensitivity |S| [dB]"); axS.legend(loc="lower right")
+    axS.set_title(f"H∞ mixed sensitivity  (γ = {gamma_hinf:.2f})")
+
+    axT.semilogx(w, db(T), lw=1.8, color="C1", label="|T| (complementary)")
+    axT.semilogx(w, db(KS), lw=1.2, color="C2", label="|KS|")
+    axT.semilogx(w, db(gamma_hinf / aW2), "k:", lw=1.0, label="γ/|W₂| (KS bound)")
+    axT.axvline(w_flex, color="r", ls=":", lw=1)
+    axT.axhline(0, color="0.7", lw=0.8)
+    axT.set_ylabel("|T|, |KS| [dB]"); axT.set_xlabel("ω [rad/s]"); axT.legend(loc="lower left")
+    figST.tight_layout()
+
+    mo.vstack([
+        mo.md(f"**Peaks:**  ‖S‖∞ = {db(S).max():.1f} dB,  ‖T‖∞ = {db(T).max():.1f} dB "
+              f"(lower peaks ⇒ bigger stability margins)"),
+        figST,
+    ])
+    return
 
 
 @app.cell(hide_code=True)
