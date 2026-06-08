@@ -34,8 +34,10 @@ import cvxpy as cp
 import make_figures as mf   # identical designs (Ad0, Bd, K, L, Hk.., Q, P, ...)
 
 OUT_DIR = mf.OUT_DIR
+_QSU = os.path.join(os.path.dirname(__file__), "..", "software", "quanser_updated")
 DATA_DIRS = [
-    os.path.join(os.path.dirname(__file__), "..", "software", "quanser_updated", "data"),
+    os.path.join(_QSU, "data"),       # H-inf runs (hinf_step_*.mat)
+    os.path.join(_QSU, "lqg_data"),   # LQG runs   (lqg_step_*.mat)
     os.path.join(os.path.dirname(__file__), "..", "data"),
 ]
 # step to feature in each controller's figure (falls back to the largest run)
