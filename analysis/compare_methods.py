@@ -72,9 +72,16 @@ def _(np):
 @app.cell(hide_code=True)
 def _(C_TIP, KS1_NOM, Ts, build_AB, control, np):
     # ---- H-infinity mixed-sensitivity controller (designed once, nominal plant) ----
-    # Integrator nudged off the jw-axis (eps) so the H-inf rank conditions hold.
+    # The plant's rigid-body integrator sits on the jw-axis and breaks mixsyn's
+    # Riccati rank conditions, so we nudge it into the LHP by `eps`. mixsyn then
+    # plants a controller zero at -eps to cancel that shifted design pole; on the
+    # TRUE plant (pole at 0) the cancellation misses and leaves a closed-loop mode
+    # near -eps. Keep eps SMALL (the residue scales with eps) so that leftover mode
+    # is negligible -- eps=0.1 left a ~10 s drift past the reference; eps=0.01 is
+    # flat by ~1.5 s with the same gamma.
+    eps = 0.01
     A0, B0 = build_AB(KS1_NOM)
-    Gdes = control.ss(A0 - 0.1 * np.eye(4), B0, C_TIP.reshape(1, 4), 0.0)
+    Gdes = control.ss(A0 - eps * np.eye(4), B0, C_TIP.reshape(1, 4), 0.0)
     s = control.tf("s")
     Aw = 1e-3
     wb, wbc, M3, w2g = 6.0, 30.0, 3.0, 0.1     # "moderate" design (gamma~1.06)
