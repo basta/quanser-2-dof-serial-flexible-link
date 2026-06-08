@@ -57,7 +57,7 @@ def _(np):
     C_POS = np.array([[1.0, 0, 0, 0], [0, 1.0, 0, 0]])  # measured: hub, tip deflection
     Ts = 0.01
     Np = 40
-    Nsim = 400
+    Nsim = 700
 
     def build_AB(Ks):
         A = np.array([
@@ -94,40 +94,70 @@ def _(C_POS, C_TIP, KS1_NOM, Ts, build_AB, control, expm, np):
 
 
 @app.cell(hide_code=True)
-def _(B0, C_POS, C_TIP, KS1_NOM, Ts, build_AB, control, np):
-    # ---- 2-measurement output-feedback H-infinity (mixed sensitivity, hinfsyn) ----
-    Ah, Bh = build_AB(KS1_NOM)
+def _(mo):
+    # ---- H-infinity weight-tuning knobs (mixed sensitivity S/KS) ----
+    hinf_wb = mo.ui.slider(1.0, 20.0, value=6.0, step=0.5,
+                           label="W1 bandwidth wb [rad/s]  (tracking speed)", show_value=True)
+    hinf_M = mo.ui.slider(1.2, 4.0, value=2.0, step=0.1,
+                          label="W1 peak M = max|S|  (↑ aggressive, ↓ robust)", show_value=True)
+    hinf_w2 = mo.ui.slider(0.01, 1.0, value=0.1, step=0.01,
+                           label="W2 control-effort weight  (↑ smoother/slower)", show_value=True)
+    mo.vstack([mo.md("**H∞ weight tuning** — drag to reshape `S/KS`, design re-synthesizes live"),
+               hinf_wb, hinf_M, hinf_w2])
+    return hinf_M, hinf_w2, hinf_wb
+
+
+@app.cell(hide_code=True)
+def _(
+    B0,
+    C_POS,
+    C_TIP,
+    KS1_NOM,
+    Ts,
+    build_AB,
+    control,
+    hinf_M,
+    hinf_w2,
+    hinf_wb,
+    np,
+):
+    # ---- 2-measurement output-feedback H-infinity (tunable weights, hinfsyn) ----
+    Ah, _Bh = build_AB(KS1_NOM)
     Ae = Ah - 0.1 * np.eye(4)                       # integrator off jw-axis
-    s = control.tf("s"); Aw = 1e-3
-    W1 = control.tf2ss((s / 2 + 6) / (s + 6 * Aw))            # performance (on S)
-    W2 = control.tf2ss((s / 80 + 1) / (s / 4000 + 1) * 0.1)   # control effort (on KS)
-    Aw1, Bw1, Cw1, Dw1 = [np.atleast_2d(x) for x in (W1.A, W1.B, W1.C, W1.D)]
-    Aw2, Bw2, Cw2, Dw2 = [np.atleast_2d(x) for x in (W2.A, W2.B, W2.C, W2.D)]
-    n1, n2 = Aw1.shape[0], Aw2.shape[0]
-    nz = 1e-2
+    s = control.tf("s"); Aw = 1e-3; nz = 1e-2
 
-    # generalized plant: state [xp(4); xw1; xw2]; in [r, nA, nB, u]; out [z1, z2, yhub, ytip, yr]
-    n = 4 + n1 + n2
-    Ap = np.zeros((n, n)); Ap[:4, :4] = Ae
-    Ap[4:4 + n1, :4] = -Bw1 @ C_TIP.reshape(1, 4); Ap[4:4 + n1, 4:4 + n1] = Aw1
-    Ap[4 + n1:, 4 + n1:] = Aw2
-    Bp = np.zeros((n, 4)); Bp[:4, 3:4] = B0; Bp[4:4 + n1, 0:1] = Bw1; Bp[4 + n1:, 3:4] = Bw2
-    Cp = np.zeros((5, n))
-    Cp[0, :4] = -(Dw1 @ C_TIP.reshape(1, 4)).ravel(); Cp[0, 4:4 + n1] = Cw1.ravel()
-    Cp[1, 4 + n1:] = Cw2.ravel()
-    Cp[2, :4] = C_POS[0]; Cp[3, :4] = C_POS[1]
-    Dp = np.zeros((5, 4)); Dp[0, 0] = Dw1[0, 0]; Dp[1, 3] = Dw2[0, 0]
-    Dp[2, 1] = nz; Dp[3, 2] = nz; Dp[4, 0] = 1.0
-    Pgen = control.ss(Ap, Bp, Cp, Dp)
+    def design(wb, M, w2g):
+        W1 = control.tf2ss((s / M + wb) / (s + wb * Aw))           # performance (on S)
+        W2 = control.tf2ss((s / 80 + 1) / (s / 4000 + 1) * w2g)    # control effort (on KS)
+        Aw1, Bw1, Cw1, Dw1 = [np.atleast_2d(x) for x in (W1.A, W1.B, W1.C, W1.D)]
+        Aw2, Bw2, Cw2, Dw2 = [np.atleast_2d(x) for x in (W2.A, W2.B, W2.C, W2.D)]
+        n1, n2 = Aw1.shape[0], Aw2.shape[0]
+        n = 4 + n1 + n2
+        Ap = np.zeros((n, n)); Ap[:4, :4] = Ae
+        Ap[4:4 + n1, :4] = -Bw1 @ C_TIP.reshape(1, 4); Ap[4:4 + n1, 4:4 + n1] = Aw1
+        Ap[4 + n1:, 4 + n1:] = Aw2
+        Bp = np.zeros((n, 4)); Bp[:4, 3:4] = B0; Bp[4:4 + n1, 0:1] = Bw1; Bp[4 + n1:, 3:4] = Bw2
+        Cp = np.zeros((5, n))
+        Cp[0, :4] = -(Dw1 @ C_TIP.reshape(1, 4)).ravel(); Cp[0, 4:4 + n1] = Cw1.ravel()
+        Cp[1, 4 + n1:] = Cw2.ravel()
+        Cp[2, :4] = C_POS[0]; Cp[3, :4] = C_POS[1]
+        Dp = np.zeros((5, 4)); Dp[0, 0] = Dw1[0, 0]; Dp[1, 3] = Dw2[0, 0]
+        Dp[2, 1] = nz; Dp[3, 2] = nz; Dp[4, 0] = 1.0
+        out = control.hinfsyn(control.ss(Ap, Bp, Cp, Dp), 3, 1)   # nmeas=3, ncon=1
+        g = float(np.ravel(np.asarray(out[2], dtype=float))[0])
+        Kd = control.sample_system(out[0], Ts, method="tustin")
+        return (np.atleast_2d(np.asarray(Kd.B)), np.atleast_2d(np.asarray(Kd.C)),
+                np.atleast_2d(np.asarray(Kd.D)), np.atleast_2d(np.asarray(Kd.A)), g)
 
-    out = control.hinfsyn(Pgen, 3, 1)                # nmeas=3 (yhub,ytip,r), ncon=1
-    Khinf = out[0]; gamma_hinf = float(np.ravel(np.asarray(out[2], dtype=float))[0])
-    Kd = control.sample_system(Khinf, Ts, method="tustin")
-    Hk = np.atleast_2d(np.asarray(Kd.A))
-    HB = np.atleast_2d(np.asarray(Kd.B))
-    HC = np.atleast_2d(np.asarray(Kd.C))
-    HD = np.atleast_2d(np.asarray(Kd.D))
-    return HB, HC, HD, Hk, gamma_hinf
+    try:
+        HB, HC, HD, Hk, gamma_hinf = design(float(hinf_wb.value), float(hinf_M.value), float(hinf_w2.value))
+        hinf_status = f"**H∞ OK** — γ = {gamma_hinf:.2f}, controller order {Hk.shape[0]}"
+    except Exception as e:                                  # bad weight combo -> safe default
+        HB, HC, HD, Hk, gamma_hinf = design(6.0, 2.0, 0.1)
+        hinf_status = (f"⚠️ **H∞ synthesis failed** for these weights "
+                       f"({type(e).__name__}); showing default (γ={gamma_hinf:.2f}). "
+                       f"Try larger W2 weight or smaller wb.")
+    return HB, HC, HD, Hk, gamma_hinf, hinf_status
 
 
 @app.cell(hide_code=True)
@@ -263,6 +293,7 @@ def _(
     defl_lim,
     defl_switch,
     gamma_hinf,
+    hinf_status,
     mo,
     np,
     plt,
@@ -315,7 +346,7 @@ def _(
                  else f"| {nm} | {m[0]:.2f} | {m[1]:.1f} | {m[2]:.2f} | {m[3]:.2f} |\n")
     table = ("| method | rise [s] | overshoot [%] | peak \\|u\\| [A] | max \\|θ_tip\\| [°] |\n"
              "|---|---|---|---|---|\n" + rows)
-    mo.vstack([mo.md(table), fig])
+    mo.vstack([mo.md(hinf_status), mo.md(table), fig])
     return
 
 
