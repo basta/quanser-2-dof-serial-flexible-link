@@ -1,0 +1,16 @@
+[
+  {
+    "label": "fish shell",
+    "command": "fish",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  },
+  {
+    "label": "bash shell",
+    "command": "bash",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always"
+  }
+]
